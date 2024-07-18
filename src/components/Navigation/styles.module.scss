@@ -9,7 +9,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px 32px;
-  background-color: $color-main;
+  background-color: $color-dark-gray;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 
@@ -19,7 +19,7 @@
     justify-content: center;
     &--active {
       .menu__icon {
-        stroke: $color-white;
+        stroke: $color-accent;
       }
     }
   }
@@ -35,7 +35,7 @@
     width: 24px;
     height: 24px;
     fill: none;
-    stroke: $color-gray;
+    stroke: $color-light-gray;
     stroke-width: 2;
     stroke-linecap: round;
   }

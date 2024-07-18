@@ -1,5 +1,13 @@
-// import styles from "./styles.module.scss";
+import { memo } from "react";
 
-export const HomePage: React.FC = () => {
-  return <div>HomePage</div>;
-};
+import { Categories } from "../../components/Categories";
+import styles from "./styles.module.scss";
+
+export const HomePage: React.FC = memo(() => {
+  return (
+    <main className={styles["home-page"]}>
+      <Categories />
+      HomePage
+    </main>
+  );
+});

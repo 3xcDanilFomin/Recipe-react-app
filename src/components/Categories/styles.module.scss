@@ -1,0 +1,32 @@
+@import "../../styles/utils/variables";
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  overflow-x: auto;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &__item {
+    border: 1px solid $color-light-gray;
+    border-radius: 12px;
+
+    &--active{
+        border-color: $color-accent;
+
+        .menu__link{
+            color: $color-accent;
+        }
+    }
+  }
+
+  &__link {
+    display: inline-block;
+    color: $color-light-gray;
+    text-wrap: nowrap;
+    padding: 6px 12px;
+  }
+}

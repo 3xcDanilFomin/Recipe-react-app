@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
+import { memo, ReactElement, useState } from "react";
+
 import styles from "./styles.module.scss";
-import { ReactElement, useState } from "react";
 
 interface ILink {
   path: string;
@@ -62,7 +63,7 @@ const links: ILink[] = [
   },
 ];
 
-export const Navigation: React.FC = () => {
+export const Navigation: React.FC = memo(() => {
   const { pathname } = useLocation();
   const [activeLink, setActiveLink] = useState<string>(pathname);
 
@@ -88,4 +89,4 @@ export const Navigation: React.FC = () => {
       ))}
     </ul>
   );
-};
+});
