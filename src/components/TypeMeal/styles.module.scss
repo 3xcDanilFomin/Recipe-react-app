@@ -1,0 +1,13 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  padding-inline: 12px;
+
+  &__item {
+    min-height: 180px;
+    &:nth-child(3) {
+      grid-column: span 2;
+    }
+  }
+}
