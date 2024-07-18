@@ -1,77 +1,61 @@
-import { Link } from "react-router-dom";
-import styles from "./styles.module.scss";
-import { memo, useState } from "react";
+import React, { useRef, useState } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { EffectCoverflow } from "swiper/modules";
 
-interface ICategory {
-  title: string;
-  path: string;
-}
+import "swiper/css";
+import "swiper/css/effect-coverflow";
+
+import { CategoryItem } from "./CategoryItem";
+import { ICategory } from "../../types/types";
+import firstCoursesImg from "../../assets/image/categories/first-course.jpeg";
+import secondCoursesImg from "../../assets/image/categories/second-courses.jpeg";
+import saladsImg from "../../assets/image/categories/salads.jpeg";
+import snacksImg from "../../assets/image/categories/snacks.jpeg";
+import styles from "./styles.module.scss";
 
 const categories: ICategory[] = [
   {
-    title: "Все рецепты",
-    path: "",
-  },
-  {
     title: "Первые блюда",
-    path: "",
+    imgPath: firstCoursesImg,
   },
   {
     title: "Вторые блюда",
-    path: "",
-  },
-  {
-    title: "Гарниры",
-    path: "",
-  },
-  {
-    title: "Соусы",
-    path: "",
+    imgPath: secondCoursesImg,
   },
   {
     title: "Салаты",
-    path: "",
+    imgPath: saladsImg,
   },
   {
     title: "Закуски",
-    path: "",
-  },
-  {
-    title: "Десерты",
-    path: "",
-  },
-  {
-    title: "Напитки",
-    path: "",
+    imgPath: snacksImg,
   },
 ];
 
-export const Categories: React.FC = memo(() => {
-  const [activeCategory, setActiveCategory] = useState<string>(
-    categories[0].title
-  );
-
-  const hendleActiveCategory = (title: string) => {
-    setActiveCategory(title);
-  };
-
+export const Categories: React.FC = () => {
   return (
-    <ul className={styles["menu"]}>
-      {categories.map((category) => (
-        <li
-          className={
-            category.title === activeCategory
-              ? [styles["menu__item"], styles["menu__item--active"]].join(" ")
-              : styles["menu__item"]
-          }
-          onClick={() => hendleActiveCategory(category.title)}
-          key={category.title}
-        >
-          <Link className={styles["menu__link"]} to={category.path}>
-            {category.title}
-          </Link>
-        </li>
-      ))}
-    </ul>
+    <div className={styles["carousel"]}>
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }}
+        modules={[EffectCoverflow]}
+        loop={true}
+        className={styles["swiper_container"]}
+      >
+        {categories.map((category) => (
+          <SwiperSlide className={styles["swiper-slide"]}>
+            <CategoryItem image={category.imgPath} title={category.title} />
+          </SwiperSlide>
+        ))}
+      </Swiper>
+    </div>
   );
-});
+};

@@ -1,0 +1,14 @@
+@import "../../styles/utils/variables";
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgba($color: $color-dark-gray, $alpha: 0.8);
+  padding: 12px;
+
+  &__title {
+    font-size: 24px;
+  }
+}

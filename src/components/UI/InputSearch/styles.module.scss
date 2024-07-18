@@ -1,0 +1,47 @@
+@import "../../../styles/utils/variables";
+
+.field {
+  width: 100%;
+  position: relative;
+  padding-inline: 32px;
+
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 42px;
+    width: 24px;
+    height: 24px;
+    fill: none;
+    stroke: $color-light-gray;
+    stroke-width: 1px;
+    transform: translateY(-50%);
+    transition: stroke $animation;
+  }
+
+  &__input {
+    width: 100%;
+    border-radius: 12px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: $color-main;
+    color: $color-white;
+    padding: 6px 12px 6px 48px;
+    transition: border-color $animation;
+
+    &::placeholder {
+      color: $color-light-gray;
+    }
+
+    &:focus {
+      border: 1px solid $color-accent;
+
+      &::placeholder {
+        color: transparent;
+      }
+
+      ~ .field__icon {
+        stroke: $color-accent;
+      }
+    }
+  }
+}
