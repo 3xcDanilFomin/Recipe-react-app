@@ -19,10 +19,7 @@ import garnishImg from "../../assets/image/categories/garnish.webp";
 import styles from "./styles.module.scss";
 
 const categories: ICategory[] = [
-  {
-    title: "Первые блюда",
-    imgPath: firstCoursesImg,
-  },
+  { title: "Первые блюда", imgPath: firstCoursesImg },
   {
     title: "Вторые блюда",
     imgPath: secondCoursesImg,
