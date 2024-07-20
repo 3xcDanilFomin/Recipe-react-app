@@ -6,16 +6,16 @@ import "swiper/css/effect-coverflow";
 import { CategoryItem } from "./CategoryItem";
 import { ICategory } from "../../types/types";
 
-import firstCoursesImg from "../../assets/image/categories/first-course.jpeg";
-import secondCoursesImg from "../../assets/image/categories/second-courses.jpeg";
-import saladsImg from "../../assets/image/categories/salads.jpeg";
-import snacksImg from "../../assets/image/categories/snacks.jpeg";
-import bakeryImg from "../../assets/image/categories/bakery.jpeg";
-import saucesImg from "../../assets/image/categories/sauces.jpeg";
-import preservesImg from "../../assets/image/categories/preserves.jpeg";
-import drinksImg from "../../assets/image/categories/drinks.jpeg";
-import dessertsImg from "../../assets/image/categories/desserts.jpeg";
-import garnishImg from "../../assets/image/categories/garnish.jpeg";
+import firstCoursesImg from "../../assets/image/categories/first-course.webp";
+import secondCoursesImg from "../../assets/image/categories/second-courses.webp";
+import saladsImg from "../../assets/image/categories/salads.webp";
+import snacksImg from "../../assets/image/categories/snacks.webp";
+import bakeryImg from "../../assets/image/categories/bakery.webp";
+import saucesImg from "../../assets/image/categories/sauces.webp";
+import preservesImg from "../../assets/image/categories/preserves.webp";
+import drinksImg from "../../assets/image/categories/drinks.webp";
+import dessertsImg from "../../assets/image/categories/desserts.webp";
+import garnishImg from "../../assets/image/categories/garnish.webp";
 import styles from "./styles.module.scss";
 
 const categories: ICategory[] = [
