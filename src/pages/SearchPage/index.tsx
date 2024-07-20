@@ -1,6 +1,6 @@
 import { Categories } from "../../components/Categories";
 import { TitlePage } from "../../components/TitlePage";
-import { TypesMealList } from "../../components/TypeMeal";
+import { TypesMealList } from "../../components/TypesMeal";
 
 import styles from "./styles.module.scss";
 
