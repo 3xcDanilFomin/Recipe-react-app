@@ -4,7 +4,10 @@ export interface ICategory {
   urlPath: string;
 }
 
-export interface ITypeMeal extends ICategory {}
+export interface ITypeMeal {
+  title: string;
+  imgPath: string;
+}
 
 export interface IRecipe {
   title: string;
