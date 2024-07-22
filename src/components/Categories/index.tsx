@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow } from "swiper/modules";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 
@@ -17,7 +18,6 @@ import drinksImg from "../../assets/image/categories/drinks.webp";
 import dessertsImg from "../../assets/image/categories/desserts.webp";
 import garnishImg from "../../assets/image/categories/garnish.webp";
 import styles from "./styles.module.scss";
-import { Link } from "react-router-dom";
 
 const categories: ICategory[] = [
   { title: "Первые блюда", imgPath: firstCoursesImg, urlPath: "first-courses" },
