@@ -17,44 +17,54 @@ import drinksImg from "../../assets/image/categories/drinks.webp";
 import dessertsImg from "../../assets/image/categories/desserts.webp";
 import garnishImg from "../../assets/image/categories/garnish.webp";
 import styles from "./styles.module.scss";
+import { Link } from "react-router-dom";
 
 const categories: ICategory[] = [
-  { title: "Первые блюда", imgPath: firstCoursesImg },
+  { title: "Первые блюда", imgPath: firstCoursesImg, urlPath: "first-courses" },
   {
     title: "Вторые блюда",
     imgPath: secondCoursesImg,
+    urlPath: "second-courses",
   },
   {
     title: "Салаты",
     imgPath: saladsImg,
+    urlPath: "salads",
   },
   {
     title: "Закуски",
     imgPath: snacksImg,
+    urlPath: "snacks",
   },
   {
     title: "Выпечка",
     imgPath: bakeryImg,
+    urlPath: "bakery",
   },
   {
     title: "Соусы и маринады",
     imgPath: saucesImg,
+    urlPath: "sauces",
   },
   {
     title: "Заготовки",
     imgPath: preservesImg,
+    urlPath: "preserves",
   },
   {
     title: "Напитки",
     imgPath: drinksImg,
+    urlPath: "drinks",
   },
   {
     title: "Десерты",
     imgPath: dessertsImg,
+    urlPath: "desserts",
   },
   {
     title: "Гарниры",
     imgPath: garnishImg,
+    urlPath: "garnish",
   },
 ];
 
@@ -77,7 +87,9 @@ export const Categories: React.FC = () => {
     >
       {categories.map((category) => (
         <SwiperSlide className={styles["swiper_slide"]} key={category.title}>
-          <CategoryItem image={category.imgPath} title={category.title} />
+          <Link to={`/recipes/${category.urlPath}`}>
+            <CategoryItem image={category.imgPath} title={category.title} />
+          </Link>
         </SwiperSlide>
       ))}
     </Swiper>

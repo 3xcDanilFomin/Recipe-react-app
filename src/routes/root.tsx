@@ -7,6 +7,7 @@ import { SearchPage } from "../pages/SearchPage";
 import { FavouritesPage } from "../pages/FavouritesPage";
 import { ProfilePage } from "../pages/ProfilePage";
 import { AuthPage } from "../pages/AuthPage";
+import { RecipesPage } from "../pages/RecipesPage";
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ export const router = createBrowserRouter([
           {
             path: "/auth",
             element: <AuthPage />,
+          },
+          {
+            path: "/recipes/:recipes-name",
+            element: <RecipesPage />,
           },
         ],
       },
