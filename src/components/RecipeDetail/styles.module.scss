@@ -1,0 +1,253 @@
+@import "../../styles/utils/variables";
+
+.page {
+  &__icon-pepper,
+  .page__icon-cook {
+    width: 14px;
+    height: 14px;
+  }
+
+  &__icon-pepper {
+    fill: red;
+  }
+
+  &__icon-cook {
+    fill: $color-primary;
+  }
+
+  &__content {
+    padding: 12px;
+  }
+
+  &__title {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+
+  &__description {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: $color-dark-gray;
+    padding: 12px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    box-shadow: 0 0 5px $color-dark-gray;
+
+    &-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    &-hint {
+      display: block;
+      color: $color-green;
+      font-size: 14px;
+      background-color: rgba($color-green, 0.2);
+      padding: 2px 6px;
+      border-radius: 50%;
+    }
+
+    &-icons {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    &-row {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    &-title {
+      font-size: 14px;
+    }
+
+    &-subtitle {
+      font-size: 16px;
+      color: $color-light-gray;
+    }
+  }
+
+  &__nutrition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+
+    &-items {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    &-item {
+      max-width: 80px;
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      gap: 6px;
+      background-color: $color-primary;
+      border-radius: 12px;
+      padding: 6px;
+
+      &-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        padding: 12px 8px;
+        background-color: $color-dark-gray;
+        border-radius: 6px;
+      }
+    }
+
+    &-text {
+      font-size: 16px;
+    }
+
+    &-weight {
+      font-size: 10px;
+    }
+
+    &-title {
+      width: 100%;
+      font-size: 12px;
+      color: $color-dark-gray;
+      text-align: center;
+    }
+
+    &-description {
+      font-size: 12px;
+    }
+  }
+
+  &__ingridients {
+    margin-bottom: 24px;
+
+    &-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    &-icon {
+      width: 24px;
+      height: 24px;
+      fill: $color-white;
+    }
+
+    &-title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    &-body {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    &-items {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+
+      &-title {
+        font-weight: 600;
+      }
+    }
+
+    &-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 8px;
+      border-bottom: 1px solid $color-light-gray;
+
+      &-title {
+        font-size: 14px;
+      }
+
+      &-description {
+        font-size: 14px;
+      }
+    }
+  }
+
+  &__manual {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    &-title {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    &-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      background-color: $color-dark-gray;
+      box-shadow: 0 0 5px $color-dark-gray;
+      padding: 16px 12px;
+      border-radius: 12px;
+    }
+
+    &-subtitle {
+      font-weight: 600;
+    }
+
+    &-item {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    &-step {
+      display: block;
+      width: fit-content;
+      font-size: 14px;
+      color: $color-dark-gray;
+      background-color: $color-primary;
+      padding: 4px 8px;
+      border-radius: 6px;
+    }
+
+    &-img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 12px;
+      margin-bottom: 6px;
+    }
+
+    &-descriptin {
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+  }
+}

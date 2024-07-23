@@ -1,6 +1,6 @@
-import { ICategoryRecipe } from "../../types/types";
+import { ICategoryRecipes } from "../../types/types";
 
-export const recipes: ICategoryRecipe = {
+export const recipes: ICategoryRecipes = {
   salads: [
     {
       id: 221481,

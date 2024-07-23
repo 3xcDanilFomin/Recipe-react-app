@@ -50,6 +50,10 @@ export interface IRecipe {
 }
 
 export interface ICategoryRecipe {
+  [key: string]: IRecipe[];
+}
+
+export interface ICategoryRecipes {
   "first-courses": IRecipe[];
   "second-courses": IRecipe[];
   salads: IRecipe[];
