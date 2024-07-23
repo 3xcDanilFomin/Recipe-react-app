@@ -1,13 +1,18 @@
 import { useNavigate, useParams } from "react-router-dom";
 
+import { ICategoryRecipe, IRecipe } from "../../types/types";
 import { recipes } from "../../assets/data/recipes";
 import styles from "./styles.module.scss";
+
+type RecipeCategory = keyof ICategoryRecipe;
 
 export const DetailRecipePage: React.FC = () => {
   const navigate = useNavigate();
   const { id } = useParams();
-  const recipe = recipes.salads.find((recipe) => recipe.id === Number(id));
-  console.log(recipe?.cooking);
+  const { recipesName } = useParams<{ recipesName: string }>();
+  const selectedCategory: IRecipe[] = recipes[recipesName as RecipeCategory];
+
+  const recipe = selectedCategory.find((recipe) => recipe.id === Number(id));
   return (
     <main className={styles["page"]}>
       <header className={styles["header"]}>
@@ -205,7 +210,7 @@ export const DetailRecipePage: React.FC = () => {
           <ul className={styles["page__manual-wrapper"]}>
             <h4 className={styles["page__manual-subtitle"]}>Начать готовить</h4>
             {recipe?.cooking?.map((step, i) => (
-              <li className={styles["page__manual-item"]}>
+              <li className={styles["page__manual-item"]} key={step.title}>
                 <span className={styles["page__manual-step"]}>{i + 1}</span>
                 <img
                   className={styles["page__manual-img"]}

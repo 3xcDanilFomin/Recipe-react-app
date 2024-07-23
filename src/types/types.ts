@@ -24,7 +24,7 @@ interface IIngredients {
   id: number;
   weight: number;
   custom_measure: string;
-  custom_measure_count: number;
+  custom_measure_count: number | null;
   title: string;
 }
 
@@ -40,9 +40,9 @@ export interface IRecipe {
   cooking?: ICooking[];
   kitchen_type?: string;
   main_ingredient_title?: string;
-  optional_ingredient_title?: string;
+  optional_ingredient_title?: string | null;
   main_ingredients?: IIngredients[];
-  optional_ingredients?: IIngredients[];
+  optional_ingredients?: IIngredients[] | [];
   proteins?: number;
   fats?: number;
   carbs?: number;
@@ -50,5 +50,14 @@ export interface IRecipe {
 }
 
 export interface ICategoryRecipe {
+  "first-courses": IRecipe[];
+  "second-courses": IRecipe[];
   salads: IRecipe[];
+  snacks: IRecipe[];
+  garnish: IRecipe[];
+  desserts: IRecipe[];
+  bakery: IRecipe[];
+  drinks: IRecipe[];
+  preserves: IRecipe[];
+  sauces: IRecipe[];
 }

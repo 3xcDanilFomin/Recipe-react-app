@@ -1,11 +1,15 @@
-import { recipes } from "../../assets/data/recipes";
+import { IRecipe } from "../../types/types";
 import { RecipesItem } from "./RecipesItem";
 import styles from "./styles.module.scss";
 
-export const RecipesList = () => {
+interface RecipesListProps {
+  recipes: IRecipe[];
+}
+
+export const RecipesList: React.FC<RecipesListProps> = ({ recipes }) => {
   return (
     <ul className={styles["recipes-list"]}>
-      {recipes.salads?.map((recipe) => (
+      {recipes?.map((recipe) => (
         <RecipesItem recipe={recipe} key={recipe.id} />
       ))}
     </ul>
