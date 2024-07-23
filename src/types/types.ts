@@ -9,8 +9,46 @@ export interface ITypeMeal {
   imgPath: string;
 }
 
-export interface IRecipe {
+interface IPreparation {
+  content: string;
+  image_path: string;
+}
+
+interface ICooking {
   title: string;
-  imgPath: string;
-  cookingTime: string;
+  description: string;
+  image_path: string;
+}
+
+interface IIngredients {
+  id: number;
+  weight: number;
+  custom_measure: string;
+  custom_measure_count: number;
+  title: string;
+}
+
+export interface IRecipe {
+  id: number;
+  active_cooking_time?: number;
+  total_cooking_time: number;
+  difficulty_level?: number;
+  title: string;
+  subtitle?: string;
+  image_path: string;
+  preparation?: IPreparation;
+  cooking?: ICooking[];
+  kitchen_type?: string;
+  main_ingredient_title?: string;
+  optional_ingredient_title?: string;
+  main_ingredients?: IIngredients[];
+  optional_ingredients?: IIngredients[];
+  proteins?: number;
+  fats?: number;
+  carbs?: number;
+  calories?: number;
+}
+
+export interface ICategoryRecipe {
+  salads: IRecipe[];
 }

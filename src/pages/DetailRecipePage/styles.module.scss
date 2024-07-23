@@ -1,0 +1,66 @@
+@import "../../styles/utils/variables";
+
+.page {
+  padding-bottom: 62px;
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    background-color: rgba($color: $color-dark-gray, $alpha: 0.8);
+    padding: 12px;
+
+    .menu {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      &__item {
+        &-wrapper {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+        }
+      }
+
+      &__icon {
+        width: 24px;
+        height: 24px;
+        fill: none;
+        stroke: $color-accent;
+        stroke-width: 2;
+        stroke-linecap: round;
+
+        &--fill {
+          fill: $color-accent;
+        }
+      }
+    }
+  }
+
+  &__banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__content {
+    padding: 12px;
+  }
+
+  &__title {
+    font-size: 22px;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+  }
+
+  &__description {
+    background-color: $color-dark-gray;
+    padding: 12px;
+    border-radius: 12px;
+  }
+}

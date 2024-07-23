@@ -8,6 +8,7 @@ import { FavouritesPage } from "../pages/FavouritesPage";
 import { ProfilePage } from "../pages/ProfilePage";
 import { AuthPage } from "../pages/AuthPage";
 import { RecipesPage } from "../pages/RecipesPage";
+import { DetailRecipePage } from "../pages/DetailRecipePage";
 
 export const router = createBrowserRouter([
   {
@@ -39,8 +40,12 @@ export const router = createBrowserRouter([
             element: <AuthPage />,
           },
           {
-            path: "/recipes/:recipes-name",
+            path: "/recipes/:recipesName",
             element: <RecipesPage />,
+          },
+          {
+            path: "/recipes/:recipesName/:id",
+            element: <DetailRecipePage />,
           },
         ],
       },
