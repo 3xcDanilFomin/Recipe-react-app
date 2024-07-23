@@ -70,6 +70,7 @@ export const Navigation: React.FC = memo(() => {
   const handleActiveLink = (path: string): void => {
     setActiveLink(path);
   };
+
   return (
     <ul className={styles["menu"]}>
       {links.map((link) => (
@@ -85,6 +86,7 @@ export const Navigation: React.FC = memo(() => {
           <Link className={styles["menu__link"]} to={link.path}>
             {link.icon}
           </Link>
+          <div className={styles["menu__overlay"]}></div>
         </li>
       ))}
     </ul>
