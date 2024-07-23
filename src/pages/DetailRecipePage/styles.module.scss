@@ -4,6 +4,20 @@
   position: relative;
   padding-block: 50px 62px;
 
+  &__icon-pepper,
+  .page__icon-cook {
+    width: 14px;
+    height: 14px;
+  }
+
+  &__icon-pepper {
+    fill: red;
+  }
+
+  &__icon-cook {
+    fill: $color-primary;
+  }
+
   .header {
     position: fixed;
     width: 100%;
@@ -62,6 +76,7 @@
 
   &__subtitle {
     font-size: 16px;
+    line-height: 1.5;
     margin-bottom: 12px;
   }
 
@@ -73,11 +88,33 @@
     padding: 12px;
     margin-bottom: 24px;
     border-radius: 12px;
+    box-shadow: 0 0 5px $color-dark-gray;
+
+    &-header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    &-hint {
+      display: block;
+      color: $color-green;
+      font-size: 10px;
+      background-color: rgba($color-green, 0.2);
+      padding: 2px 5px;
+      border-radius: 50%;
+    }
+
+    &-icons{
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
 
     &-row {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 24px;
     }
 
     &-wrapper {
@@ -117,7 +154,7 @@
       flex-direction: column;
       flex-basis: 100%;
       gap: 6px;
-      background-color: rgb(255, 222, 0);
+      background-color: $color-primary;
       border-radius: 12px;
       padding: 6px;
 
@@ -167,84 +204,85 @@
       fill: $color-white;
     }
 
-    &-title{
+    &-title {
       font-size: 18px;
       font-weight: 600;
     }
 
-    &-body{
+    &-body {
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
 
-    &-items{
+    &-items {
       display: flex;
       flex-direction: column;
       gap: 8px;
 
-      &-title{
+      &-title {
         font-weight: 600;
       }
     }
 
-    &-item{
+    &-item {
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding-bottom: 8px;
       border-bottom: 1px solid $color-light-gray;
 
-      &-title{
+      &-title {
         font-size: 14px;
       }
 
-      &-description{
+      &-description {
         font-size: 14px;
       }
     }
   }
 
-  &__manual{
+  &__manual {
     display: flex;
     flex-direction: column;
     gap: 12px;
 
-    &-title{
+    &-title {
       font-size: 18px;
       font-weight: 600;
     }
 
-    &-wrapper{
+    &-wrapper {
       display: flex;
       flex-direction: column;
       gap: 24px;
       background-color: $color-dark-gray;
+      box-shadow: 0 0 5px $color-dark-gray;
       padding: 16px 12px;
       border-radius: 12px;
     }
 
-    &-subtitle{
+    &-subtitle {
       font-weight: 600;
     }
 
-    &-item{
+    &-item {
       display: flex;
       flex-direction: column;
       gap: 12px;
     }
 
-    &-step{
+    &-step {
+      display: block;
       width: fit-content;
-      color: $color-dark-gray;
       font-size: 14px;
-      font-weight: 600;
-      background-color: rgb(255, 222, 0);
+      color: $color-dark-gray;
+      background-color: $color-primary;
       padding: 4px 8px;
       border-radius: 6px;
     }
 
-    &-img{
+    &-img {
       display: block;
       width: 100%;
       height: 100%;
@@ -254,7 +292,7 @@
       margin-bottom: 6px;
     }
 
-    &-descriptin{
+    &-descriptin {
       font-size: 14px;
       font-weight: 400;
       line-height: 1.5;

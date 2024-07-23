@@ -5871,8 +5871,7 @@ export const recipes: ICategoryRecipe = {
         "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcyMS9Oc2hqcjgucG5n.jpg",
       preparation: {
         content: "Подготовьте все ингредиенты.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+        image_path: null,
       },
       cooking: [
         {
@@ -6091,60 +6090,60 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Омлет — это привычный завтрак, но мы приготовили его необычно. Вместо молока добавили нежную козью рикотту Galbani, благодаря чему блюдо приобрело сливочный вкус и кремовую текстуру. Дополнили свежими помидорами и шпинатом, чтобы омлет был красочным. Приготовить его можно как в духовке, так и на сковороде под крышкой на медленном огне. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zcW94dXcuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zcW94dXcuanBlZw==.jpg",
       preparation: {
         content:
           "Помойте помидоры, шпинат и лук. Снимите с лука шелуху. Подготовьте миксер и форму для запекания. ",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zQ0YyYmkuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zQ0YyYmkuanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description: "Нарежьте лук мелкими кубиками.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy9ZV2JQUzMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy9ZV2JQUzMuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Разогрейте сковороду на среднем огне. Выложите на нее 0,5 ст.л. сливочного масла и дождитесь, когда оно растопится. Обжарьте лук в масле 10 минут до золотистого цвета.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy8zeEVNZGYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy8zeEVNZGYuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Нарвите шпинат руками и выложите к луку. Обжаривайте 2-3 минуты, пока шпинат не станет мягким.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy9RUjZSZHMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy9RUjZSZHMuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "К козьей рикотте разбейте яйцо, добавьте соль и перец. Взбейте венчиком до однородности. В массе могут оставаться мелкие кусочки сыра.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC80NHlNSG8uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC80NHlNSG8uanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description: "Смешайте обжаренные овощи с яично-сырной массой.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy9tUEJ1YWcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy9tUEJ1YWcuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Разогрейте духовку до 180°C. Смажьте форму для запекания оставшимся сливочным маслом. Перелейте в нее смесь для омлета.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy80QmsyaHUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy80QmsyaHUuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
             "Разрежьте черри на половинки. Разложите по яичной смеси. Отправьте в духовку на 15-20 минут. Поверхность омлета должна пропечься, а края — стать слегка коричневыми.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy8zUmlQZFcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwMy8zUmlQZFcuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Интернациональная",
@@ -6238,12 +6237,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Знаменитые яйца по-шотландски готовят в духовке. Попробуйте более привычный вариант — обжарьте котлеты с яйцом на сковороде. Тем более, что с перепелиными яйцами блюдо получится быстрее. А слой мясного фарша так получается толще, что особенно понравится мясоедам. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80QlJFZjYuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80QlJFZjYuanBlZw==.jpg",
       preparation: {
         content:
           "Помойте и почистите лук-шалот и чеснок. Подготовьте кастрюлю, миски, сковороду, а также тарелку для панировки.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zeXBmOGUuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zeXBmOGUuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -6251,69 +6250,69 @@ export const recipes: ICategoryRecipe = {
           description:
             "Поломайте белый хлеб на небольшие кусочки. Выложите их в миску и залейте молоком. Оставьте мякиш размокать 10-15 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80NzRBaTMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80NzRBaTMuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Положите перепелиные яйца в кастрюлю, залейте их водой. Доведите воду до кипения.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80RENCZWIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80RENCZWIuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Уменьшите огонь под кастрюлей до среднего, сварите яйца в течение 3-4 минут. Затем остудите их в холодной воде и очистите их от скорлупы.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9uQTRBOUMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9uQTRBOUMuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Соедините в чистой глубокой миске куриный и говяжий фарш. Тщательно разомните размокший в молоке хлеб, добавьте его к мясу.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9ZZ0d1UnAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9ZZ0d1UnAuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description: "Накрошите лук-шалот и чеснок.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80WHdrOHkuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80WHdrOHkuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Налейте на сковороду 0,5 ст.л. растительного масла, хорошо разогрейте его на сильном огне. Выложите на сковороду лук и чеснок, пожарьте его 1-2 минуты до светло-золотистого цвета.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zOVlYOEUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zOVlYOEUuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
             "Переложите обжаренные лук и чеснок в фарш с хлебом. Всыпьте в фарш соль и перец. ",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9pcFNheU0uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9pcFNheU0uanBlZw==.jpg",
         },
         {
           title: "Шаг 8",
           description:
             "Разделите фарш на 6 частей, сформируйте из них круглые лепешки диаметром 6-7 см. Положите в центр каждой лепешки по вареному яйцу, оберните яйца фаршем и придайте изделиям форму продолговатых котлет.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zSFBnYnQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zSFBnYnQuanBlZw==.jpg",
         },
         {
           title: "Шаг 9",
           description:
             "Насыпьте на плоскую тарелку панировочные сухари. Обваляйте каждую котлету в сухарях со всех сторон.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zM3VYcVUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zM3VYcVUuanBlZw==.jpg",
         },
         {
           title: "Шаг 10",
           description:
             "Разогрейте на среднем огне 0,5 ст.л. масла. Обжарьте котлеты по 4-5 минут с каждой стороны до золотистой корочки. ",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zN3o3Q3cuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zN3o3Q3cuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Британская, шотландская",
@@ -6442,12 +6441,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Это простое блюдо, которое легко и быстро приготовить. Рис с фаршем подойдет для обеда или ужина, получится ароматным и вкусным. Приготовить блюдо можно с любым фаршем, а легче всего блюдо получится с фаршем из куриной грудки.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC91REZ2QTUuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC91REZ2QTUuanBlZw==.jpg",
       preparation: {
         content:
           "Промойте рис холодной водой несколько раз. Вымойте морковь, подготовьте глубокую сковороду.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80VVM2a3IuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80VVM2a3IuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -6455,35 +6454,35 @@ export const recipes: ICategoryRecipe = {
           description:
             "Очистите овощи. Натрите морковь на крупной терке. Лук нарежьте средними кубиками.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80QThWZlguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80QThWZlguanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Разогрейте сковороду на среднем огне. Влейте растительное масло и выложите овощи на сковороду. Обжарьте их в течение 2-3 минут, помешивая. Добавьте к овощам говяжий фарш и перемешайте. Готовьте все вместе еще 5-6 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80VFdpZm0uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80VFdpZm0uanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Выложите сырой рис в сковороду с фаршем. Тщательно перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zSDNNUkcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zSDNNUkcuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Залейте ингредиенты стаканом горячей воды. Добавьте соль и перец по вкусу. Аккуратно перемешайте. Убавьте нагрев до минимума. Накройте сковороду крышкой и оставьте блюдо тушиться 15–20 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9FV0N6OVguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9FV0N6OVguanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Добавьте в сковороду сметану и равномерно распределите. Снова накройте крышкой и оставьте на огне еще на 2–3 минуты.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zWVRoWlouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zWVRoWlouanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
@@ -6584,12 +6583,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Фарш для этого кебаба мы приготовили из баранины и курдюка, он делает это блюдо сочнее. Чтобы кебаб на развалился, тщательно вымешивайте фарш, так кебаб будет держать форму. Попробуйте приготовить блюдо в духовке, мясо будет отличатся по вкусу от жаренного на огне. Запекайте его при высоких температурах, чтобы на поверхности кебаба образовалась аппетитная золотистая корочка. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9DQkJpZXAuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9DQkJpZXAuanBlZw==.jpg",
       preparation: {
         content:
           "Разморозьте мясо. Помойте и обсушите бумажными полотенцами баранину. Помойте и почистите репчатый лук. Замочите шпажки в воде на 30 минут, так они не будут впитывать сок из мяса. Подготовьте мясорубку, пергамент и противень.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9zTm1leHAuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9zTm1leHAuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -6597,21 +6596,21 @@ export const recipes: ICategoryRecipe = {
           description:
             "Нарежьте баранину и курдюк на небольшие кусочки. Прокрутите их через мясорубку 2 раза. Измельчите в мясорубке кинзу и лук. ",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zdXNCNFguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zdXNCNFguanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Приправьте фарш солью, черным молотым перцем и паприкой. Вымешивайте фарш 10 минут, чтобы он стал клейким и плотным.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zVGthTlIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zVGthTlIuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Разделите фарш на 6 частей. Из каждой части сформируйте колбаску и нанижите на шпажку. Противень застелите пергаментом и выложите кебабы. Запекайте при 230°C 8 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9zSm9wYXouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9zSm9wYXouanBlZw==.jpg",
         },
       ],
       kitchen_type: "Кавказская",
@@ -6705,54 +6704,54 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Казан идеально подходит для длительного томления говядины. Важно обжарить кусочки говядины на сильном огне до образования золотистой корочки, чтобы запечатать внутри каждого куска соки и придать блюду насыщенный вкус. Блюдо получается сочным, благодаря ароматному соусу. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zQkgzcVMuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zQkgzcVMuanBlZw==.jpg",
       preparation: {
         content:
           "Разморозьте, помойте и обсушите мясо бумажными полотенцами. Помойте и почистите морковь и репчатый лук. Помойте болгарский перец, удалите плодоножку и семена. Подготовьте казан.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80MlVpRGsuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80MlVpRGsuanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description: "Нарежьте говядину на куски среднего размера.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zVXh1S28uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zVXh1S28uanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Морковь и болгарский перец нарежьте крупной соломкой, лук — перьями.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zS1FEeHEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zS1FEeHEuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Разогрейте в казане растительное масло. Обжарьте говядину на сильном огне в течение 8 минут, перемешивая.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80R3FoeUQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80R3FoeUQuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Добавьте к мясу томатную пасту, соль, черный молотый перец и приправу. Хорошо перемешайте и готовьте еще 2 минуты.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zeHpHcGguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zeHpHcGguanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Влейте в казан воду. Накройте крышкой и тушите говядину на слабом огне 40 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zOUI4eDYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zOUI4eDYuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Положите к мясу болгарский перец, морковь и репчатый лук. Перемешайте. Готовьте еще 20 минут. Отключите нагрев и дайте блюду настояться 10 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80Q0I2bmQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80Q0I2bmQuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Восточная",
@@ -6867,12 +6866,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Приготовьте те самые макароны по-флотски. Они бывают не только с тушенкой, но и с фаршем. Понадобятся самые базовые продукты, которые обычно есть под рукой. Лучше всего подойдут небольшие фигурные макароны: рожки, спиральки или ракушки. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zblo4aGguanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zblo4aGguanBlZw==.jpg",
       preparation: {
         content:
           "Помойте и почистите лук, чеснок и морковь. Вам понадобятся кастрюля, дуршлаг, терка, а также глубокая сковорода.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80M01QZWkuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80M01QZWkuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -6880,42 +6879,42 @@ export const recipes: ICategoryRecipe = {
           description:
             "Налейте в кастрюлю 1-1,5 л воды. Поставьте на сильный огонь. Дождитесь, когда вода закипит. Всыпьте в воду ¼ ч.л. соли, положите рожки. Уменьшите огонь, сварите рожки до готовности по инструкции на упаковке. Откиньте макароны на дуршлаг.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80SlZrUFouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80SlZrUFouanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Нарежьте лук кубиками со стороной 3-4 мм. Крупно натрите морковь. Мелко натрите твердый сыр. Пропустите чеснок через пресс.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zaUFmVGQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zaUFmVGQuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Налейте на сковороду растительное масло. Поставьте ее на сильный огонь и хорошо разогрейте. Опустите в масло лук. Обжарьте его 1-2 минуты, помешивая, пока он не начнет темнеть.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zR0ZSOHUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zR0ZSOHUuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Добавьте к луку морковь. Пожарьте все вместе, периодически перемешивая, еще 4-5 минут. Положите к овощам фарш. Обжарьте его 3-4 минуты, разбивая крупные комочки лопаткой, до изменения цвета.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zSDJkVkcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zSDJkVkcuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Всыпьте в фарш черный перец и ¼ ч.л. соли, положите чеснок. Разведите томатную пасту в чашке или стакане 3-4 ст.л. воды, влейте получившуюся смесь в фарш. Уменьшите огонь до среднего и потушите фарш, изредка помешивая, 7-8 минут до готовности.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9penpuWnAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9penpuWnAuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Переложите в сковороду к фаршу отваренные макароны. Хорошо перемешайте, прогрейте все еще 1-2 минуты и снимите сковороду с огня. Посыпьте фарш с макаронами тертым сыром.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9vc2o4c2IuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9vc2o4c2IuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
@@ -7016,12 +7015,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Возьмите любой сыр, измельчите его как можно мельче и вмешайте в жидкое тесто. Получатся очень солнечные, сочные и ароматные оладьи на завтрак. Особенно они понравятся тем, кто не любит сладкую выпечку. К подаче обязательно нарежьте свежей зелени и возьмите любой несладкий соус на ваш вкус. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9LMnhqUXouanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9LMnhqUXouanBlZw==.jpg",
       preparation: {
         content:
           "Просейте муку через мелкое сито. Помойте укроп. Подготовьте сковороду, глубокую миску, терку и венчик или миксер.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zMndqdmMuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zMndqdmMuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -7029,34 +7028,34 @@ export const recipes: ICategoryRecipe = {
           description:
             "В глубокую миску налейте кефир, всыпьте соду. Перемешайте и оставьте смесь на 2 минуты для активации соды.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9pY1Vvc1cuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9pY1Vvc1cuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description: "Мелко покрошите укроп. Натрите сыр на мелкой терке.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zZ3ZpOHUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zZ3ZpOHUuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "В миску с кефиром добавьте куриное яйцо, сыр и зелень. Тщательно перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9wemc0bVkuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9wemc0bVkuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Всыпьте просеянную пшеничную муку, сахар, универсальную приправу и соль. Замесите однородное тесто.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80WHJKNkguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80WHJKNkguanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Разогрейте на сковороде растительное масло. Выкладывайте тесто ложкой. Жарьте оладьи на среднем огне по 1-2 минуте с каждой стороны.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9RQkVXTnMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9RQkVXTnMuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
@@ -7171,12 +7170,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Любые котлеты, биточки или тефтели станут вкуснее, если потомить их в густом томатном соусе. Он легко готовится из томатной пасты, обжаренного лука и сушеных трав, а для густоты в него добавляют немного муки. Вымесите котлетный фарш с размоченным в молоке хлебом и луком, сформируйте котлеты и обжарьте их до корочки. Затем соедините на сковороде продукты для соуса и прогрейте в нем котлеты несколько минут.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS81RU5idFEuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS81RU5idFEuanBlZw==.jpg",
       preparation: {
         content:
           "Вымойте и почистите лук. Помойте куриное яйцо, подготовьте миски и сковороду с крышкой.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zUGZBYU0uanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zUGZBYU0uanBlZw==.jpg",
       },
       cooking: [
         {
@@ -7184,70 +7183,70 @@ export const recipes: ICategoryRecipe = {
           description:
             "Поломайте ломтики хлеба на части, выложите их в миску и залейте молоком. Оставьте на 5-10 минут, чтобы батон размягчился.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9FVVozN2suanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9FVVozN2suanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Мелко нарежьте лук. Половину соедините с мясным фаршем в чистой миске. Другая половина лука понадобится для соуса. ",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zVGtBeDguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zVGtBeDguanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Разомните размоченный в молоке хлеб вилкой, выложите его к фаршу. Разбейте туда же яйцо.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9ocDV6dUUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9ocDV6dUUuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Всыпьте в миску ¼ ч.л. соли и черный перец. Вымесите фарш до однородного состояния. Слепите из него 6 круглых котлет.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9SZWJoTmcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9SZWJoTmcuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Налейте на сковороду растительное масло, разогрейте его на среднем огне. Выложите в масло котлеты, обжарьте их по 3-4 минуты с каждой стороны до плотной румяной корочки. Переложите обжаренные котлеты на тарелку.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zeW5OS2kuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zeW5OS2kuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Пожарьте оставшуюся половину лука в горячем масле около 2-3 минуты до светло-золотистого цвета.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS80RkVucUEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS80RkVucUEuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
             "Выложите на сковороду к луку томатную пасту. Перемешайте и обжарьте смесь в течение 1 минуты.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zYUJ6UlouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zYUJ6UlouanBlZw==.jpg",
         },
         {
           title: "Шаг 8",
           description:
             "Соедините в чашке муку и 2 ст.л. воды, хорошо перемешайте, чтобы в соусе не осталось комочков. Вылейте получившуюся смесь в сковороду с томатной пастой.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zZXRyOEouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zZXRyOEouanBlZw==.jpg",
         },
         {
           title: "Шаг 9",
           description:
             "Увеличьте огонь под сковородой. Налейте в нее оставшуюся воду, всыпьте ¼ ч.л. соли и сухие прованские травы.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9Ocng4Y3kuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS9Ocng4Y3kuanBlZw==.jpg",
         },
         {
           title: "Шаг 10",
           description:
             "Добавьте в соус лавровый лист и все как следует перемешайте. Когда соус закипит, выложите в него обжаренные котлеты. Уменьшите огонь до слабого и прикройте сковороду крышкой. ",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zZ1hTU2guanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwNS8zZ1hTU2guanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
@@ -7369,12 +7368,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Куриная грудка с гречкой очень популярна у людей, следящих за фигурой, но зачастую вкус этого блюда хочется чем-нибудь разнообразить. Попробуйте добавить в него стебель сельдерея: в нем всего 13 кКал на 100 граммов. Сельдерей добавит блюду пряную, горьковато-сладкую нотку. Мы пожарили курицу с гречкой и овощами на кокосовом масле. Оно питательнее и полезнее сливочного.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zRHVSS3IuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zRHVSS3IuanBlZw==.jpg",
       preparation: {
         content:
           "Вымойте и обсушите бумажными полотенцами мясо. Промойте гречку. Ополосните овощи водой. Почистите морковь и лук. Удалите у перца плодоножку и семена. Подготовьте сковороду с высокими бортиками.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zSng3Z3EuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zSng3Z3EuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -7382,35 +7381,35 @@ export const recipes: ICategoryRecipe = {
           description:
             "Залейте гречневую крупу водой на три часа. После этого промойте холодной водой и дайте стечь всей жидкости.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zNzhqTUouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zNzhqTUouanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Нарежьте соломкой мясо, сельдерей и морковь. Нашинкуйте лук полукольцами.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8za0RhUk4uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8za0RhUk4uanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Поставьте сковороду на плиту. Положите в нее масло и дождитесь, когда оно растопится. Слегка обжарьте курицу.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80VlFhVTQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80VlFhVTQuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Добавьте к курице овощи и жарьте все вместе около 4-5 минут. Посолите, поперчите, всыпьте специи и перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80SG1wbnIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80SG1wbnIuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Выложите в сковороду гречку. Влейте воду. Выставьте слабый огонь. Накройте сковороду крышкой и тушите ингредиенты 15-20 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80OEhyNGYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80OEhyNGYuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Интернациональная",
@@ -7511,12 +7510,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Очень простое блюдо, которое идеально подойдет для плотного ужина. Для приготовления можно взять любое мясо: свинину, говядину или птицу. Учтите только, что говядина будет готовиться дольше свинины, а курица или индейка потушатся гораздо быстрее. С овощами тоже можно импровизировать, добавляя их по собственному желанию. Например, вместе с баклажанами положите помидоры или цукини.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9UZmdRYnouanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9UZmdRYnouanBlZw==.jpg",
       preparation: {
         content:
           "Помойте и обсушите мясо. Вымойте овощи. Почистите морковь, лук и чеснок. Удалите у перца плодоножку и семена. Ополосните зелень водой и дайте обсохнуть.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9hQW5ZVHYuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9hQW5ZVHYuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -7524,48 +7523,48 @@ export const recipes: ICategoryRecipe = {
           description:
             "Нарежьте баклажаны брусочками и положите в подсоленную воду. Оставьте на 15 минут. Слейте воду и промойте баклажаны.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80QVNyblIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80QVNyblIuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description: "Нарежьте свинину небольшими кубиками.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zTGN3emMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zTGN3emMuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Нарежьте морковь маленькими брусочками, лук кубиками, болгарский перец — соломкой, а чеснок мелко натрите или пропустите через пресс.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zbzZnOGEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zbzZnOGEuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Разогрейте сковороду с маслом. Обжарьте мясо до золотистости.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zbkhXbTIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zbkhXbTIuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Выложите к свинине морковь, лук и чеснок. Жарьте 2-3 минуты, периодически помешивая.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80UXYzNWIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80UXYzNWIuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Влейте ¼ стакана воды. Накройте сковороду крышкой и тушите 30 минут на умеренном огне. Время от времени помешивайте содержимое сковороды, чтобы мясо и овощи не пригорели. ",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80NEFUV0UuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80NEFUV0UuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
             "Положите в сковороду баклажаны и перец. Посолите и поперчите. Перемешайте и тушите под крышкой еще 20 минут, пока все овощи и мясо не станут мягкими.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zbkNzSlQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zbkNzSlQuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
@@ -7666,12 +7665,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "При большом урожае яблок приготовьте не только варенье на зиму, но и индийский соус чатни, который отлично подчеркнет вкус любого блюда. В чатни можно использовать поврежденные плоды, которые не стоит класть, например, в компоты. Добавьте к яблокам имбирь, уксус, сахар и соль. Обязательно попробуйте чатни на вкус перед тем, как закрыть банку: важно соблюсти баланс сладкого и кислого в этом соусе, чтобы он получился действительно вкусным. Из указанного количества ингредиентов получается одна банка объемом 300 мл.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9NYTlIRVUuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9NYTlIRVUuanBlZw==.jpg",
       preparation: {
         content:
           "Помойте помидоры, яблоки и лук. Снимите с лука шелуху. Подготовьте стерильную банку и крышку.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9BOW1MQW8uanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9BOW1MQW8uanBlZw==.jpg",
       },
       cooking: [
         {
@@ -7679,42 +7678,42 @@ export const recipes: ICategoryRecipe = {
           description:
             "Снимите с яблок кожуру, разрежьте их на дольки и удалите сердцевину.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9oWnl2UEwuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9oWnl2UEwuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Выложите очищенные ломтики яблок в кастрюлю. Влейте 2 ст.л. воды. Поставьте на средний огонь и накройте крышкой. Когда содержимое кастрюли закипит, сделайте огонь минимальным и оставьте яблоки тушиться до тех пор, пока они не станут мягкими.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80S2QyUWguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80S2QyUWguanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Пока варятся яблоки, снимите кожуру с помидоров. Для этого сделайте сверху крестообразный надрез, ошпарьте томаты кипятком, а затем обдайте ледяной водой. Снимите кожицу и выбросьте ее. Мякоть мелко нарежьте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zdVp3R1UuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zdVp3R1UuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Измельчите лук и положите к яблокам. Туда же добавьте нарезанные помидоры и перемешайте. Дождитесь кипения и проварите еще 10 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80RVdQRjMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80RVdQRjMuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Всыпьте специи и соль. Натрите на мелкой терке имбирь и добавьте в кастрюлю. Влейте уксус и перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zSlpBeVMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zSlpBeVMuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Еще раз доведите массу до кипения и перелейте в стерильную банку. Закройте крышку, переверните, укутайте одеялом и дайте остыть.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9jRzNXclcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9jRzNXclcuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Индийская",
@@ -7800,12 +7799,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Для этого блюда мы обжарили говяжий фарш с ароматными специями и соусами. Не переживайте, если часть ингредиентов сложно найти, каждый из них легко заменяется на более доступный. Затем фарш нужно смешать с рисом и обжаренным яйцом. В результате получается очень сытное блюдо. Оно готовится недолго за счет того, что все обжаривается в сковороде вок на сильном огне при постоянном помешивании. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9HOEY0S0YuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9HOEY0S0YuanBlZw==.jpg",
       preparation: {
         content:
           "Промойте под проточной водой рис, дайте воде стечь. Разморозьте фарш на нижней полке холодильника. Почистите чеснок. Подготовьте вок или глубокую сковороду. Предварительно замочите рис в течение 10-15 мину в теплой воде.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC96eXVlaVEuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC96eXVlaVEuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -7813,42 +7812,42 @@ export const recipes: ICategoryRecipe = {
           description:
             "Насыпьте в кастрюлю рис, залейте пятью стаканами воды. Поставьте на средний огонь. Посолите. После закипания уменьшите нагрев до минимального. Варите 15 минут под крышкой, перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zS1FqYlMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zS1FqYlMuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Нагрейте сковороду вок на сильном огне, влейте 2 ст.л. растительного масла. Обжарьте фарш в течение 5 минут, постоянно перемешивая его.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUlF6eGguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUlF6eGguanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Добавьте сахар и кунжутное масло. Готовьте еще 5 минут, не прекращая перемешивать. Пропустите через пресс чеснок. Положите к фаршу чеснок, 1 ст.л. соевого соуса, белый молотый перец и хлопья чили. Жарьте еще 5 минут, регулярно помешивая.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zVnlDanAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zVnlDanAuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Переложите фарш в миску. В воке разогрейте оставшееся растительное масло на сильном огне, выложите зеленый горошек. Жарьте 3-4 минуты, постоянно перемешивая. Сдвиньте горошек на одну половину сковороды. В свободное пространство разбейте куриные яйца. готовьте их 1 минуту, все время помешивая лопаткой.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9LaDdTWEIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9LaDdTWEIuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Добавьте в сковороду рис и перемешайте ингредиенты. Готовьте 1 минуту, постоянно помешивая.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9qUmlud2guanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9qUmlud2guanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Добавьте 1 ст.л. соевого соуса, лимонный сок. Тщательно перемешайте. Положите в вок к рису жареный фарш. Перемешайте и готовьте все вместе еще 2 минуты.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zdGRSN2UuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zdGRSN2UuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Азиатская",
@@ -7991,12 +7990,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Любое мясо, включая деликатную птицу, перед запеканием необходимо промариновать со специями для яркого и полного вкуса. Чтобы сэкономить время, возьмите уже замаринованное с чесноком филе индейки. Останется только добавить к нему цветную капусту, запечь в духовке и получить легкий, диетический, но сытный обед или ужин. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zM3c5VEsuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zM3c5VEsuanBlZw==.jpg",
       preparation: {
         content:
           "Промойте цветную капусту, промокните ее от влаги бумажными салфетками. Вымойте и почистите лук-шалот и чеснок. Подготовьте две миски, разделочную доску, пресс для чеснока, соусник и тарелку для подачи. При необходимости разморозьте филе.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9IQm9jWlQuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9IQm9jWlQuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -8004,42 +8003,42 @@ export const recipes: ICategoryRecipe = {
           description:
             "Включите духовку разогреваться до 200˚С. Смажьте противень для запекания 1 ч.л. растительного масла. Разрежьте филе на крупные кусочки. Разложите на противне индейку.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9HOUVad0ouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9HOUVad0ouanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Разделите цветную капусту на соцветия размером около 2-3 см. Разрежьте луковицу на 4 части и разберите ее на отдельные сегменты.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80QmlWQ1UuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80QmlWQ1UuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Выложите в миску цветную капусту и лук. Добавьте соль, перец и растительное масло, все перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zeFlYWFAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zeFlYWFAuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Разложите цветную капусту и лук на противне между индейкой. Поставьте противень в духовку на средний уровень и запекайте индейку с овощами в течение 20 минут. Перемешайте овощи, переверните филе и запекайте еще 20-25 минут до румяной корочки на индейке и цветной капусте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zaXRoY3IuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zaXRoY3IuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Отделите листочки мяты и кинзы от веточек, мелко порубите листья, выложите их в чистую миску. Выжмите сок из лимона в миску. Пропустите чеснок через пресс, соедините его в миске с зеленью и лимонным соком.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80NFViSmEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80NFViSmEuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Добавьте к зелени, чесноку и лимонному соку йогурт и оставшиеся соль и перец. Все хорошо перемешайте и поставьте в холодильник настояться 10-15 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9zTERZeTIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9zTERZeTIuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Европейская, русская",
@@ -8161,12 +8160,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "К биточкам из птицы хорошо подходит рис, а он, в свою очередь, идеально сочетается с пряным японским соусом терияки. Кисловато-сладкий, терпкий, с сильными нотами имбиря, лайма и карамели, терияки смягчает и оттеняет румяную корочку биточков, наполняет рис ярким вкусом. Приготовьте соус терияки самостоятельно на основе соевого соуса, коричневого сахара, чеснока, пряностей и приправ.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9EODJNaHUuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9EODJNaHUuanBlZw==.jpg",
       preparation: {
         content:
           "Промойте рис до прозрачности воды. Очистите чеснок и корень имбиря. Подготовьте кастрюлю, сотейник, соковыжималку для цитрусовых, сито, миску, пресс для чеснока и терку. Застелите противень пергаментной бумагой. При необходимости, разморозьте биточки.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80UUhNN1YuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80UUhNN1YuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -8174,42 +8173,42 @@ export const recipes: ICategoryRecipe = {
           description:
             "Высыпьте промытый рис в кастрюлю. Залейте его водой в пропорциях 2:1. Накройте крышкой и доведите рис до кипения.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUHo0VDkuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUHo0VDkuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Уменьшите огонь до слабого. Всыпьте в воду соль и отварите рис по инструкции, указанной на упаковке до готовности. Снимите кастрюлю с огня, накройте крышкой и дайте рису постоять еще 5-10 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zYXdtTkcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zYXdtTkcuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Разрежьте лайм пополам, выжмите из него сок с помощью соковыжималки для цитрусовых. Процедите сок лайма через сито в сотейник. Пропустите чеснок через пресс, мелко натрите корень имбиря. Положите чеснок и имбирь в сотейник.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80NkI5TGsuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80NkI5TGsuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Налейте в сотейник к соку лайма соевый соус и кунжутное масло. Всыпьте сахар, положите пасту чили. Все хорошо перемешайте. Поставьте сотейник на средний огонь. Дождитесь, когда соус закипит. Убавьте огонь до слабого и проварите соус, помешивая, в течение 5 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC96bnZBeWIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC96bnZBeWIuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Соедините в пиале или чашке ¼ стакана воды и кукурузный крахмал. Все тщательно перемешайте, чтобы не оставалось комочков. Влейте крахмальную смесь в соус и размешайте. Проварите соус, перемешивая, пока он не загустеет, в течение 1-2 минут. Снимите сотейник с соусом с огня.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUU43ZkMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUU43ZkMuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Разогрейте духовку до 180˚С. Разделите каждый кружок фарша на две части, чтобы сделать кружочки поменьше. Разложите на противне с пергаментом биточки, выдерживая небольшое расстояние между ними. Поставьте противень в центр духовки и запеките биточки в течение 20-30 минут до румяной корочки.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zZFlMUXEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zZFlMUXEuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Азиатская",
@@ -8331,12 +8330,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Соус чимичурри готовят из свежих пряных трав, лимона и чеснока. Он хорошо дополнит и сбалансирует блюда из жареного мяса и птицы. Соус из свежей зелени подчеркивает мясной вкус нежных ежиков из индейки. Подавайте блюдо с любимым гарниром или овощным салатом. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zTTZtTGcuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zTTZtTGcuanBlZw==.jpg",
       preparation: {
         content:
           "Промойте петрушку, кинзу и орегано, вымойте лимон. Разложите все на бумажных полотенцах обсохнуть. Почистите лук-шалот и чеснок. Подготовьте миску, сковороду и сервировочное блюдо. При необходимости разморозьте ежики.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zeVFXYUQuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zeVFXYUQuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -8344,35 +8343,35 @@ export const recipes: ICategoryRecipe = {
           description:
             "Отделите листочки петрушки, кинзы от стеблей, мелко порубите листья и выложите их в миску, добавьте сухой орегано. Пропустите чеснок через пресс, добавьте его в миску к зелени. Нарежьте лук кубиками со стороной 2-3 мм, также положите его в миску.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC83UTZmOUwuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC83UTZmOUwuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Всыпьте в миску к зелени с чесноком и луком хлопья перца чили, соль и черный молотый перец.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUDIzYWUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC8zUDIzYWUuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Выжмите сок из четвертинки лимона в миску к зелени и специям. Влейте туда же винный уксус и оливковое масло. Тщательно перемешайте ингредиенты и уберите соус в холодильник на 1-2 часа настаиваться.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9UZ3pFNHEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9UZ3pFNHEuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Налейте на сковороду растительное масло, разогрейте на сильном огне. Уменьшите огонь до среднего. По желанию, разделите шарики фарша на две части, чтобы они стали меньше, выложите на сковороду ежики из индейки. Обжарьте ежики, переворачивая их на разные стороны, в течение 10-15 минут до плотной коричневой корочки.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80UnNGTkwuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC80UnNGTkwuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Налейте в сковороду к ежикам 2-3 ст.л. воды. Убавьте огонь до слабого, накройте сковороду крышкой и тушите ежики еще 3-4 минуты, чтобы они дошли до готовности. Переложите ежики на сервировочное блюдо и полейте их соусом чимичурри.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9jdnRBRjguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC9jdnRBRjguanBlZw==.jpg",
         },
       ],
       kitchen_type: "Американская",
@@ -8494,12 +8493,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Идеальное блюдо для сытного семейного обеда. Тут и сочные колбаски, и картошка, и ароматный сладкий перец. А главное, все достаточно нарезать и отправить в духовку. Очень важно, чтобы брусочки картошки были одинаковыми, ведь только так они смогут равномерно пропечься. Останется только разложить все по тарелкам и подать с любыми соусами на ваш выбор. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9Wd0NxdGkuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9Wd0NxdGkuanBlZw==.jpg",
       preparation: {
         content:
           "Помойте овощи. Почистите картошку, репчатый лук и чеснок. У болгарского перца удалите плодоножку и семена. Застелите форму для запекания пергаментом.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9kVG5WMm4uanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9kVG5WMm4uanBlZw==.jpg",
       },
       cooking: [
         {
@@ -8507,35 +8506,35 @@ export const recipes: ICategoryRecipe = {
           description:
             "Каждый клубень картофеля разрежьте на 4-8 частей в зависимости от размера. Нарежьте лук дольками, болгарский перец — крупными кусочками. Покрошите чеснок.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9TdkZ0UWQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9TdkZ0UWQuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Выложите в форму нарезанные овощи. Добавьте растительное масло, чеснок, сушеные тимьян, базилик и розмарин, а также соль и черный молотый перец.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC82bk5ETEwuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC82bk5ETEwuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Положите колбаски в форму, хорошенько перемешайте ингредиенты, чтобы овощи и мясо покрылись маслом и специями.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zR3JhcHAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zR3JhcHAuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Накройте форму фольгой и поставьте колбаски с овощами в разогретую до 200°С духовку на 30 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9Hckw2NWYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9Hckw2NWYuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Достаньте форму, аккуратно перемешайте ее содержимое. Влейте вино. Верните форму в духовку на 20 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9pdkxuOWEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9pdkxuOWEuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Европейская",
@@ -8664,61 +8663,61 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Блины на рисовой муке получатся не только полезнее, но и быстрее. А чтобы сохранить пышность, тесто нужно завести на кефире. Терты сыр и зеленый лук сделают завтрак сытнее и ароматнее. Осталось только пожарить их на сливочном масле и подать с любыми топингами на ваш вкус. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zUzVyUHQuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zUzVyUHQuanBlZw==.jpg",
       preparation: {
         content:
           "Просейте муку. Помойте зеленый лук. Подготовьте глубокую миску, венчик и блинную сковороду.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80Smc2YVouanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80Smc2YVouanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description: "Взбейте куриные яйца со щепоткой соли и кефиром.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9XS3FtbUguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9XS3FtbUguanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Натрите сыр на средней терке. Мелко покрошите зеленый лук.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9yRDhxcWIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9yRDhxcWIuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Положите к взбитым яйцам сыр и зеленый лук. Тщательно перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zY1NoNFQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zY1NoNFQuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Всыпьте рисовую и пшеничную муку. Хорошенько перемешайте, чтобы мука разошлась и не было комочков.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80UkhDZzYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80UkhDZzYuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Разогрейте на плите блинную или обычную сковороду. Смажьте ее кусочком сливочного масла.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC94UHA2ZTUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC94UHA2ZTUuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Вылейте немного теста на сковороду и распределите его тонким слоем, наклоняя сковороду из одной стороны в другую.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9GQjMzNmkuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9GQjMzNmkuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
             "Жарьте блины по 30-60 секунд с каждой стороны на среднем огне до образования румяной золотистой корочки.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC84S2NTalQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC84S2NTalQuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
@@ -8826,12 +8825,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Шницель готовится не только из цельного куска мяса, но и из фарша. Так блюдо получается более сочным. В фарш для шницеля не нужно добавлять хлеб, яйца, лук или другие овощи — только измельченное мясо и специи. Нужно аккуратно обвалять тонкие сырые котлеты во взбитом яйце и панировочных сухарях так, чтобы они не развалились. А чтобы получить самую хрустящую корочку, окуните их в панировку дважды. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9LUWliQ3kuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9LUWliQ3kuanBlZw==.jpg",
       preparation: {
         content:
           "Разморозьте фарш. Помойте куриные яйца. Подготовьте сковороду.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC84Q2lwdjkuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC84Q2lwdjkuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -8839,35 +8838,35 @@ export const recipes: ICategoryRecipe = {
           description:
             "Положите фарш в миску. Приправьте солью и черным молотым перцем. Хорошенько перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9BcmpBZ3cuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9BcmpBZ3cuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Отбейте фарш около 20 раз. Для этого приподнимите его над миской и с усилием бросьте в миску или об стол. Разделите фарш на 4 одинаковых части. Каждую часть скатайте в шарик и сформируйте плоскую круглую котлету.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zazhEQUsuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zazhEQUsuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Положите каждую котлетку между двумя слоями пищевой пленки и сделайте еще тоньше, разминая ее пальцами.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9zTWR5QXouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9zTWR5QXouanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "В одну тарелку насыпьте панировочные сухари. В другой тарелке взбейте вилкой или венчиком куриные яйца. Разогрейте в сковороде 1 ст.л. растительного масла.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zdGM0WTcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zdGM0WTcuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Выложите шницель на разогретую сковороду. Жарьте по 4-5 минут с каждой стороны на среднем огне.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zZGtvTUEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zZGtvTUEuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Европейская",
@@ -8932,12 +8931,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Баранина, тушенная в порционных горшочках с большим количеством крупно нарезанных овощей, получается невероятно вкусной. Общий вес баклажанов, картошки и помидоров суммарно должен быть примерно равен весу мяса — в этом заключается главный принцип приготовления грузинского блюда чанахи. Классический вариант готовится исключительно с бараниной.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zU0ZMazcuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zU0ZMazcuanBlZw==.jpg",
       preparation: {
         content:
           "Разморозьте мясо, помойте и обсушите на бумажных полотенцах. Помойте и почистите картофель, репчатый лук и чеснок. Вымойте баклажан, помидоры и кинзу. Подготовьте горшочки для запекания.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zNHhKU1YuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zNHhKU1YuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -8945,42 +8944,42 @@ export const recipes: ICategoryRecipe = {
           description:
             "Нарежьте баранину на куски среднего размера, баклажан — крупными кубиками.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9Fc1A0SHQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9Fc1A0SHQuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Нарежьте картофель крупными кусочками, помидоры — дольками.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zQnJhQ1cuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zQnJhQ1cuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Нарежьте репчатый лук кольцами, чеснок — тонкими пластинками. Измельчите кинзу.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9HVk1IRHAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9HVk1IRHAuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Разложите мясо по горшочкам. Поверх него выложите картошку, затем баклажаны, лук и чеснок.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zN2ltZTIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zN2ltZTIuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Посыпьте содержимое горшочков солью, красным и черным перцем, хмели-сунели. Затем положите помидоры.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zOEdaNm8uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zOEdaNm8uanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Посыпьте помидоры кинзой. Залейте в горшочки горячую воду до уровня помидоров. Накройте горшочки крышками и отправьте в духовку, разогретую до 180°C, на 60-90 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80RGRGck4uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80RGRGck4uanBlZw==.jpg",
         },
       ],
       kitchen_type: "Грузинская",
@@ -17442,577 +17441,95 @@ export const recipes: ICategoryRecipe = {
   ],
   bakery: [
     {
-      id: 221239,
-      active_cooking_time: 20,
-      total_cooking_time: 20,
-      difficulty_level: 2,
-      title: "Тосты с козьей рикоттой и персиками",
+      id: 219432,
+      active_cooking_time: 50,
+      total_cooking_time: 150,
+      difficulty_level: 3,
+      title: "Булочки с клубникой",
       subtitle:
-        "Мы приготовили сладкие тосты, но добавили к ним козью рикотту Galbani и фрукты. Блюдо получилось ярким и сытным - подсушенный хрустящий хлеб, мягкая козья рикотта и сочные карамелизированные персики. Эти тосты с рикоттой станут отличной закуской или прекрасным десертом.",
+        "Рецепт теста для булочек универсален. Наполнить выпечку можно любыми фруктами и ягодами, у нас - клубника. Эта ягода достаточно сладкая для того, чтобы не добавлять в нее дополнительный сахар. Поэтому булочки получатся не приторными. Лучше брать ягоды с легкой кислинкой, чтобы вкус выпечки получился более интересным.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zZHZhak0uanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zcHNYbk0uanBlZw==.jpg",
       preparation: {
-        content:
-          "Помойте персики и малину. Выложите сливочное масло из холодильника заранее, чтобы оно согрелось. Подготовьте сковороду.",
+        content: "Промойте клубнику. Просейте муку.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zR2pBUUEuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80WHNoSEguanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description:
-            "Разрежьте персики на половинки, удалите косточку. Нарежьте половинки персиков дольками. ",
+            "Слегка нагрейте молоко, чтобы оно стало чуть теплым. Разведите в нем сахар и дрожжи и оставьте на 10-15 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC80VVhKd0EuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zY2VHS0suanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
-            "Разогрейте сковороду с 1 ст.л. (20 г) сливочного масла на среднем огне. Когда масло растает, добавьте сахар и перемешайте.",
+            "Растопите масло в небольшом ковшике на слабом огне. Влейте его в муку. Отделите белок от желтка. Добавьте белок в муку с маслом. Всыпьте туда же соль и влейте дрожжевую смесь.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC84NVZLSzYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80Vk5KaEQuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
-            "Выложите персики в сковороду. Карамелизируйте фрукты 1-2 минуты с каждой стороны. Снимите с огня и переложите на тарелку. ",
+            "Замесите тесто и оставьте его, накрыв полотенцем, в теплом месте на час подниматься.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC83ZDlNUFMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS9KV3lZVUYuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Ломтики хлеба смажьте оставшимся сливочным маслом с двух сторон.",
+            "Разделите тесто на 6 частей и раскатайте каждую в лепешку толщиной 3 мм. Сделайте с двух сторон слегка округлые надрезы на расстоянии примерно 2-3 см от края.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC94Umg2emkuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zZ0tUb1AuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "Разогрейте чистую сковороду. Выложите ломтики хлеба в сковороду и поджарьте 3 минуты с одной стороны, затем переверните и готовьте еще 2 минуты.",
+            "Выложите на центр теста несколько ягод. Заверните поочередно внахлест друг на друга надрезанные края так, чтобы начинка осталась открытой.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zRGJNVDUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zcXROSmIuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
-            "Козью рикотту смешайте с ванильным сахаром и корицей. На каждый кусочек хлеба положите слой рикотты.",
+            "Разогрейте духовку до 190 °C. Застелите противень пергаментом и выложите заготовки булочек. Смажьте тесто желтком. Отправьте в духовку на 30 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC96Qzd5eWsuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 7",
-          description:
-            "Поверх козьей рикотты выложите дольки персика и ягоды малины. Присыпьте морской солью по вкусу. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNC8zSmNGTksuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS9aOXJCOEYuanBlZw==.jpg",
         },
       ],
-      kitchen_type: "Интернациональная",
+      kitchen_type: "Русская",
       main_ingredient_title: "Для блюда",
       optional_ingredient_title: "Для подачи",
       main_ingredients: [
         {
-          id: 685,
-          weight: 440,
-          custom_measure: "шт.",
-          custom_measure_count: 2,
-          title: "Персики",
+          id: 117,
+          weight: 300,
+          custom_measure: "г",
+          custom_measure_count: 300,
+          title: "Клубника",
         },
         {
-          id: 409,
-          weight: 160,
-          custom_measure: "ломтик",
-          custom_measure_count: 4,
-          title: "Тостовый хлеб",
+          id: 282,
+          weight: 325,
+          custom_measure: "стакан",
+          custom_measure_count: 2.5,
+          title: "Пшеничная мука хлебопекарная",
         },
         {
-          id: 338,
-          weight: 80,
-          custom_measure: "ст. л.",
-          custom_measure_count: 4,
-          title: "Сливочное масло",
+          id: 211,
+          weight: 150,
+          custom_measure: "стакан",
+          custom_measure_count: 0.75,
+          title: "Молоко",
         },
         {
-          id: 411,
-          weight: 50,
-          custom_measure: "ст. л.",
-          custom_measure_count: 2,
-          title: "Тростниковый сахар",
-        },
-        {
-          id: 610,
+          id: 368,
           weight: 4,
           custom_measure: "ч. л.",
           custom_measure_count: 1,
-          title: "Молотая корица",
-        },
-        {
-          id: 46,
-          weight: 8,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Ванильный сахар",
-        },
-        {
-          id: 20599,
-          weight: 225,
-          custom_measure: "г",
-          custom_measure_count: 225,
-          title: "Козья рикотта Galbani",
-        },
-        {
-          id: 221,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Морская соль",
-        },
-        {
-          id: 196,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Малина",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 204,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: null,
-          title: "Мед",
-        },
-        {
-          id: 11758,
-          weight: 0,
-          custom_measure: "по желанию",
-          custom_measure_count: null,
-          title: "Микрозелень",
-        },
-      ],
-      proteins: 2.64,
-      fats: 16.03,
-      carbs: 20.54,
-      calories: 169.45,
-    },
-    {
-      id: 219439,
-      active_cooking_time: 15,
-      total_cooking_time: 50,
-      difficulty_level: 2,
-      title: "Хумус из цветной капусты",
-      subtitle:
-        "Хумус обычно готовят из нута с кунжутной пастой, лимонным соком, оливковым маслом и чесноком. Но не менее вкусной получится эта закуска, если нут заменить цветной капустой. Вкус этого овоща отдаленно похож на нут, но с капустой паста получится более легкой. ",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80UDhmaEsuanBlZw.jpg",
-      preparation: {
-        content:
-          "Промойте и обсушите цветную капусту. Вымойте лимон и очистите чеснок. ",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80REczcVguanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Разрежьте на четыре части капусту. Удалите кочерыжку. Четвертинки кочана разделите на мелкие соцветия.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80OEpqRXkuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Выложите капусту в большую миску. Влейте оливковое масло и перемешайте его с капустой.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS9EQVp4V3YuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Разогрейте духовку до 175 °C. Застелите противень пергаментом. Выложите капусту на противень и отправьте в духовку на 20-25 минут. Овощ должен стать мягким. Когда капуста будет готова, остудите ее.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zMnRIZ3UuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description:
-            "Переложите запеченную капусту в блендер. Добавьте туда тахини, соль, кумин и чеснок. Выжмите сок из лимона и влейте половину стакана воды. Измельчите до однородности.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80UnFLY3AuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Арабская, восточная",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: "Для подачи",
-      main_ingredients: [
-        {
-          id: 430,
-          weight: 650,
-          custom_measure: "кочан",
-          custom_measure_count: 1,
-          title: "Цветная капуста",
-        },
-        {
-          id: 240,
-          weight: 34,
-          custom_measure: "ст. л.",
-          custom_measure_count: 2,
-          title: "Оливковое масло",
-        },
-        {
-          id: 562,
-          weight: 102,
-          custom_measure: "ст. л.",
-          custom_measure_count: 6,
-          title: "Тахини",
-        },
-        {
-          id: 352,
-          weight: 5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Соль",
-        },
-        {
-          id: 94,
-          weight: 3,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Зира / Кумин",
-        },
-        {
-          id: 440,
-          weight: 5,
-          custom_measure: "зубчик",
-          custom_measure_count: 1,
-          title: "Чеснок",
-        },
-        {
-          id: 183,
-          weight: 120,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Лимон",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 260,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Петрушка",
-        },
-        {
-          id: 494,
-          weight: 0,
-          custom_measure: "по желанию",
-          custom_measure_count: 0,
-          title: "Тортилья",
-        },
-        {
-          id: 247,
-          weight: 0,
-          custom_measure: "по желанию",
-          custom_measure_count: 0,
-          title: "Паприка",
-        },
-      ],
-      proteins: 4.11,
-      fats: 9.34,
-      carbs: 5.83,
-      calories: 122.77,
-    },
-    {
-      id: 221479,
-      active_cooking_time: 20,
-      total_cooking_time: 65,
-      difficulty_level: 2,
-      title: "Запеченные фаршированные перцы с козьей рикоттой",
-      subtitle:
-        "Традиционно фаршированные перцы готовят с мясом и рисом. Вместо них в этом рецепты мы использовали много сыра и пряные травы. Нежная козья рикотта Galbani при запекании приобретает нежную консистенцию, а специи и свежая зелень придают блюду пикантности. Подавайте перцы в горячем или холодном виде — как закуску или самостоятельное блюдо. ",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNS8zaXNQR1cuanBlZw.jpg",
-      preparation: {
-        content:
-          "Вымойте шпинат, зеленый лук, базилик, петрушку и болгарский перец. Разрежьте перцы пополам, но уберите только семена и белые перегородки, а зеленую плодоножку не трогайте — она нужна для того, чтобы начинка не вытекла при запекании.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNS82RWdveTkuanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Разогрейте духовку до 200°C. Застелите противень пергаментом. Выложите разрезанные перцы на противень срезом вверх и смажьте при помощи силиконовой кисточки 1 ст.л. оливкового масла. Отправьте в духовку примерно на 15 минут, пока перцы не станут мягкими.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwNS9kV01hak0uanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Крупно нарежьте шпинат. Натрите моцареллу и пармезан. Смешайте сыры с козьей рикоттой и шпинатом. Разбейте в миску яйца и перемешайте.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxNS9yTTUyVGMuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Растолките в ступке семена фенхеля и всыпьте в сырную массу. Добавьте туда же все специи: сушеный розмарин, тимьян, соль и перец.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwNS8zWkFlaU0uanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description:
-            "Измельчите зеленый лук, базилик и петрушку. Всыпьте в начинку и перемешайте.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwNS9iVmY1Q2YuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 5",
-          description:
-            "Разложите начинку по половинкам болгарского перца, хорошенько утрамбовывая ложкой.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwNS80QzlEQ3YuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 6",
-          description:
-            "Смешайте панировочные сухари с 1 ст.л. оливкового масла. Распределите эту смесь ровным слоем по фаршированным перцам. Установите температуру в духовке на 170°C. Запекайте перцы примерно 30 минут до появления золотистой корочки.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwNS80SlNHSlcuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Европейская, итальянская",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: "Для подачи",
-      main_ingredients: [
-        {
-          id: 32,
-          weight: 600,
-          custom_measure: "шт.",
-          custom_measure_count: 4,
-          title: "Болгарский перец",
-        },
-        {
-          id: 447,
-          weight: 100,
-          custom_measure: "г",
-          custom_measure_count: 100,
-          title: "Шпинат",
-        },
-        {
-          id: 20599,
-          weight: 440,
-          custom_measure: "г",
-          custom_measure_count: 440,
-          title: "Козья рикотта Galbani",
-        },
-        {
-          id: 222,
-          weight: 180,
-          custom_measure: "г",
-          custom_measure_count: 180,
-          title: "Моцарелла",
-        },
-        {
-          id: 248,
-          weight: 60,
-          custom_measure: "г",
-          custom_measure_count: 60,
-          title: "Пармезан",
-        },
-        {
-          id: 456,
-          weight: 120,
-          custom_measure: "шт.",
-          custom_measure_count: 2,
-          title: "Яйца",
-        },
-        {
-          id: 246,
-          weight: 50,
-          custom_measure: "стакан",
-          custom_measure_count: 0.5,
-          title: "Панировочные сухари",
-        },
-        {
-          id: 240,
-          weight: 34,
-          custom_measure: "ст. л.",
-          custom_measure_count: 2,
-          title: "Оливковое масло",
-        },
-        {
-          id: 91,
-          weight: 25,
-          custom_measure: "пучок",
-          custom_measure_count: 0.5,
-          title: "Зеленый лук",
-        },
-        {
-          id: 12,
-          weight: 20,
-          custom_measure: "пучок",
-          custom_measure_count: 0.25,
-          title: "Базилик",
-        },
-        {
-          id: 260,
-          weight: 10,
-          custom_measure: "пучок",
-          custom_measure_count: 0.5,
-          title: "Петрушка",
-        },
-        {
-          id: 802,
-          weight: 2,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Сушеный розмарин",
-        },
-        {
-          id: 384,
-          weight: 2,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Сушеный тимьян / чабрец",
-        },
-        {
-          id: 12246,
-          weight: 5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Семена фенхеля",
-        },
-        {
-          id: 352,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Соль",
-        },
-        {
-          id: 439,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Черный перец молотый",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 19456,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Бальзамический соус",
-        },
-        {
-          id: 11758,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Микрозелень",
-        },
-      ],
-      proteins: 7.29,
-      fats: 16.68,
-      carbs: 6.58,
-      calories: 118.58,
-    },
-    {
-      id: 221854,
-      active_cooking_time: 25,
-      total_cooking_time: 25,
-      difficulty_level: 2,
-      title: "Чиабатта с камамбером и ягодами",
-      subtitle:
-        "Жареный камамбер, карамелизированные ягоды, хрустящая чиабатта — звучит вкусно, а еще очень сложно. На деле же все продукты можно подготовить, пока будет запекаться сыр. Уже через полчаса хрустящий утренний сэндвич с ароматным жидким камамбером будет готов. К подаче обязательна чашка утреннего чая или кофе. ",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zazlqcDIuanBlZw.jpg",
-      preparation: {
-        content: "Разморозьте тесто. Застелите противень пергаментом.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9NdkZWeUguanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Раскатайте тесто в тонкий пласт. Положите в центр сыр камамбер и заверните края теста наверх.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9vd1pHeHkuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Переложите камамбер в тесте в форму, перевернув ровной стороной теста вверх, а швом вниз.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC92blp1Tm8uanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Слегка взбейте куриное яйцо. Смажьте им тесто. Отправьте форму на противень в разогретую до 180°С духовку на 15 минут.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8za2ZRa3ouanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description:
-            "Растопите на сковороде сливочное масло. Обжарьте ломтики чиабатты по 2 минуты с каждой стороны.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zb1JOUFkuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 5",
-          description:
-            "В это же время выложите на другую сковороду ягоды. Посыпьте их сахаром. Жарьте 3 минуты на среднем огне, часто помешивая.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zM1g1elMuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 6",
-          description:
-            "Натрите чеддер на средней терке. Смажьте один жареный ломтик хлеба творожным сыром и посыпьте чеддером.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC81RncyTGUuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 7",
-          description:
-            "Достаньте из духовки камамбер в тесте и разрежьте пополам. Положите обе половинки на хлеб.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80OG13cTYuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 8",
-          description:
-            "Сверху выложите ягоды и накройте вторым ломтиком жареного хлеба.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80NkZneDYuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Французская",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: "Для подачи",
-      main_ingredients: [
-        {
-          id: 7144,
-          weight: 125,
-          custom_measure: "г",
-          custom_measure_count: 125,
-          title: "Камамбер",
-        },
-        {
-          id: 677,
-          weight: 125,
-          custom_measure: "г",
-          custom_measure_count: 125,
-          title: "Слоеное тесто",
+          title: "Сухие дрожжи",
         },
         {
           id: 169,
@@ -18022,428 +17539,1016 @@ export const recipes: ICategoryRecipe = {
           title: "Куриное яйцо",
         },
         {
-          id: 699,
-          weight: 90,
-          custom_measure: "стакан",
-          custom_measure_count: 0.5,
-          title: "Замороженные ягоды",
+          id: 338,
+          weight: 40,
+          custom_measure: "г",
+          custom_measure_count: 40,
+          title: "Сливочное масло",
         },
         {
           id: 312,
-          weight: 25,
-          custom_measure: "ст. л.",
-          custom_measure_count: 1,
+          weight: 90,
+          custom_measure: "стакан",
+          custom_measure_count: 0.5,
           title: "Сахар",
         },
         {
-          id: 442,
-          weight: 30,
-          custom_measure: "ломтик",
-          custom_measure_count: 2,
-          title: "Чиабатта",
-        },
-        {
-          id: 434,
-          weight: 30,
-          custom_measure: "г",
-          custom_measure_count: 30,
-          title: "Чеддер",
-        },
-        {
-          id: 398,
-          weight: 15,
-          custom_measure: "ст. л.",
-          custom_measure_count: 1,
-          title: "Творожный сыр",
-        },
-        {
-          id: 338,
+          id: 352,
           weight: 10,
-          custom_measure: "ст. л.",
-          custom_measure_count: 0.5,
-          title: "Сливочное масло",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 146,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Кофе",
-        },
-        {
-          id: 303,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Рукола",
-        },
-      ],
-      proteins: 10.27,
-      fats: 16.64,
-      carbs: 18.69,
-      calories: 265.67,
-    },
-    {
-      id: 221884,
-      active_cooking_time: 20,
-      total_cooking_time: 20,
-      difficulty_level: 2,
-      title: "Лодочки с креветками в соусе чили",
-      subtitle:
-        "Обжарьте рисовую бумагу в разогретом масле, и она вздуется за 5 секунд. Получившиеся «лодочки» можно дополнить любой начинкой. Например, к рисовой бумаге хорошо подойдут морепродукты. Предварительно обжарьте их в ароматном соусе — и хрустящая сочная закуска готова! ",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8za2E3cWcuanBlZw.jpg",
-      preparation: {
-        content:
-          "Разморозьте креветки, очистите их от панциря, помойте. Помойте огурец и зеленый лук. Снимите с крабовых палочек пленку.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zeXRISmsuanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Разрежьте каждый лист рисовой бумаги на 4 части. Разогрейте в сковороде растительное масло. Обжарьте листья рисовой бумаги по одному на среднем огне в течение 3-5 секунд и выложите на тарелку.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9BN3pYUHguanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "На той же сковороде пожарьте креветки с соусом чили в течение 3-4 минут, часто помешивая.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zdUZLSEMuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Мелко нарежьте огурец, крабовые палочки, зеленый лук и жареные креветки. Положите их в миску, добавьте творожный сыр и перемешайте.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9ib1pEaUIuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description: "Положите начинку в жареную рисовую бумагу.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC91cWRoOVUuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Азиатская",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: "Для подачи",
-      main_ingredients: [
-        {
-          id: 398,
-          weight: 15,
-          custom_measure: "г",
-          custom_measure_count: 15,
-          title: "Творожный сыр",
-        },
-        {
-          id: 148,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Крабовые палочки",
-        },
-        {
-          id: 571,
-          weight: 12.5,
-          custom_measure: "г",
-          custom_measure_count: 12.5,
-          title: "Рисовая бумага",
-        },
-        {
-          id: 287,
-          weight: 51,
-          custom_measure: "ст. л.",
-          custom_measure_count: 3,
-          title: "Растительное масло",
-        },
-        {
-          id: 237,
-          weight: 100,
-          custom_measure: "г",
-          custom_measure_count: 100,
-          title: "Огурец",
-        },
-        {
-          id: 91,
-          weight: 14,
-          custom_measure: "г",
-          custom_measure_count: 14,
-          title: "Зеленый лук",
-        },
-        {
-          id: 470,
-          weight: 18,
-          custom_measure: "ст. л.",
+          custom_measure: "ч. л.",
           custom_measure_count: 1,
-          title: "Соус чили",
+          title: "Соль",
         },
       ],
       optional_ingredients: [
         {
-          id: 183,
+          id: 313,
           weight: 0,
           custom_measure: "по желанию",
           custom_measure_count: 0,
-          title: "Лимон",
-        },
-        {
-          id: 116,
-          weight: 0,
-          custom_measure: "по желанию",
-          custom_measure_count: 0,
-          title: "Кинза",
+          title: "Сахарная пудра",
         },
       ],
-      proteins: 2.29,
-      fats: 21.38,
-      carbs: 9.5,
-      calories: 234.97,
+      proteins: 5.16,
+      fats: 5.04,
+      carbs: 34.77,
+      calories: 205.36,
     },
     {
-      id: 221863,
+      id: 219424,
       active_cooking_time: 60,
-      total_cooking_time: 120,
+      total_cooking_time: 110,
       difficulty_level: 3,
-      title: "Сырные шарики с кукурузой",
+      title: "Тарт с клубникой",
       subtitle:
-        "Сырно-кукурузные шарики получаются зажаристыми, хрустящими снаружи и мягкими внутри. Внутри каждого — кусочек сливочной тягучей моцареллы. Кукуруза подойдет как свежая, так и консервированная. В результате получается отличная закуска для вечеринки или киновечера. Подавайте шарики горячими, пока начинка не затвердела.",
+        "Тарт - традиционная французская выпечка на основе песочного теста. Его готовят с несложной начинкой, сытной или сладкой. Мы выбрали начинку из клубники. Чтобы ягоды не растекались, мы добавили немного крахмала и проварили клубнику, пока она не загустела. А затем запекли вместе с тестом в духовке. Клубничный тарт можно подавать теплым, с шариком мороженого, или охлажденным. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zNHVTZ1MuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zR2Z5UDkuanBlZw==.jpg",
       preparation: {
         content:
-          "Помойте овощи. У перца удалите плодоножку и семена. Почистите чеснок. Просейте муку. Подготовьте фритюр, гриль и небольшой сотейник.",
+          "Просейте муку. Вымойте клубнику. Масло положите в холодильник, чтобы оно было холодным. Подготовьте круглую форму для выпекания.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80UDdyQjguanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zUGFzM0ouanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description:
-            "Отварите картофель с кожицей в течение 30 минут. Остудите, очистите от кожуры и натрите на средней терке.",
+            "Смешайте муку с солью. Масло нарежьте кубиками, добавьте в мучную смесь и перетрите в крошку. Старайтесь делать это быстро, пока масло не растаяло под воздействием тепла рук.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC82eW1kcksuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zOWtDYjQuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
-          description:
-            "Пожарьте кукурузу на сковородке в течение 3-5 минут, периодически помешивая ее.",
+          description: " Взбейте блендером желтки с сахарной пудрой и ванилью.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC92cXRydGQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80VkJ3emguanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
-            "Пропустите через пресс чеснок. Мелко покрошите перец чили. Натрите сыр на средней терке.",
+            "Перелейте яичную смесь в масляно-мучную крошку. Замесите мягкое эластичное тесто. Смажьте маслом форму для выпекания. Утрамбуйте тесто по форме, формируя бортики. Уберите в холодильник на полчаса.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9CN1BHU2YuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zSGNpMjMuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Смешайте в миске картофель с кукурузой, чесноком, перцем чили, сыром. Добавьте хлопья чили, орегано, ¼ ч.л. соли, щепотку черного молотого перца, 3 ст.л. панировочных сухарей и тщательно перемешайте.",
+            "Разогрейте духовку до 190 градусов. Сделайте в тесте несколько проколов вилкой. Накройте пергаментом и насыпьте по всей поверхности бумаги фасоль. Отправьте форму в духовку на 15 минут. По истечении времени достаньте, уберите пергамент с фасолью, она больше не понадобится.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9LdU5mQUEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS8zTWRtMjguanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "Смешайте для кляра в другой миске пшеничную и кукурузную муку с водой, щепоткой соли, щепоткой черного молотого перца и с красным молотым перцем. Хорошенько перемешайте, чтобы не было комочков.",
+            "Пока тесто выпекается, нарежьте на половинки клубнику и засыпьте сахаром. Поставьте на плиту и доведите до кипения на слабом огне.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9iWDVDWHEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS9UVEt1WFEuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
-            "Влажными руками возьмите немного картофельной смеси, сформируйте из нее лепешку на ладони. Положите в центр кусочек моцареллы и слепите вокруг сыра шарик.",
+            "Разведите в воде крахмал и влейте в кастрюлю с клубникой. Помешивайте, пока ягодная масса не загустеет.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80NjRWd3UuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS80V2dCYU0uanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
-            "На плоскую тарелку насыпьте полстакана панировочных сухарей. Каждый шарик обмакните в кляр и обваляйте в панировочных сухарях. Выложите шарики на тарелку и уберите в холодильник на 30 минут.",
+            "Переложите клубничную начинку на тесто и отправьте в духовку при той же температуре еще на 15-20 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zSERKdTYuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 8",
-          description:
-            "Разогрейте масло во фритюре. Обжарьте шарики до золотистой корочки в течение 3-4 минут.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zS0JuaEEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOS90ZWhDSzMuanBlZw==.jpg",
         },
       ],
-      kitchen_type: "Корейская",
+      kitchen_type: "Европейская, французская",
       main_ingredient_title: "Для блюда",
-      optional_ingredient_title: "Для панировки, кляра и подачи",
+      optional_ingredient_title: "Для подачи",
       main_ingredients: [
         {
-          id: 222,
-          weight: 90,
+          id: 117,
+          weight: 500,
           custom_measure: "г",
-          custom_measure_count: 90,
-          title: "Моцарелла",
+          custom_measure_count: 500,
+          title: "Клубника",
         },
         {
-          id: 127,
-          weight: 180,
-          custom_measure: "ст. л.",
-          custom_measure_count: 6,
-          title: "Консервированная кукуруза",
-        },
-        {
-          id: 108,
-          weight: 360,
-          custom_measure: "шт.",
-          custom_measure_count: 3,
-          title: "Картошка",
-        },
-        {
-          id: 256,
-          weight: 15,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Перец чили",
-        },
-        {
-          id: 440,
-          weight: 15,
-          custom_measure: "зубчик",
-          custom_measure_count: 3,
-          title: "Чеснок",
-        },
-        {
-          id: 428,
-          weight: 2,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Хлопья чили",
-        },
-        {
-          id: 383,
-          weight: 3,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Сушеный орегано (душица)",
-        },
-        {
-          id: 352,
-          weight: 2.5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.25,
-          title: "Соль",
-        },
-        {
-          id: 439,
-          weight: 1,
-          custom_measure: "щепотка",
-          custom_measure_count: 1,
-          title: "Черный перец молотый",
-        },
-        {
-          id: 388,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Сыр",
-        },
-        {
-          id: 246,
-          weight: 45,
-          custom_measure: "ст. л.",
-          custom_measure_count: 3,
-          title: "Панировочные сухари",
-        },
-        {
-          id: 287,
-          weight: 380,
-          custom_measure: "стакан",
-          custom_measure_count: 2,
-          title: "Растительное масло",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 246,
-          weight: 50,
+          id: 313,
+          weight: 70,
           custom_measure: "стакан",
           custom_measure_count: 0.5,
-          title: "Панировочные сухари",
+          title: "Сахарная пудра",
+        },
+        {
+          id: 87,
+          weight: 51,
+          custom_measure: "шт.",
+          custom_measure_count: 3,
+          title: "Желток куриного яйца",
         },
         {
           id: 282,
-          weight: 50,
-          custom_measure: "ст. л.",
+          weight: 260,
+          custom_measure: "стакан",
           custom_measure_count: 2,
           title: "Пшеничная мука хлебопекарная",
         },
         {
-          id: 158,
-          weight: 60,
+          id: 338,
+          weight: 140,
+          custom_measure: "г",
+          custom_measure_count: 140,
+          title: "Сливочное масло",
+        },
+        {
+          id: 352,
+          weight: 2,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.2,
+          title: "Соль",
+        },
+        {
+          id: 45,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
+          title: "Ваниль",
+        },
+        {
+          id: 312,
+          weight: 135,
+          custom_measure: "стакан",
+          custom_measure_count: 0.75,
+          title: "Сахар",
+        },
+        {
+          id: 161,
+          weight: 30,
           custom_measure: "ст. л.",
-          custom_measure_count: 2,
-          title: "Кукурузная мука",
+          custom_measure_count: 1,
+          title: "Кукурузный крахмал",
         },
         {
           id: 54,
-          weight: 126,
-          custom_measure: "ст. л.",
-          custom_measure_count: 7,
+          weight: 100,
+          custom_measure: "стакан",
+          custom_measure_count: 0.5,
           title: "Вода",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 454,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Ягоды",
+        },
+        {
+          id: 228,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Мята",
+        },
+      ],
+      proteins: 3.17,
+      fats: 10.46,
+      carbs: 34.64,
+      calories: 242.75,
+    },
+    {
+      id: 221954,
+      active_cooking_time: 50,
+      total_cooking_time: 100,
+      difficulty_level: 3,
+      title: "Сметанное печенье с начинкой из сгущенки",
+      subtitle:
+        "Чем жирнее и гуще сметана, тем более сдобным и рассыпчатым получится тесто. Можно купить уже готовую вареную сгущенку. А для тех, у кого дома есть обычная, показали, как сварить ее у себя на кухне. Тесто на маргарине не нужно выдерживать в холодильнике. Раскатайте его сразу после замешивания, сформируйте печенье и поставьте его в духовку. ",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zekNiVHEuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Просейте муку в объемную миску. Подготовьте еще одну глубокую миску, венчик, жаропрочную емкость и кастрюлю для водяной бани, емкость, подходящую для нагревания в микроволновой печи, скалку, широкое десертное блюдо.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zWllINlMuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Налейте в кастрюлю для водяной бани воду примерно на ⅔ объема. Поставьте посуду на сильный огонь и доведите воду до кипения. Перелейте сгущенное молоко в жаропрочную емкость и установите ее на кастрюле с кипящей водой.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zNnc4ODcuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Уменьшите огонь под кастрюлей до среднего и варите сгущенное молоко, периодически перемешивая от стенок емкости к центру, в течение 40-50 минут, пока молоко не загустеет и не потемнеет до карамельного цвета. ",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zNVJpMjguanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Выложите маргарин в емкость, подходящую для нагревания в микроволновой печи. Растопите маргарин до жидкого состояния за 2-3 приема по 30-40 секунд. Дайте растопленному маргарину полностью остыть при комнатной температуре.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9ucHBmbmQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Разбейте яйцо в чистую миску. Всыпьте к нему 1,5 ст.л. сахара и соль, хорошо взбейте венчиком до однородности.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zZk1WNWEuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "Погасите соду уксусом, выложите получившуюся смесь в миску к взбитому яйцу. Положите туда же сметану, влейте остывший растопленный маргарин и все как следует перемешайте венчиком.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS94TUhvNFQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 6",
+          description:
+            "Отложите от общей массы просеянной муки 1 ст.л. для раскатывания теста. В миску с оставшейся мукой влейте яично-маргариновую смесь. ",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS9CalB0cEQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 7",
+          description:
+            "Присыпьте рабочую поверхность отложенной мукой. Разделите тесто на 2 части, придайте каждой части форму шара. Раскатайте каждый шар в круглую лепешку толщиной примерно 3-4 мм. Разрежьте каждую лепешку на 8 секторов.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS80NGplOG8uanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 8",
+          description:
+            "Положите на широкое основание каждого сектора около ⅓ ч.л. вареного сгущенного молока. Сверните каждый треугольник теста с начинкой в рулет, начиная с основания и заканчивая длинным острым углом, чтобы получился маленький рогалик.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zamhrWEMuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 9",
+          description:
+            "Включите духовку разогреваться до 180°С. Застелите противень пергаментной бумагой. Выложите печенье на противень. Посыпьте его сахаром и уберите в духовку на 20 минут 180°С.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOS8zVm1MUHkuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Русская",
+      main_ingredient_title: "Для блюда",
+      optional_ingredient_title: "Для подачи",
+      main_ingredients: [
+        {
+          id: 282,
+          weight: 300,
+          custom_measure: "г",
+          custom_measure_count: 300,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 346,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Сметана 20% жирности",
+        },
+        {
+          id: 199,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Маргарин",
+        },
+        {
+          id: 169,
+          weight: 60,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 312,
+          weight: 50,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Сахар",
         },
         {
           id: 352,
           weight: 1,
-          custom_measure: "щепотка",
+          custom_measure: "г",
           custom_measure_count: 1,
           title: "Соль",
         },
         {
-          id: 439,
+          id: 348,
+          weight: 1.25,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.25,
+          title: "Сода",
+        },
+        {
+          id: 608,
+          weight: 2.5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Столовый уксус 9%",
+        },
+        {
+          id: 327,
+          weight: 270,
+          custom_measure: "г",
+          custom_measure_count: 270,
+          title: "Сгущенное молоко",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 313,
+          weight: 4,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Сахарная пудра",
+        },
+        {
+          id: 228,
+          weight: 4,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Мята",
+        },
+        {
+          id: 196,
+          weight: 20,
+          custom_measure: "ч. л.",
+          custom_measure_count: 2,
+          title: "Малина",
+        },
+        {
+          id: 146,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Кофе",
+        },
+      ],
+      proteins: 6.78,
+      fats: 15.54,
+      carbs: 45.41,
+      calories: 340.74,
+    },
+    {
+      id: 219124,
+      active_cooking_time: 50,
+      total_cooking_time: 220,
+      difficulty_level: 3,
+      title: "Классический итальянский пирог кростата",
+      subtitle:
+        "Сладкий итальянский пирог кростата пекут с самыми разными начинками: со свежими фруктами, джемом или творогом, взбитым со сливками. Но в основе у него всегда тонкое песочное тесто, на котором размещается объемный слой начинки. Кростату делают открытой, закрытой или с «решеткой» из тонких полосок теста.",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9KeW1BcEouanBlZw==.jpg",
+      preparation: {
+        content:
+          "Заранее достаньте сливочное масло из холодильника, чтобы оно размягчилось при комнатной температуре. Помойте яйца и лимон, промокните их от влаги бумажными полотенцами. Просейте муку. Подготовьте миски, миксер, пищевую пленку, скалку, сито, терку, пергаментную бумагу, сухую фасоль или горох для груза, круглую глубокую форму для пирога диаметром 20-22 см.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zdFdtNlAuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Разделите 2 яйца на желтки и белки. Соедините в одной миске один желток и одно целое яйцо. Всыпьте к желтку с яйцом 0,5 стакана сахарной пудры. Взбейте миксером в течение 3-4 минут до светлой пены.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80VFoySFkuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Положите во взбитую массу мягкое сливочное масло. Еще раз перемешайте миксером до однородной консистенции.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9QcEsyUncuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Отложите 0,5 ст.л. муки для раскатывания теста. Всыпьте оставшуюся муку в яично-масляную массу. Замесите сначала лопаткой, потом руками пластичное песочное тесто. Заверните тесто в пленку и положите его в холодильник на 1-2 часа.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zVGdydlQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Снимите цедру с половины лимона при помощи мелкой терки. Выложите цедру в чистую миску. Протрите в эту же миску творог через сито. Добавьте к творогу одно целое яйцо и один желток, а также 0,5 стакана сахарной пудры, ванильную эссенцию и сливки.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9wZ1I2V2YuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "Помойте и оботрите насухо насадки миксера. Взбейте на небольшой скорости творог с другими ингредиентами до состояния густого крема.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9iTXAzcjMuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 6",
+          description:
+            "Присыпьте стол отложенной мукой, выложите на него охлажденное тесто. Отделите от теста ⅓ часть, отложите ее в сторону. Раскатайте оставшееся тесто в круглый пласт диаметром примерно на 5 см больше, чем диаметр формы для пирога.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9CcEVmZFIuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 7",
+          description:
+            "Разогрейте духовку до 200°C. Смажьте форму для выпечки 0,5 ч.л. сливочного масла. Уложите раскатанный пласт теста в форму, сформируйте по стенкам формы бортики из теста. Постелите лист пергамента на тесто в форме. Насыпьте на пергамент сухую фасоль или горох.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80REx5YjQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 8",
+          description:
+            "Поставьте форму в духовку и выпекайте основу для пирога в течение 15 минут. Достаньте основу из духовки и аккуратно уберите с нее пергамент с фасолью или горохом.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zZVBvVzYuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 9",
+          description:
+            "Раскатайте ⅓ теста в пласт толщиной около 2 мм. Вырежьте из него длинные полоски шириной 1-1,5 см. Выложите на испеченную основу из теста творожную начинку. Закройте начинку «решеткой» из полосок теста.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy94Rml3U3EuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 10",
+          description:
+            "Поместите форму с заготовкой в духовку и пеките пирог при 200°C в течение 20 минут. Затем уменьшите нагрев духовки до 150°C и подержите в ней пирог еще 15 минут. После этого остудите пирог и переложите его на десертное блюдо.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80RXNyeUouanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Итальянская",
+      main_ingredient_title: "Для основного блюда",
+      optional_ingredient_title: "Для подачи",
+      main_ingredients: [
+        {
+          id: 313,
+          weight: 140,
+          custom_measure: "г",
+          custom_measure_count: 140,
+          title: "Сахарная пудра",
+        },
+        {
+          id: 282,
+          weight: 200,
+          custom_measure: "г",
+          custom_measure_count: 200,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 396,
+          weight: 300,
+          custom_measure: "г",
+          custom_measure_count: 300,
+          title: "Творог 9% жирности",
+        },
+        {
+          id: 338,
+          weight: 80,
+          custom_measure: "г",
+          custom_measure_count: 80,
+          title: "Сливочное масло",
+        },
+        {
+          id: 169,
+          weight: 240,
+          custom_measure: "шт.",
+          custom_measure_count: 4,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 183,
+          weight: 60,
+          custom_measure: "шт.",
+          custom_measure_count: 0.5,
+          title: "Лимон",
+        },
+        {
+          id: 335,
+          weight: 100,
+          custom_measure: "мл",
+          custom_measure_count: 100,
+          title: "Сливки 33% жирности",
+        },
+        {
+          id: 6052,
+          weight: 2.5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Ванильная эссенция",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 313,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Сахарная пудра",
+        },
+        {
+          id: 13001,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Цедра апельсина",
+        },
+      ],
+      proteins: 9.18,
+      fats: 13.92,
+      carbs: 25.99,
+      calories: 265.43,
+    },
+    {
+      id: 219116,
+      active_cooking_time: 30,
+      total_cooking_time: 70,
+      difficulty_level: 2,
+      title: "Пицца с сыром и овощами",
+      subtitle:
+        "Баклажан и кабачок сделают пиццу сытной, а помидор и болгарский перец аппетитно запекутся под сыром и наполнят начинку овощными соками. Чтобы приготовить веганский вариант пиццы, замените обычный сыр соевым сыром тофу. Тесто на быстродействующих дрожжах поднимется быстро, и на приготовление уйдет чуть больше 1 часа.",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy93cE5oVFAuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Вскипятите в чайнике воду и немного остудите. Просейте муку в глубокую миску. Помойте кабачок, баклажан, помидор, болгарский перец и базилик. Вырежьте у перца сердцевину с семенами, срежьте с кабачка грубую кожуру. Подготовьте терку, пиалу, чистое тканевое полотенце.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy9mOUEyVEguanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Соедините в пиале теплую воду, сухие дрожжи, ¼ ч.л. соли и мед. Все хорошо перемешайте и влейте в миску с мукой. Добавьте оливковое масло и замесите мягкое упругое тесто. Прикройте миску с тестом полотенцем и дайте ему постоять в тепле 20-30 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zYzU3YVQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Нарежьте баклажан полукольцами, выложите на тарелку и присыпьте ¼ ч.л. соли. Оставьте на 10-15 минут. Нарежьте кабачок круглыми слайсами, разрежьте помидоры на дольки, а перец нашинкуйте полосками. Отделите листочки базилика от стебля.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy80R05lbnUuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Выложите поднявшееся тесто на стол, обомните его и придайте форму круглой лепешки толщиной примерно 1-2 см. Застелите противень пергаментной бумагой. Переложите лепешку на противень. Смажьте тесто кетчупом, отступая от края на 1-1,5 см. Равномерно распределите по лепешке ломтики баклажана и кабачка, помидоры и полоски перца.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zWkxLZDUuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Разогрейте духовку до 180°C. Присыпьте овощи на лепешке приправой для пиццы, промажьте все майонезом. Натрите сыр, посыпьте заготовку для пиццы и поставьте противень в духовку. Выпекайте пиццу в течение 25-30 минут, пока края теста не подрумянятся, а сыр не расплавится. Достаньте пиццу и разложите на ней листочки базилика.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNy8zczk3WEQuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Европейская, итальянская",
+      main_ingredient_title: "Для основного блюда",
+      optional_ingredient_title: "Для подачи",
+      main_ingredients: [
+        {
+          id: 282,
+          weight: 130,
+          custom_measure: "стакан",
+          custom_measure_count: 1,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 54,
+          weight: 70,
+          custom_measure: "мл",
+          custom_measure_count: 70,
+          title: "Вода",
+        },
+        {
+          id: 368,
+          weight: 4,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Сухие дрожжи",
+        },
+        {
+          id: 431,
+          weight: 7,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Цветочный мед",
+        },
+        {
+          id: 240,
+          weight: 17,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Оливковое масло",
+        },
+        {
+          id: 13,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Баклажан",
+        },
+        {
+          id: 99,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Кабачок",
+        },
+        {
+          id: 272,
+          weight: 80,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Помидор",
+        },
+        {
+          id: 12402,
+          weight: 150,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Красный болгарский перец",
+        },
+        {
+          id: 12,
+          weight: 7,
+          custom_measure: "веточка",
+          custom_measure_count: 1,
+          title: "Базилик",
+        },
+        {
+          id: 271,
+          weight: 70,
+          custom_measure: "г",
+          custom_measure_count: 70,
+          title: "Полутвердый сыр",
+        },
+        {
+          id: 112,
+          weight: 50,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Кетчуп",
+        },
+        {
+          id: 194,
+          weight: 50,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Майонез",
+        },
+        {
+          id: 352,
+          weight: 5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Соль",
+        },
+        {
+          id: 278,
+          weight: 1,
+          custom_measure: "г",
+          custom_measure_count: 1,
+          title: "Приправа универсальная",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 12,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Базилик",
+        },
+      ],
+      proteins: 4.42,
+      fats: 8.15,
+      carbs: 16.56,
+      calories: 157.69,
+    },
+    {
+      id: 221889,
+      active_cooking_time: 20,
+      total_cooking_time: 70,
+      difficulty_level: 2,
+      title: "Персиковый пирог на миндальной муке",
+      subtitle:
+        "Для этого персикового пирога не понадобится пшеничная мука. Вместо нее измельчите миндаль в мелкую крошку или возьмите уже готовую миндальную муку. Тесто получится пластичным, так что можно будет придать ему любую форму. Или просто выложите тесто ровным слоем в форму для запекания. Остается красиво выложить персики и отправить пирог в духовку. ",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMS80WHBpY3MuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Помойте персики, разрежьте пополам и уберите косточки. Помойте и высушите миндаль. Достаньте сливочное масло из холодильника заранее, чтобы оно стало мягким. Подготовьте форму для запекания, миксер и блендер с чашей.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80M1NrUDIuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description: "Измельчите в блендере миндаль до мелкой крошки.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zWU50S2MuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Положите в миску масло, оставив одну чайную ложку для смазывания формы. Добавьте куриное яйцо, 3/4 стакана сахара, ванилин и молоко. Тщательно перемешайте при помощи миксера.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9GeU1Lb1UuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Всыпьте разрыхлитель и измельченный миндаль. Замесите однородное тесто.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80Q3NjR3ouanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Нарежьте персики небольшими дольками. Положите их в другую миску, всыпьте оставшийся сахар и мускатный орех. Перемешайте начинку.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9nTlZwSnIuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "Смажьте форму для запекания оставшимся сливочным маслом. Равномерно распределите форму по дну. Разровняйте поверхность лопаткой.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC94Vmd5V1YuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 6",
+          description:
+            "Сверху разложите кусочки персиков, слегка вдавливая их в тесто. Отправьте форму в духовку, разогретую до 180°С, на 50 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zZ2M2VlcuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Европейская",
+      main_ingredient_title: "Для блюда",
+      optional_ingredient_title: "Для подачи",
+      main_ingredients: [
+        {
+          id: 207,
+          weight: 140,
+          custom_measure: "г",
+          custom_measure_count: 140,
+          title: "Миндаль",
+        },
+        {
+          id: 225,
+          weight: 3,
+          custom_measure: "г",
+          custom_measure_count: 3,
+          title: "Мускатный орех",
+        },
+        {
+          id: 44,
+          weight: 2.5,
+          custom_measure: "г",
+          custom_measure_count: 2.5,
+          title: "Ванилин",
+        },
+        {
+          id: 312,
+          weight: 180,
+          custom_measure: "г",
+          custom_measure_count: 180,
+          title: "Сахар",
+        },
+        {
+          id: 285,
+          weight: 5,
+          custom_measure: "г",
+          custom_measure_count: 5,
+          title: "Разрыхлитель теста",
+        },
+        {
+          id: 685,
+          weight: 660,
+          custom_measure: "г",
+          custom_measure_count: 660,
+          title: "Персики",
+        },
+        {
+          id: 696,
+          weight: 100,
+          custom_measure: "мл",
+          custom_measure_count: 100,
+          title: "Молоко 2,5% жирности",
+        },
+        {
+          id: 169,
+          weight: 60,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Куриное яйцо",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 313,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Сахарная пудра",
+        },
+      ],
+      proteins: 3.74,
+      fats: 8.03,
+      carbs: 24.56,
+      calories: 176.29,
+    },
+    {
+      id: 218828,
+      active_cooking_time: 30,
+      total_cooking_time: 100,
+      difficulty_level: 3,
+      title: "Песочный пирог с безе",
+      subtitle:
+        "В этом пироге легкое безе сочетается с песочным хрустящим коржом и сладкой творожной начинкой. Взбитые до устойчивых пиков белки добавляются в пирог в последнюю очередь, когда он уже почти готов. Просто выложите их ровным слоем поверх теста. Прежде чем поставить пирог с безе обратно в духовку, сверху посыпьте его сахаром. По мере выпекания он карамелизируется, придавая аппетитный золотистый оттенок и дополнительную сладость.",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80VkF1WXEuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Просейте муку. Помойте куриные яйца. Уберите сливочное масло на 30 минут в морозилку перед приготовлением пирога. Подготовьте миксер.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9DYXdTbUQuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Натрите застывшее масло на крупной терке. Смешайте муку с разрыхлителем и насыпьте в миску с маслом. Перетрите муку с маслом в крошку.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80NWd6S3kuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Добавьте 2 ст.л. сахара и 1 куриное яйцо. Замесите плотное однородное тесто. Уберите его в холодильник на 30 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9GbzJvVHIuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "В это время в другой миске тщательно смешайте творог со сметаной, тремя яичными желтками, манкой, ванилином и оставшимся сахаром.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zMlUyWHEuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Разогрейте духовку до 180°C. Раскатайте тесто в тонкий пласт и переложите в форму для запекания, формируя бортики. Выложите начинку ровным слоем. Отправьте пирог в духовку на 25 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80N1A0VnEuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "За 5 минут до готовности пирога взбейте миксером 3 яичных белка с сахарной пудрой до устойчивых пиков.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zcTd5OG4uanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 6",
+          description:
+            "Выложите взбитые белки на пирог и верните его в духовку еще на 15 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zckNjN1EuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Европейская",
+      main_ingredient_title: "Для песочной основы и начинки",
+      optional_ingredient_title: "Для безе",
+      main_ingredients: [
+        {
+          id: 282,
+          weight: 130,
+          custom_measure: "стакан",
+          custom_measure_count: 1,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 338,
+          weight: 90,
+          custom_measure: "г",
+          custom_measure_count: 90,
+          title: "Сливочное масло",
+        },
+        {
+          id: 312,
+          weight: 140,
+          custom_measure: "г",
+          custom_measure_count: 140,
+          title: "Сахар",
+        },
+        {
+          id: 169,
+          weight: 60,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 285,
+          weight: 5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Разрыхлитель теста",
+        },
+        {
+          id: 394,
+          weight: 450,
+          custom_measure: "г",
+          custom_measure_count: 450,
+          title: "Творог",
+        },
+        {
+          id: 345,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Сметана 15% жирности",
+        },
+        {
+          id: 87,
+          weight: 51,
+          custom_measure: "шт.",
+          custom_measure_count: 3,
+          title: "Желток куриного яйца",
+        },
+        {
+          id: 198,
+          weight: 16,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Манная крупа",
+        },
+        {
+          id: 44,
           weight: 1,
           custom_measure: "щепотка",
           custom_measure_count: 1,
-          title: "Черный перец молотый",
-        },
-        {
-          id: 247,
-          weight: 1.5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Паприка",
-        },
-        {
-          id: 704,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Сырный соус",
-        },
-        {
-          id: 231,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Овощи",
-        },
-        {
-          id: 314,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Свежая зелень",
+          title: "Ванилин",
         },
       ],
-      proteins: 5.05,
-      fats: 29.26,
-      carbs: 16.45,
-      calories: 338.38,
+      optional_ingredients: [
+        {
+          id: 22,
+          weight: 99,
+          custom_measure: "шт.",
+          custom_measure_count: 3,
+          title: "Белок куриного яйца",
+        },
+        {
+          id: 313,
+          weight: 75,
+          custom_measure: "ст. л.",
+          custom_measure_count: 3,
+          title: "Сахарная пудра",
+        },
+      ],
+      proteins: 10.08,
+      fats: 11.05,
+      carbs: 26.96,
+      calories: 243.1,
     },
     {
       id: 218819,
@@ -18454,12 +18559,12 @@ export const recipes: ICategoryRecipe = {
       subtitle:
         "Волованы идеально подходят в качестве закуски и могут стать достойными конкурентами канапе на фуршете. Основа из нежного слоеного теста заполняется любой начинкой, обычно несладкой. Идеальным вариантом могут стать паштеты или овощные пюре. Мы выбрали шампиньоны, обжарили их с луком и измельчили в блендере.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zV29QWlQuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zV29QWlQuanBlZw==.jpg",
       preparation: {
         content:
           "Разморозьте тесто заранее, если оно было заморожено. Тщательно вымойте и обсушите грибы, лук и яйцо. Снимите с лука шелуху. Подготовьте силиконовую кисточку, блендер и формочки-вырубки для волованов. По форме они должны быть одинаковыми, но двух разных размеров: побольше и поменьше.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC82ZGZoYkcuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC82ZGZoYkcuanBlZw==.jpg",
       },
       cooking: [
         {
@@ -18467,70 +18572,70 @@ export const recipes: ICategoryRecipe = {
           description:
             "Раскатайте тесто в пласт толщиной примерно 3-4 мм. Возьмите формочки одинаковой формы, но разного размера: побольше и поменьше. Вырежьте из теста заготовки для волованов. У половины из них формочками меньшего размера вырежьте середину, чтобы получился толстый контур из теста.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC94c3pFSGsuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC94c3pFSGsuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
             "Разогрейте духовку до 180°C. Застелите форму для запекания пергаментом. Выложите основные круглые заготовки на противень.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9NdXVScU4uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9NdXVScU4uanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
             "Отделите у яйца белок от желтка. Смажьте желтком тесто на противне. Выложите заготовки-контуры сверху на круглые основания, должна получиться плоская «корзиночка».",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9SQVgyS1AuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9SQVgyS1AuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
             "Смажьте волованы желтком при помощи силиконовой кисточки. Отправьте в разогретую духовку на 20 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9KTWNLRGkuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9KTWNLRGkuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
             "Нарежьте шампиньоны небольшими произвольными пластинками. Накрошите лук мелкими кубиками.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zZ0FGc1YuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zZ0FGc1YuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
             "Разогрейте сковороду с маслом. Выложите в нее лук. Помешивая, обжарьте до прозрачности.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zOEJoVlAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zOEJoVlAuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
             "Добавьте к луку грибы. Жарьте, пока грибы не подрумянятся, а жидкость не выпарится.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9nWFNCc0QuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9nWFNCc0QuanBlZw==.jpg",
         },
         {
           title: "Шаг 8",
           description:
             "Посолите и поперчите овощи. Добавьте сметану и чабрец к луку и грибам, перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9BMlN1dnYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9BMlN1dnYuanBlZw==.jpg",
         },
         {
           title: "Шаг 9",
           description:
             "Выложите грибы с луком в чашу блендера. Измельчите в однородное пюре.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9wYUJVN2suanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9wYUJVN2suanBlZw==.jpg",
         },
         {
           title: "Шаг 10",
           description:
             "Достаньте волованы из духовки. Наполните их грибной начинкой.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zcmFuU0ouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zcmFuU0ouanBlZw==.jpg",
         },
       ],
       kitchen_type: "Французская",
@@ -18616,1030 +18721,247 @@ export const recipes: ICategoryRecipe = {
       calories: 223.65,
     },
     {
-      id: 218814,
-      active_cooking_time: 25,
-      total_cooking_time: 55,
-      difficulty_level: 2,
-      title: "Фаршированные перцы с сыром в духовке",
-      subtitle:
-        "Запеченные в духовке фаршированные перцы готовить быстрее и проще, чем тушеные. Особенно если не добавлять в начинку рис. Смешайте фарш с луком и специями, начините им очищенные перцы и запеките под тертым сыром. Для быстроты возьмите куриный фарш и предварительно подержите перцы в кипятке несколько минут. Выберите сыр, который хорошо плавится и запекается до красивой румяной корочки, например, гауду, сулугуни или моцареллу. Благодаря сырной корочке сок начинки останется внутри.",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9IQjZqU1cuanBlZw.jpg",
-      preparation: {
-        content:
-          "Помойте яйцо и болгарский перец, оботрите с них влагу бумажными полотенцами. Осторожно, чтобы не повредить мякоть, удалите из перцев сердцевину с семенами. Вымойте и почистите лук. Ополосните тимьян. Подготовьте миску, кастрюлю и глубокую форму для запекания.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80UjZjOEsuanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Налейте в кастрюлю 1,5-2 л воды. Поставьте на сильный огонь и дайте воде закипеть. Опустите в кипящую воду очищенные перцы. Проварите перцы в течение 3-4 минут, пока они слегка не размягчатся.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC82dVZrWDIuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Снимите кастрюлю с огня и достаньте перцы из воды. Выложите их на тарелку или доску немного остыть и обсохнуть.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zYU50ajMuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Переложите куриный фарш из упаковки в миску. Посыпьте фарш солью и черным перцем, хорошо перемешайте.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zSFNweEUuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description:
-            "Нарежьте репчатый лук кубиками со стороной примерно 3-4 мм. Выложите нарезанный лук в миску к фаршу.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zOTJWNFMuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 5",
-          description:
-            "Отделите листочки тимьяна от стеблей, мелко порубите и добавьте их к фаршу.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9QWnU2TVguanBlZw.jpg",
-        },
-        {
-          title: "Шаг 6",
-          description:
-            "Разбейте яйцо в миску с фаршем. Тщательно вымесите фарш со всеми ингредиентами до однородного гладкого состояния.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9wWVViU1IuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 7",
-          description:
-            "Смажьте форму для запекания растительным маслом. Утрамбуйте фарш в болгарские перцы, поставьте их в форму вертикально отверстиями вверх.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80RVZ6cEIuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 8",
-          description:
-            "Включите духовку разогреваться до 180°C. Крупно натрите сыр. Равномерно посыпьте сыром отверстия фаршированных перцев.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8za0Fqb1MuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 9",
-          description:
-            "Поставьте форму с перцем в духовку и запекайте их в течение 25-30 минут. Достаньте фаршированные перцы с сыром и переложите их на сервировочное блюдо.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80VFFrS2cuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Русская",
-      main_ingredient_title: "Для основного блюда",
-      optional_ingredient_title: null,
-      main_ingredients: [
-        {
-          id: 12402,
-          weight: 150,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Красный болгарский перец",
-        },
-        {
-          id: 12401,
-          weight: 150,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Желтый болгарский перец",
-        },
-        {
-          id: 12400,
-          weight: 150,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Зеленый болгарский перец",
-        },
-        {
-          id: 176,
-          weight: 200,
-          custom_measure: "г",
-          custom_measure_count: 200,
-          title: "Куриный фарш",
-        },
-        {
-          id: 271,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Полутвердый сыр",
-        },
-        {
-          id: 290,
-          weight: 20,
-          custom_measure: "г",
-          custom_measure_count: 20,
-          title: "Репчатый лук",
-        },
-        {
-          id: 169,
-          weight: 60,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Куриное яйцо",
-        },
-        {
-          id: 352,
-          weight: 5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Соль",
-        },
-        {
-          id: 439,
-          weight: 1.25,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.25,
-          title: "Черный перец молотый",
-        },
-        {
-          id: 270,
-          weight: 5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Подсолнечное масло рафинированное",
-        },
-        {
-          id: 402,
-          weight: 2,
-          custom_measure: "веточка",
-          custom_measure_count: 2,
-          title: "Тимьян / чабрец",
-        },
-      ],
-      optional_ingredients: [],
-      proteins: 7.46,
-      fats: 4.9,
-      carbs: 4.81,
-      calories: 93.51,
-    },
-    {
-      id: 221851,
-      active_cooking_time: 20,
+      id: 218811,
+      active_cooking_time: 30,
       total_cooking_time: 70,
       difficulty_level: 2,
-      title: "Пряный морковный дип",
+      title: "Творожный пирог с вишней",
       subtitle:
-        "Пряный, яркий и очень ароматный — это солнечный морковный дип с тахини и восточными специями. Подайте его к питам, тостам или крекерам. Паста тахини всегда придает дипам кремовую консистенцию, а еще характерную кунжутную нотку. А чтобы загустить намазку, добавьте консервированную белую фасоль. ",
+        "Этот красивый пирог готовится очень просто. Бездрожжевое тесто не требует расстойки и соблюдения температурного режима. Просто смешайте все ингредиенты и выложите в форму для запекания. Выпечка получится пышной благодаря добавлению гашеной соды. Для приготовления начинки рекомендуем измельчить творог блендером или перетереть его через сито. Так творожная масса станет более нежной и воздушной.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcxMC85elU3em0uanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80NjVyVEIuanBlZw==.jpg",
       preparation: {
         content:
-          "Помойте и почистите морковь. Промойте под проточной водой фасоль. Сполосните лимон. Застелите противень пергаментом. Подготовьте блендер с чашей.",
+          "Переберите вишню от листочков и веточек, промойте ягоды под проточной водой и обсушите на бумажных полотенцах. Удалите косточки из вишни. Просейте муку. Помойте куриные яйца. Подготовьте форму для запекания, миксер и погружной блендер.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9wVmhQd0EuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9Dc2pRZnouanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description:
-            "Разрежьте каждую морковку вдоль пополам и положите на противень.",
+            "Взбейте миксером 2 куриных яйца и 1 стакан сахара в пышную массу.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9YNFZ1bm0uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80NDlWd3MuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
-            "Разогрейте духовой шкаф до 180°С. Посыпьте морковь кумином и щепоткой соли. Сбрызните 1 ст.л. оливкового масла и отправьте в духовку на 50 минут.",
+            "Растопите сливочное масло в микроволновке или на плите. Остудите его и влейте к яйцам. Смешайте все при помощи миксера.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9qRUNmN0MuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC91SGVpWFcuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
-            "Положите запеченную морковь в чашу блендера. Туда же добавьте фасоль.",
+            "Погасите соду столовым уксусом или лимонным соком. Добавьте к яичной массе 5 ст.л. молока, соль и гашеную соду. Тщательно перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC9vc3F3SkEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9iVENzenguanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Выжмите из лимона сок. Влейте его в чашу блендера вместе с кленовым сиропом и оставшимся оливковым маслом.",
+            "Порциями добавьте в тесто муку. После каждой порции тщательно вымешивайте тесто до получения однородной консистенции без комочков.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC8zQzZIb0QuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC92bUtrWjMuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "Посолите и поперчите морковь. Включите блендер на 1-2 минуты, чтобы все ингредиенты хорошенько измельчились и перемешались.",
+            "Смажьте форму для запекания растительным маслом. Выложите в форму тесто и разровняйте поверхность лопаткой.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDcwOC80TVlLYjcuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Марокканская",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: "Для подачи",
-      main_ingredients: [
-        {
-          id: 241,
-          weight: 51,
-          custom_measure: "ст. л.",
-          custom_measure_count: 3,
-          title: "Оливковое масло Extra Virgin",
-        },
-        {
-          id: 219,
-          weight: 270,
-          custom_measure: "шт.",
-          custom_measure_count: 3,
-          title: "Морковь",
-        },
-        {
-          id: 94,
-          weight: 6,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Зира / Кумин",
-        },
-        {
-          id: 352,
-          weight: 2,
-          custom_measure: "щепотка",
-          custom_measure_count: 2,
-          title: "Соль",
-        },
-        {
-          id: 439,
-          weight: 1,
-          custom_measure: "щепотка",
-          custom_measure_count: 1,
-          title: "Черный перец молотый",
-        },
-        {
-          id: 125,
-          weight: 150,
-          custom_measure: "стакан",
-          custom_measure_count: 0.75,
-          title: "Консервированная белая фасоль",
-        },
-        {
-          id: 562,
-          weight: 10,
-          custom_measure: "ч. л.",
-          custom_measure_count: 2,
-          title: "Тахини",
-        },
-        {
-          id: 642,
-          weight: 3,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Кленовый сироп",
-        },
-        {
-          id: 183,
-          weight: 60,
-          custom_measure: "шт.",
-          custom_measure_count: 0.5,
-          title: "Лимон",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 716,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Гренки из белого хлеба",
-        },
-        {
-          id: 240,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Оливковое масло",
-        },
-        {
-          id: 11758,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Микрозелень",
-        },
-        {
-          id: 275,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Помидоры черри",
-        },
-      ],
-      proteins: 3.27,
-      fats: 10.32,
-      carbs: 10.24,
-      calories: 143.75,
-    },
-    {
-      id: 218694,
-      active_cooking_time: 50,
-      total_cooking_time: 80,
-      difficulty_level: 3,
-      title: "Фаршированные перцы с мясом и рисом",
-      subtitle:
-        "Классика русской кухни, фаршированный мясом и рисом болгарский перец гарантирует вкус, сытность и аппетитный аромат в одном блюде. Обжарьте лук перед тем, как класть его в фарш, так перец станет еще вкуснее. А рис сварите до полуготовности, чтобы он уже полностью распарился в соках томатной заливки, перца и мяса, впитав в себя их вкусы. Добавьте в фарш любимые приправы для мяса, чтобы придать готовому блюду аппетитный аромат.",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9VWHJBVmYuanBlZw.jpg",
-      preparation: {
-        content:
-          "Помойте болгарские перцы. Аккуратно разрежьте перцы пополам и удалите из них сердцевину с семенами. Вымойте и почистите лук и чеснок. Промойте рис до прозрачной воды. Ополосните яйцо и петрушку, промокните их бумажными салфетками от влаги. Отделите листочки петрушки от стеблей. Подготовьте сковороду, миски, небольшую кастрюлю и глубокий сотейник с крышкой.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy80UHpmcVkuanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Выложите рис в кастрюлю, влейте 0,5 стакана воды. Поставьте кастрюлю на сильный огонь. Дождитесь, когда вода закипит.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy80RXdHb0guanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Уменьшите огонь до слабого, всыпьте в воду ⅙ ч.л. соли. Варите рис до полуготовности в течение 10-15 минут. Снимите кастрюлю с огня и дайте рису остыть.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy80SGZONEsuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Нарежьте лук кубиками со стороной 4-5 мм. Налейте в сковороду растительное масло, разогрейте его на среднем огне. Обжарьте лук, помешивая, 2-3 минуты до светло-золотистого цвета.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zcGNqdW0uanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description:
-            "Положите фарш в глубокую миску, добавьте к нему рис и обжаренный лук. Пропустите чеснок через пресс или мелко его натрите, также выложите к фаршу.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9GSnZBdXcuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 5",
-          description:
-            "Приправьте фарш ⅙ ч.л. соли, черным перцем и специями для мяса.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9qQjlNcUMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC84VURTcW0uanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
-            "Разбейте в фарш яйцо, все тщательно перемешайте до однородной массы.",
+            "Разрежьте каждую вишенку пополам. Выложите всю вишню поверх теста равномерным слоем.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zS1pGV0suanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zcVNhY1EuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
-            "Разрежьте перцы на две части в виде лодочек. Распределите получившуюся начинку с мясом и рисом по очищенным перцам, заполняя их полностью.",
+            "Измельчите творог с сахаром при помощи блендера. Добавьте куриное яйцо, 2 ст.л. молока и крахмал. Тщательно перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zY3JCQWIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zVEZXc3IuanBlZw==.jpg",
         },
         {
           title: "Шаг 8",
           description:
-            "Поместите нафаршированные перцы в кастрюлю отверстиями вверх.",
+            "Выложите начинку на тесто. Отправьте пирог в духовку, разогретую до 180°C, на 40 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy81Uml5WjIuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 9",
-          description:
-            "Налейте в небольшую чистую миску 2 стакана воды, положите к ней томатную пасту и ⅙ ч.л. соли. Хорошо перемешайте и залейте томатной смесью перцы в кастрюле.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy80QW9jZkguanBlZw.jpg",
-        },
-        {
-          title: "Шаг 10",
-          description:
-            "Поставьте кастрюлю с перцами на средний огонь, дождитесь, когда томатная смесь закипит. Уменьшите огонь до слабого и потушите фаршированный перец в течение 20-30 минут под крышкой до готовности мяса и мягкости самого перца.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zOENYSm8uanBlZw.jpg",
-        },
-        {
-          title: "Шаг 11",
-          description:
-            "Мелко порубите листья петрушки. Посыпьте ими фаршированный перец и снимите кастрюлю с огня.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9WYlJ1UzguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9YY1hqa1AuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
-      main_ingredient_title: "Для основного блюда",
-      optional_ingredient_title: "Для подачи",
+      main_ingredient_title: "Для теста",
+      optional_ingredient_title: "Для начинки",
       main_ingredients: [
-        {
-          id: 227,
-          weight: 200,
-          custom_measure: "г",
-          custom_measure_count: 200,
-          title: "Мясной фарш",
-        },
-        {
-          id: 294,
-          weight: 45,
-          custom_measure: "г",
-          custom_measure_count: 45,
-          title: "Рис длиннозерный",
-        },
-        {
-          id: 404,
-          weight: 30,
-          custom_measure: "г",
-          custom_measure_count: 30,
-          title: "Томатная паста",
-        },
-        {
-          id: 290,
-          weight: 40,
-          custom_measure: "г",
-          custom_measure_count: 40,
-          title: "Репчатый лук",
-        },
-        {
-          id: 440,
-          weight: 5,
-          custom_measure: "зубчик",
-          custom_measure_count: 1,
-          title: "Чеснок",
-        },
-        {
-          id: 352,
-          weight: 5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Соль",
-        },
-        {
-          id: 439,
-          weight: 0.5,
-          custom_measure: "г",
-          custom_measure_count: 0.5,
-          title: "Черный перец молотый",
-        },
-        {
-          id: 169,
-          weight: 60,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Куриное яйцо",
-        },
-        {
-          id: 260,
-          weight: 8,
-          custom_measure: "г",
-          custom_measure_count: 8,
-          title: "Петрушка",
-        },
-        {
-          id: 54,
-          weight: 500,
-          custom_measure: "мл",
-          custom_measure_count: 500,
-          title: "Вода",
-        },
-        {
-          id: 270,
-          weight: 10,
-          custom_measure: "ч. л.",
-          custom_measure_count: 2,
-          title: "Подсолнечное масло рафинированное",
-        },
-        {
-          id: 32,
-          weight: 600,
-          custom_measure: "шт.",
-          custom_measure_count: 4,
-          title: "Болгарский перец",
-        },
-        {
-          id: 707,
-          weight: 1,
-          custom_measure: "г",
-          custom_measure_count: 1,
-          title: "Приправа для фарша",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 314,
-          weight: 0,
-          custom_measure: "по желанию",
-          custom_measure_count: 0,
-          title: "Свежая зелень",
-        },
-      ],
-      proteins: 2.92,
-      fats: 5.59,
-      carbs: 5.98,
-      calories: 84.09,
-    },
-    {
-      id: 218547,
-      active_cooking_time: 35,
-      total_cooking_time: 35,
-      difficulty_level: 2,
-      title: "Мидии в соусе Том Ям",
-      subtitle:
-        "Благодаря пасте Том Ям самые популярные блюда тайской кухни легко готовить дома. Сделайте на ее основе пряный и ароматный соус для мидий в тайском стиле. Обжарьте пасту Том Ям с чесноком, затем прокипятите все с кокосовым молоком. Добавьте сок лайма и прогрейте в соусе заранее отваренные мидии: в ракушках или уже очищенные.",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zQUhFZE0uanBlZw.jpg",
-      preparation: {
-        content:
-          "Помойте лайм, оботрите его от влаги бумажными полотенцами. Вымойте и почистите чеснок. Подготовьте кастрюлю, миску и сотейник. Очистите мидии.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS9SazdrVzUuanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Налейте в кастрюлю 1-1,5 литра воды. Поставьте на сильный огонь и дайте воде закипеть. Опустите в воду мидии в ракушках. Проварите их в течение 5 минут.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS80NFdVUncuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Достаньте мидии из воды шумовкой и переложите в миску. Прикройте миску крышкой или тарелкой.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zWlJ1cHguanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Выжмите сок из половины лайма. Пропустите чеснок через пресс или мелко его натрите.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS9qeHNoaVEuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description:
-            "Поставьте чистую кастрюлю на средний огонь. Налейте в нее растительное масло и хорошо разогрейте. Положите чеснок в горячее масло. Обжарьте его, помешивая, 1-2 минуты до золотистого цвета.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS9kM3JDM2EuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 5",
-          description:
-            "Положите в кастрюлю к чесноку пасту Том Ям. Прогрейте все вместе, помешивая, 1-2 минуты. Влейте в кастрюлю кокосовое молоко, всыпьте сушеную кинзу.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS80RGdOUHQuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 6",
-          description:
-            "Тщательно перемешайте получившийся соус и дождитесь, когда он закипит. Добавьте в кастрюлю сок лайма и выложите отваренные мидии. Хорошо размешайте, чтобы все мидии равномерно покрылись соусом. Прогрейте 2-3 минуты и снимите сотейник с огня.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zQVRLTHYuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Тайская",
-      main_ingredient_title: "Для основного блюда",
-      optional_ingredient_title: "Для подачи",
-      main_ingredients: [
-        {
-          id: 735,
-          weight: 27,
-          custom_measure: "ст. л.",
-          custom_measure_count: 1.5,
-          title: "Паста Том Ям",
-        },
-        {
-          id: 123,
-          weight: 100,
-          custom_measure: "мл",
-          custom_measure_count: 100,
-          title: "Кокосовое молоко",
-        },
-        {
-          id: 440,
-          weight: 5,
-          custom_measure: "зубчик",
-          custom_measure_count: 1,
-          title: "Чеснок",
-        },
-        {
-          id: 371,
-          weight: 1,
-          custom_measure: "г",
-          custom_measure_count: 1,
-          title: "Сушеная кинза",
-        },
-        {
-          id: 180,
-          weight: 30,
-          custom_measure: "г",
-          custom_measure_count: 30,
-          title: "Лайм",
-        },
-        {
-          id: 270,
-          weight: 10,
-          custom_measure: "ч. л.",
-          custom_measure_count: 2,
-          title: "Подсолнечное масло рафинированное",
-        },
-        {
-          id: 786,
-          weight: 250,
-          custom_measure: "г",
-          custom_measure_count: 250,
-          title: "Мидии в раковинах",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 116,
-          weight: 0,
-          custom_measure: "по желанию",
-          custom_measure_count: 0,
-          title: "Кинза",
-        },
-      ],
-      proteins: 7.58,
-      fats: 10.23,
-      carbs: 5.54,
-      calories: 143.34,
-    },
-    {
-      id: 219200,
-      active_cooking_time: 10,
-      total_cooking_time: 10,
-      difficulty_level: 1,
-      title: "Копченые томаты со страчателлой",
-      subtitle:
-        "Пряные вяленые томаты готовятся не так быстро, а вот помидоры на гриле в ароматных специях подойдут всего за полчаса. Нужно только пожарить несколько крепких томатов в ароматном масле до первых подпалин. Подайте их со сливочной страчателлой, бальзамическим уксусом, песто или любым другим соусом на ваш вкус.",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zZFFRcDkuanBlZw.jpg",
-      preparation: {
-        content: "Помойте томаты. ",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC82ZW92NkIuanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Смешайте в небольшой миске оливковое масло, сушеный чеснок, сахар, орегано, розмарин и соль.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9vSG5leUouanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Разрежьте томаты поперек, чтобы на одной половине была плодоножка, а на другой — кончик. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Полейте томаты пряным маслом, дайте немного постоять, а затем обжарьте на сильном огне до появления черных подпалин. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9jcGdNTFguanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Интернациональная",
-      main_ingredient_title: "Для основного блюда",
-      optional_ingredient_title: "Для подачи",
-      main_ingredients: [
-        {
-          id: 272,
-          weight: 800,
-          custom_measure: "г",
-          custom_measure_count: 800,
-          title: "Помидор",
-        },
-        {
-          id: 240,
-          weight: 50,
-          custom_measure: "мл",
-          custom_measure_count: 50,
-          title: "Оливковое масло",
-        },
-        {
-          id: 386,
-          weight: 1,
-          custom_measure: "г",
-          custom_measure_count: 1,
-          title: "Сушеный чеснок",
-        },
         {
           id: 312,
-          weight: 10,
+          weight: 180,
           custom_measure: "г",
-          custom_measure_count: 10,
+          custom_measure_count: 180,
           title: "Сахар",
         },
         {
-          id: 383,
-          weight: 1,
+          id: 338,
+          weight: 120,
           custom_measure: "г",
-          custom_measure_count: 1,
-          title: "Сушеный орегано (душица)",
+          custom_measure_count: 120,
+          title: "Сливочное масло",
         },
         {
-          id: 802,
-          weight: 1,
-          custom_measure: "г",
-          custom_measure_count: 1,
-          title: "Сушеный розмарин",
+          id: 169,
+          weight: 120,
+          custom_measure: "шт.",
+          custom_measure_count: 2,
+          title: "Куриное яйцо",
         },
         {
-          id: 221,
-          weight: 20,
-          custom_measure: "г",
-          custom_measure_count: 20,
-          title: "Морская соль",
+          id: 553,
+          weight: 100,
+          custom_measure: "мл",
+          custom_measure_count: 100,
+          title: "Молоко 3,2%",
+        },
+        {
+          id: 348,
+          weight: 2.5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Сода",
+        },
+        {
+          id: 363,
+          weight: 5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Столовый уксус",
+        },
+        {
+          id: 282,
+          weight: 390,
+          custom_measure: "стакан",
+          custom_measure_count: 3,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 287,
+          weight: 5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Растительное масло",
         },
       ],
       optional_ingredients: [
         {
-          id: 19292,
+          id: 394,
+          weight: 270,
+          custom_measure: "г",
+          custom_measure_count: 270,
+          title: "Творог",
+        },
+        {
+          id: 507,
           weight: 300,
           custom_measure: "г",
           custom_measure_count: 300,
-          title: "Сыр страчателла",
+          title: "Вишня",
+        },
+        {
+          id: 312,
+          weight: 90,
+          custom_measure: "г",
+          custom_measure_count: 90,
+          title: "Сахар",
+        },
+        {
+          id: 169,
+          weight: 60,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 553,
+          weight: 40,
+          custom_measure: "мл",
+          custom_measure_count: 40,
+          title: "Молоко 3,2%",
+        },
+        {
+          id: 15314,
+          weight: 40,
+          custom_measure: "г",
+          custom_measure_count: 40,
+          title: "Крахмал",
         },
       ],
-      proteins: 3.31,
-      fats: 9.69,
-      carbs: 3.93,
-      calories: 115.05,
+      proteins: 6.9,
+      fats: 8.62,
+      carbs: 35.45,
+      calories: 242.69,
     },
     {
-      id: 219183,
-      active_cooking_time: 30,
-      total_cooking_time: 30,
+      id: 218777,
+      active_cooking_time: 40,
+      total_cooking_time: 60,
       difficulty_level: 2,
-      title: "Тортилья с курицей",
+      title: "Пирожки с ягодной начинкой",
       subtitle:
-        "Солнечные тортильи прямиком из Мексики на вашей кухне! Жареная курица в кукурузных лепешках с тягучим сыром чеддер обязательно понравится и детям, и взрослым. А еще это блюдо можно сделать не только дома, но и на уличном барбекю. Чтобы подача была по-настоящему мексиканской, приготовьте соус гуакамоле по нашему рецепту.",
+        "Одна из лучших начинок для сладких пирожков — ягоды. Какие бы вы не взяли, они не будут слишком приторными и добавят выпечке приятную кислинку. Берите любые: свежие или замороженные, вишню или клубнику. Только перед приготовлением ягоды нужно смешать с крахмалом — он впитает лишний сок, и не даст начинке вытечь. Вкус выпечки отлично подчеркнет тесто на твороге.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zdXFpd3ouanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9WbjNtYWYuanBlZw==.jpg",
       preparation: {
         content:
-          "Помойте овощи, разморозьте куриную грудку. Извлеките плодоножку из сладкого перца, уберите семена. Очистите авокадо и удалите косточку. Ополосните зелень. ",
+          "Промойте ягоды, если они свежие, или разморозьте и слейте лишнюю жидкость с замороженных. Дважды просейте муку, чтобы наполнить ее кислородом. Вымойте яйцо.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80WDVHWEQuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zWVp6UWcuanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description:
-            "Измельчите в блендере кумин, семена кориандра и аниса, цедру лайма и 1 зубчик чеснока. Разделите получившуюся смесь на две части: одна понадобится для начинки, вторая — для соуса.",
+            "Взболтайте яйцо вилкой или венчиком. Протрите творог через сито и смешайте его с яйцом.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zRWhiOEQuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
-            "Крупно натрите сыр. Нарежьте лук и перец мелкими кубиками.",
+            "Всыпьте в яично-творожную смесь сахар, соль и разрыхлитель. Перемешайте и начните порционно добавлять муку. После каждой части хорошо перемешивайте, чтобы не оставалось комочков. Замесите гладкое тесто. Оставьте отдыхать, пока готовите начинку.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC85NXFqR3IuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80TjRmeEwuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
-          description: "Нарежьте куриное филе тонкими полосками. ",
+          description:
+            "Положите ягоды в миску. Засыпьте крахмалом. Перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zVEx1dVguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC8zdjRwUVEuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Взбейте консервированные томаты в блендере с половиной смеси специй и соком лайма. ",
+            "Разделите тесто на 9 равных частей. Раскатайте каждый кусочек в лепешку. Не делайте ее слишком тонкой, иначе тесто порвется, а начинка вытечет.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9pTm9vRUIuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "Обжарьте лук с перцем в сотейнике до золотистости. После этого переложите овощи в отдельную тарелку. ",
+            "Положите немного начинки на каждую часть раскатанного теста.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC80QkFnR0wuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
-            "В том же сотейнике обжарьте куриные полоски до румяной корочки. Затем верните в сотейник овощи, добавьте томаты со специями и кукурузу. Томите начинку на среднем огне около 15–20 минут.",
+            "Разогрейте духовку до 180°C. Застелите противень пергаментом или силиконовым ковриком. Скрепите края теста над начинкой. Уложите пирожки на противень, чтобы они не соприкасались друг с другом. Выпекайте 20 минут до красивого румянца.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC92OVJVa3cuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 7",
-          description:
-            "Подпеките тортильи на сковороде или гриле с одной стороны. Выложите начинку на одну половину, посыпьте ее сыром, а затем сверните лепешку пополам.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9nTmFvNlEuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 8",
-          description:
-            "Дайте начинке прогреться внутри лепешки в течение нескольких минут. Так сыр хорошо расплавится и скрепит начинку с тортильей. Готовую тортилью выложите из сковороды и разрежьте на 2 части, чтобы у вас получились 2 треугольника. Повторите то же самое с другой тортильей. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
-        },
-        {
-          title: "Шаг 9",
-          description:
-            "Сделайте соус гуакамоле. Для этого смешайте в блендере 1 зубчик чеснока, сок 1 лайма, 1 мягкое авокадо и оставшуюся половину специй с цедрой. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
-        },
-      ],
-      kitchen_type: "Интернациональная",
-      main_ingredient_title: "Для начинки",
-      optional_ingredient_title: "Для соуса и подачи",
-      main_ingredients: [
-        {
-          id: 127,
-          weight: 80,
-          custom_measure: "г",
-          custom_measure_count: 80,
-          title: "Консервированная кукуруза",
-        },
-        {
-          id: 19849,
-          weight: 150,
-          custom_measure: "г",
-          custom_measure_count: 150,
-          title: "Консервированные помидоры",
-        },
-        {
-          id: 12401,
-          weight: 100,
-          custom_measure: "г",
-          custom_measure_count: 100,
-          title: "Желтый болгарский перец",
-        },
-        {
-          id: 26,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Белый лук",
-        },
-        {
-          id: 165,
-          weight: 350,
-          custom_measure: "г",
-          custom_measure_count: 350,
-          title: "Куриная грудка",
-        },
-        {
-          id: 180,
-          weight: 60,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Лайм",
-        },
-        {
-          id: 260,
-          weight: 4,
-          custom_measure: "г",
-          custom_measure_count: 4,
-          title: "Петрушка",
-        },
-        {
-          id: 116,
-          weight: 4,
-          custom_measure: "г",
-          custom_measure_count: 4,
-          title: "Кинза",
-        },
-        {
-          id: 434,
-          weight: 100,
-          custom_measure: "г",
-          custom_measure_count: 100,
-          title: "Чеддер",
-        },
-        {
-          id: 494,
-          weight: 120,
-          custom_measure: "шт.",
-          custom_measure_count: 2,
-          title: "Тортилья",
-        },
-        {
-          id: 143,
-          weight: 2.5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Кориандр",
-        },
-        {
-          id: 94,
-          weight: 1.98,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.33,
-          title: "Зира / Кумин",
-        },
-        {
-          id: 6051,
-          weight: 2.5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Анис",
-        },
-        {
-          id: 1641,
-          weight: 0.66,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.33,
-          title: "Цедра лайма",
-        },
-        {
-          id: 440,
-          weight: 5,
-          custom_measure: "зубчик",
-          custom_measure_count: 1,
-          title: "Чеснок",
-        },
-        {
-          id: 338,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Сливочное масло",
-        },
-      ],
-      optional_ingredients: [
-        {
-          id: 440,
-          weight: 5,
-          custom_measure: "зубчик",
-          custom_measure_count: 1,
-          title: "Чеснок",
-        },
-        {
-          id: 180,
-          weight: 60,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Лайм",
-        },
-        {
-          id: 7041,
-          weight: 200,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Авокадо «Хасс»",
-        },
-      ],
-      proteins: 9.42,
-      fats: 9.09,
-      carbs: 8.04,
-      calories: 152.16,
-    },
-    {
-      id: 218468,
-      active_cooking_time: 10,
-      total_cooking_time: 20,
-      difficulty_level: 1,
-      title: "Закуска из огурцов с медом",
-      subtitle:
-        "Эту необычную закуску из огурцов определенно стоит попробовать хотя бы раз. Пусть это не самое распространенное сочетание продуктов, но оно точно заслуживает внимания. Свежий хрустящий огурец в сладкой медовой заправке напоминает спелую дыню. Чтобы сделать вкус блюда еще интереснее, добавьте лимонный сок, мяту, соль и перец. Подайте такие огурцы как закуску, салат или в качестве гарнира к мясу.",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC80SEZadnEuanBlZw.jpg",
-      preparation: {
-        content:
-          "Помойте огурцы, отрежьте кончики. Подготовьте глубокую миску.",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC83bmdHSjkuanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Немного нагрейте мед в микроволновке, чтобы он стал жидким, и смешайте его с растительным маслом.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9kdEFWTDguanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description: "Нарежьте огурцы кружочками. Положите в миску.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9ESjlDZ0EuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Залейте огурцы смесью меда и масла. Тщательно перемешайте, чтобы заправка равномерно распределилась по каждому кусочку. Оставьте мариноваться на 10-15 минут.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9rdW1uc2suanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxNC9IY0Jkb3AuanBlZw==.jpg",
         },
       ],
       kitchen_type: "Русская",
@@ -19647,18 +18969,616 @@ export const recipes: ICategoryRecipe = {
       optional_ingredient_title: "Для подачи",
       main_ingredients: [
         {
-          id: 237,
-          weight: 300,
-          custom_measure: "шт.",
-          custom_measure_count: 3,
-          title: "Огурец",
+          id: 196,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Малина",
         },
         {
-          id: 204,
-          weight: 56,
+          id: 466,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Голубика",
+        },
+        {
+          id: 394,
+          weight: 90,
+          custom_measure: "г",
+          custom_measure_count: 90,
+          title: "Творог",
+        },
+        {
+          id: 282,
+          weight: 130,
+          custom_measure: "стакан",
+          custom_measure_count: 1,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 285,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
+          title: "Разрыхлитель теста",
+        },
+        {
+          id: 169,
+          weight: 60,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 15314,
+          weight: 8,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Крахмал",
+        },
+        {
+          id: 312,
+          weight: 50,
           custom_measure: "ст. л.",
           custom_measure_count: 2,
-          title: "Мед",
+          title: "Сахар",
+        },
+        {
+          id: 352,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
+          title: "Соль",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 19865,
+          weight: 0,
+          custom_measure: "по вкусу",
+          custom_measure_count: 0,
+          title: "Чай",
+        },
+      ],
+      proteins: 7.21,
+      fats: 2.52,
+      carbs: 30.16,
+      calories: 170.63,
+    },
+    {
+      id: 218700,
+      active_cooking_time: 35,
+      total_cooking_time: 100,
+      difficulty_level: 2,
+      title: "Пирог с вишней и рикоттой",
+      subtitle:
+        "Полная сока спелая вишня станет еще вкуснее в легком воздушном суфле из сыра рикотта и сметаны. Дайте пирогу полностью остыть после выпечки, чтобы суфле стабилизировалось, и десерт хорошо резался на порции. По вкусу и структуре пирог напоминает чизкейк, только с еще более тонкими и мягкими сливочными нотками. Также для пирога с рикоттой подойдут клубника, ежевика и другие сезонные ягоды. ",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zRzVFTXkuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Промойте вишню, выложите ее на бумажные полотенца обсохнуть. Вымойте яйца, оботрите их салфетками от влаги. Просейте муку. Подготовьте блендер с чашей, две глубокие миски, миксер, пищевую пленку, круглую форму для пирога диаметром около 18-20 см.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy91YTg2b1YuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Нарежьте сливочное масло кубиками, положите их в чашу блендера. Всыпьте к маслу муку, разрыхлитель, соль и тростниковый сахар.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy85QXJOWEsuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Смешайте все ингредиенты до образования мелкой крошки. Пересыпьте получившуюся мучную крошку в глубокую миску.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zNXZ3Uk4uanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Выложите к крошке 1 ст.л. сметаны, замесите пластичное песочное тесто. Оберните тесто пищевой пленкой и уберите его в холодильник на 30 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zWmpXcmkuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Разбейте в чистую глубокую миску яйца, всыпьте к ним сахар и кукурузный крахмал. Взбейте яйца миксером до пышной светлой массы.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9KdERCZ3IuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "Добавьте к взбитым яйцам рикотту и 3 ст.л. сметаны. Еще раз все хорошо взбейте миксером до однородной кремообразной массы.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zQjJhS3guanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 6",
+          description:
+            "Разогрейте духовку до 180°C. Смажьте форму 1 ч.л. сливочного масла. Достаньте охлажденное тесто из холодильника, освободите его от пищевой пленки. Сформируйте из теста руками круглую плоскую лепешку, поместите ее в форму для пирога. Прижмите тесто к дну и стенкам формы, делая высокие бортики. Проколите тесто вилкой в нескольких местах.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zZVh6cDcuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 7",
+          description:
+            "Выложите на основу из теста крем из рикотты и сметаны. Распределите по крему вишню. Поставьте форму в духовку и пеките пирог в течение 35-40 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zZkFNWUQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 8",
+          description:
+            "Выключите духовку и дайте пирогу постоять внутри еще 10-15 минут. Достаньте пирог из духовки, оставьте его при комнатной температуре до полного остывания. Аккуратно переложите пирог из формы на сервировочное блюдо.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9vVTVMb0ouanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Европейская, итальянская",
+      main_ingredient_title: "Для теста",
+      optional_ingredient_title: "Для начинки",
+      main_ingredients: [
+        {
+          id: 282,
+          weight: 200,
+          custom_measure: "г",
+          custom_measure_count: 200,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 338,
+          weight: 80,
+          custom_measure: "г",
+          custom_measure_count: 80,
+          title: "Сливочное масло",
+        },
+        {
+          id: 346,
+          weight: 25,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Сметана 20% жирности",
+        },
+        {
+          id: 411,
+          weight: 16,
+          custom_measure: "ч. л.",
+          custom_measure_count: 2,
+          title: "Тростниковый сахар",
+        },
+        {
+          id: 352,
+          weight: 1,
+          custom_measure: "г",
+          custom_measure_count: 1,
+          title: "Соль",
+        },
+        {
+          id: 285,
+          weight: 2.5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Разрыхлитель теста",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 507,
+          weight: 220,
+          custom_measure: "г",
+          custom_measure_count: 220,
+          title: "Вишня",
+        },
+        {
+          id: 291,
+          weight: 200,
+          custom_measure: "г",
+          custom_measure_count: 200,
+          title: "Рикотта",
+        },
+        {
+          id: 346,
+          weight: 75,
+          custom_measure: "ст. л.",
+          custom_measure_count: 3,
+          title: "Сметана 20% жирности",
+        },
+        {
+          id: 312,
+          weight: 75,
+          custom_measure: "ст. л.",
+          custom_measure_count: 3,
+          title: "Сахар",
+        },
+        {
+          id: 169,
+          weight: 120,
+          custom_measure: "шт.",
+          custom_measure_count: 2,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 161,
+          weight: 30,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Кукурузный крахмал",
+        },
+      ],
+      proteins: 6.15,
+      fats: 11.44,
+      carbs: 27.69,
+      calories: 236.71,
+    },
+    {
+      id: 218695,
+      active_cooking_time: 60,
+      total_cooking_time: 180,
+      difficulty_level: 3,
+      title: "Пирог с фруктами",
+      subtitle:
+        "Рецепт этого простого пирога достаточно универсален. Возьмите любые фрукты, которые есть под рукой: подойдут как свежие, так и замороженные или консервированные. Более того, их можно смешивать в ароматное ассорти, создавая красивые замысловатые узоры на поверхности выпечки. Вам понадобится купить готовое песочное тесто или приготовить его самостоятельно, чтобы испечь корж. Главное здесь — правильно сварить молочный крем. Он получается плотным благодаря добавлению кукурузного крахмала.",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zN3gzZmYuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Помойте персики, разрежьте пополам и удалите косточки. Вымойте куриные яйца. Заранее достаньте из холодильника сливочное масло, чтобы оно стало мягким. Подготовьте форму для выпекания и миксер.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9ndUhiVFMuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Разогрейте духовку до 180°C. Смажьте форму для выпечки маслом. Разомните тесто, раскатайте в тонкий пласт и выложите в форму, формируя бортики. Отправьте форму в духовку на 15 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9xaE12emQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Отделите желтки от белков. Взбейте желтки миксером. Добавьте тростниковый сахар и обычный. Продолжайте взбивать до растворения.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zSlRMN2MuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Положите к желткам мягкое сливочное масло, влейте молоко. Взбивайте миксером до получения однородной массы.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9zUW9OanIuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Перелейте крем в кастрюлю и поставьте на слабый огонь. Нагревайте, постоянно помешивая, пока крем не закипит. Всыпьте кукурузный крахмал, тщательно перемешайте. Поварите его 5 минут и снимите с огня.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy9FN0pwdzQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "Выложите крем на корж. Разровняйте лопаткой поверхность и оставьте до полного остывания.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy85ZkV4aVYuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 6",
+          description:
+            "Нарежьте персики тонкими дольками. Украсьте пирог и отправьте его в холодильник на 2 часа.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMy8zdXhGMmUuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Европейская",
+      main_ingredient_title: "Для основного блюда",
+      optional_ingredient_title: "Для подачи",
+      main_ingredients: [
+        {
+          id: 685,
+          weight: 450,
+          custom_measure: "г",
+          custom_measure_count: 450,
+          title: "Персики",
+        },
+        {
+          id: 553,
+          weight: 500,
+          custom_measure: "стакан",
+          custom_measure_count: 2.5,
+          title: "Молоко 3,2%",
+        },
+        {
+          id: 338,
+          weight: 80,
+          custom_measure: "г",
+          custom_measure_count: 80,
+          title: "Сливочное масло",
+        },
+        {
+          id: 169,
+          weight: 240,
+          custom_measure: "шт.",
+          custom_measure_count: 4,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 312,
+          weight: 120,
+          custom_measure: "г",
+          custom_measure_count: 120,
+          title: "Сахар",
+        },
+        {
+          id: 411,
+          weight: 12.5,
+          custom_measure: "ст. л.",
+          custom_measure_count: 0.5,
+          title: "Тростниковый сахар",
+        },
+        {
+          id: 161,
+          weight: 40,
+          custom_measure: "г",
+          custom_measure_count: 40,
+          title: "Кукурузный крахмал",
+        },
+        {
+          id: 7145,
+          weight: 400,
+          custom_measure: "г",
+          custom_measure_count: 400,
+          title: "Песочное тесто",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 228,
+          weight: 0,
+          custom_measure: "по вкусу",
+          custom_measure_count: 0,
+          title: "Мята",
+        },
+      ],
+      proteins: 4.09,
+      fats: 10.49,
+      carbs: 23.99,
+      calories: 201.08,
+    },
+    {
+      id: 218561,
+      active_cooking_time: 20,
+      total_cooking_time: 50,
+      difficulty_level: 2,
+      title: "Простой пирог со смородиной",
+      subtitle:
+        "Этот пирог очень похож на шарлотку, но вместо яблок мы положили смородину. Ягоды привносят пирогу приятную кислинку. Внутри выпечка получается мягкой и воздушной, а снаружи покрывается тонкой и хрустящей сахарной корочкой. Чтобы пирог оставался красивым, и его цвет не менялся, не смешивайте смородину с тестом. Сначала выложите тесто в форму для выпечки, а затем распределите поверх него ягоды ровным слоем.",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMi83Y3haVGEuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Тщательно промойте ягоды и уберите веточки и хвостики. Подготовьте миксер и форму для выпечки.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMi80OUh5dU0uanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Разбейте яйца в миску, всыпьте к ним сахар. Взбейте, постепенно увеличивая обороты, пока масса не посветлеет и не станет больше в объеме.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMi9oNENTaXEuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Смешайте муку с разрыхлителем. Небольшими порциями, каждый раз тщательно перемешивая, всыпьте мучную смесь в яичную. Замесите тесто по консистенции примерно как густая сметана.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMi8zOXZqcEwuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Разогрейте духовку до 180°C. Смажьте форму для выпекания маслом и присыпьте манкой. Вылейте тесто в форму.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMi8zN0x4OXEuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Распределите смородину поверх теста. Отправьте форму в духовку на 30 минут. Когда пирог будет готов, дайте ему полностью остыть и только потом достаньте из формы.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMi8zZVZxOVUuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Русская",
+      main_ingredient_title: "Для основного блюда",
+      optional_ingredient_title: "Для подачи",
+      main_ingredients: [
+        {
+          id: 169,
+          weight: 180,
+          custom_measure: "шт.",
+          custom_measure_count: 3,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 312,
+          weight: 225,
+          custom_measure: "г",
+          custom_measure_count: 225,
+          title: "Сахар",
+        },
+        {
+          id: 285,
+          weight: 5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Разрыхлитель теста",
+        },
+        {
+          id: 282,
+          weight: 160,
+          custom_measure: "г",
+          custom_measure_count: 160,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 435,
+          weight: 130,
+          custom_measure: "г",
+          custom_measure_count: 130,
+          title: "Черная смородина",
+        },
+        {
+          id: 198,
+          weight: 32,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Манная крупа",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 313,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Сахарная пудра",
+        },
+        {
+          id: 228,
+          weight: 0,
+          custom_measure: "по желанию",
+          custom_measure_count: 0,
+          title: "Мята",
+        },
+      ],
+      proteins: 6.07,
+      fats: 3.23,
+      carbs: 49.87,
+      calories: 244.38,
+    },
+    {
+      id: 218540,
+      active_cooking_time: 20,
+      total_cooking_time: 25,
+      difficulty_level: 2,
+      title: "Пицца с колбасой на сковороде",
+      subtitle:
+        "Пиццу на сковороде очень удобно готовить на завтрак. Тесто заводится быстро и просто, начинка может быть любая. А в результате всего через 20-25 минут получается достаточно сытное и очень вкусное блюдо. Жидкое тесто нужно вылить на сковороду и, пока оно схватывается, можно заняться начинкой. Измельчите все, что хочется добавить. Как только тесто сверху станет плотным, переверните его, смажьте любым соусом по вкусу и выложите начинку. Посыпьте сыром и доведите пиццу под крышкой до готовности.",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS80WGIyVXQuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Просейте муку. Помойте куриное яйцо и зеленый лук. Подготовьте сковороду.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zeEFRcXYuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Смешайте в миске венчиком или миксером просеянную муку со сметаной, солью, черным молотым перцем и куриным яйцом. Должно получиться жидкое однородное тесто.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zaW43SDIuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Разогрейте в сковороде растительное масло. Вылейте тесто и распределите равномерным слоем при помощи лопатки или ложки. Жарьте на среднем огне под крышкой 4-5 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS80REtXeDQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Пока печется основа для пиццы, натрите сыр и нарежьте колбасу маленькими кубиками. Измельчите зеленый лук.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS9DQUNRbVAuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Когда лепешка из теста схватится и перестанет быть жидкой сверху, аккуратно переверните ее на другую сторону. Смажьте кетчупом. Равномерно выложите сверху колбасу, посыпьте сыром и луком, отступая от края по 1 см. Накройте крышкой, уменьшите нагрев до минимального. Готовьте еще 3 минуты.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zR2ZINkouanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Интернациональная",
+      main_ingredient_title: "Для теста",
+      optional_ingredient_title: "Для начинки",
+      main_ingredients: [
+        {
+          id: 169,
+          weight: 60,
+          custom_measure: "шт.",
+          custom_measure_count: 1,
+          title: "Куриное яйцо",
+        },
+        {
+          id: 282,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 352,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
+          title: "Соль",
+        },
+        {
+          id: 439,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
+          title: "Черный перец молотый",
+        },
+        {
+          id: 343,
+          weight: 100,
+          custom_measure: "г",
+          custom_measure_count: 100,
+          title: "Сметана",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 83,
+          weight: 50,
+          custom_measure: "г",
+          custom_measure_count: 50,
+          title: "Докторская колбаса",
+        },
+        {
+          id: 112,
+          weight: 50,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Кетчуп",
+        },
+        {
+          id: 388,
+          weight: 30,
+          custom_measure: "г",
+          custom_measure_count: 30,
+          title: "Сыр",
+        },
+        {
+          id: 91,
+          weight: 15,
+          custom_measure: "г",
+          custom_measure_count: 15,
+          title: "Зеленый лук",
         },
         {
           id: 287,
@@ -19668,139 +19588,130 @@ export const recipes: ICategoryRecipe = {
           title: "Растительное масло",
         },
       ],
-      optional_ingredients: [
-        {
-          id: 25,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Белый кунжут",
-        },
-        {
-          id: 153,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Красный жгучий перец",
-        },
-      ],
-      proteins: 0.61,
-      fats: 4.64,
-      carbs: 15.27,
-      calories: 101.42,
+      proteins: 8.83,
+      fats: 15.85,
+      carbs: 20.63,
+      calories: 250.25,
     },
     {
-      id: 220358,
-      active_cooking_time: 30,
-      total_cooking_time: 555,
-      difficulty_level: 2,
-      title: "Домашний хумус с овощами",
+      id: 220337,
+      active_cooking_time: 60,
+      total_cooking_time: 75,
+      difficulty_level: 3,
+      title: "Кунжутные мини-сосиски с соусом",
       subtitle:
-        "В приготовлении кремового хумуса есть несколько секретов. Добавьте при замачивании и варке гороха пищевую соду, которая хорошо его размягчит и разрыхлит. Очистите отваренный нут от жесткой прозрачной шелухи. И влейте при измельчении нута немного очень холодной воды. Получится полезная, легкая и вкусная вегетарианская закуска. Подайте к ней палочки из свежих овощей, и она заменит более плотные снеки при просмотре матча любимой футбольной команды.",
+        "Эта миниатюрная закуска получается необыкновенно вкусной. Если вы не нашли мини-сосиски, возьмите обычные и разрежьте каждую на 3-4 части. Прежде чем отправить сосиски в духовку, отварите их в течение 20-30 секунд в воде с содой. Этот прием ускорит время запекания и сделает корочку более румяной. А кунжутная обсыпка не только украсит закуску, но и сделает ее еще ароматнее. А горчичный соус по нашему рецепту только подчеркнет вкус сосисок. ",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyOS96cGtqWmkuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zNlNmZkUuanBlZw==.jpg",
       preparation: {
         content:
-          "Промойте сухой нут, выложите его в кастрюлю. Помойте лимон и чеснок. Заранее охладите до ледяного состояния 0,5 стакана воды. Подготовьте дуршлаг, сито, а также блендер с чашей.",
+          "Снимите с сосисок пленку. Просейте муку. Помойте и почистите чеснок. Застелите противень пергаментом. Подготовьте миксер.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy80UENuUkouanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zVTNqRnguanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description:
-            "Залейте нут в кастрюле прохладной водой, добавьте 1 ч.л. соды. Перемешайте и оставьте нут замачиваться 6-8 часов.",
+            "Смешайте в миске одно куриное яйцо, муку, растительное масло, ¾ стакана воды, 1 ч.л. соли и сахар. Замесите эластичное однородное тесто.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy80VXFoTWouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zRUh4M1EuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
-            "По истечении времени слейте из кастрюли воду, в которой замачивался нут. Налейте чистую воду, чтобы она полностью покрывала горошины. Всыпьте в воду еще 1 ч.л. соды и поставьте кастрюлю на сильный огонь.",
+            "Раскатайте тесто в тонкий пласт и нарежьте на 16 тонких полосок. Оберните каждую сосиску в полоску теста и защипните края.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy80TjVoNVEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zdzhiakMuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
-            "Подождите, когда вода в кастрюле закипит. Уменьшите огонь до среднего и снимите образовавшуюся пену. Накройте кастрюлю крышкой и варите нут в течение 30 минут.",
+            "Вскипятите в кастрюле 1,5 литра воды. Добавьте в воду соду и мед. Перемешайте до их полного растворения.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy96TjV4WHYuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy95Y1Z2U1cuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Всыпьте к нуту ⅓ ч.л. соли, хорошо перемешайте и варите его до мягкости еще 10-15 минут. Снимите кастрюлю с огня и откиньте нут на дуршлаг, чтобы весь отвар полностью стек.",
+            "Опустите сосиски в тесте в кипяток на 20-30 секунд. Достаньте шумовкой и выложите на противень на небольшом расстоянии друг от друга.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy80SjN4UjIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zMk14b2IuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "Выберите из нута как можно больше отошедшей от горошин прозрачной шелухи. Переложите горячий очищенный нут в чашу блендера и измельчите его в течение 1-2 минут до однородности.",
+            "Взбейте венчиком в небольшой миске одно куриное яйцо. В другой миске смешайте мак с семенами кунжута, сушеным луком, сушеным чесноком и 1 ч.л. соли.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zUVFvQnIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zWUtaeDguanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
-            "Разрежьте лимон пополам, выжмите из каждой половинки сок в чашу блендера через сито, чтобы удалить косточки и частички мякоти. Мелко нарежьте чеснок, также выложите его в чашу к нуту.",
+            "Смажьте каждую сосиску в тесте куриным яйцом и обваляйте со всех сторон в кунжутной посыпке. Верните их на противень и отправьте в разогретую до 220°С духовку на 15 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zcVBQRWguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zRFZpankuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
-            "Добавьте в чашу блендера пасту тахини, молотый кумин, черный перец и ⅓ ч.л. соли. Влейте 1-2 ст.л. ледяной воды и еще раз перебейте все ингредиенты, чтобы они полностью соединились друг с другом.",
+            "Пропустите через пресс чеснок. Положите в глубокую миску сливочный сыр, горчицу, кефир, чеснок, лимонный сок, щепотку соли и черного молотого перца. Взбейте соус миксером до однородности.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zUThqNUcuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 8",
-          description:
-            "Влейте в чашу блендера еще 1-2 ст.л. ледяной воды, ориентируясь на желаемую густоту хумуса. Снова обработайте хумус в блендере до мягкой пышной консистенции.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9MWXV2SkEuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 9",
-          description:
-            "Переложите хумус из чаши блендера в соусник для подачи. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zVVc5QWouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9KVnZWWG8uanBlZw==.jpg",
         },
       ],
-      kitchen_type: "Ближневосточная",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: "Для подачи",
+      kitchen_type: "Американская",
+      main_ingredient_title: "Для основного блюда и соуса",
+      optional_ingredient_title: "Для обсыпки, теста и подачи",
       main_ingredients: [
         {
-          id: 229,
-          weight: 180,
-          custom_measure: "стакан",
-          custom_measure_count: 1,
-          title: "Нут",
+          id: 353,
+          weight: 960,
+          custom_measure: "шт.",
+          custom_measure_count: 16,
+          title: "Сосиски",
         },
         {
           id: 348,
-          weight: 10,
-          custom_measure: "ч. л.",
+          weight: 44,
+          custom_measure: "ст. л.",
           custom_measure_count: 2,
           title: "Сода",
         },
         {
-          id: 562,
-          weight: 51,
+          id: 204,
+          weight: 56,
           custom_measure: "ст. л.",
-          custom_measure_count: 3,
-          title: "Тахини",
+          custom_measure_count: 2,
+          title: "Мед",
         },
         {
-          id: 183,
-          weight: 120,
+          id: 169,
+          weight: 60,
           custom_measure: "шт.",
           custom_measure_count: 1,
-          title: "Лимон",
+          title: "Куриное яйцо",
+        },
+        {
+          id: 14698,
+          weight: 25,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Зернистая горчица",
+        },
+        {
+          id: 339,
+          weight: 170,
+          custom_measure: "г",
+          custom_measure_count: 170,
+          title: "Сливочный сыр",
+        },
+        {
+          id: 8291,
+          weight: 154.5,
+          custom_measure: "стакан",
+          custom_measure_count: 0.75,
+          title: "Кефир 2,5%",
         },
         {
           id: 440,
@@ -19810,173 +19721,343 @@ export const recipes: ICategoryRecipe = {
           title: "Чеснок",
         },
         {
-          id: 6030,
-          weight: 3,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Молотая зира / кумин",
-        },
-        {
-          id: 439,
-          weight: 1.25,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.25,
-          title: "Черный перец молотый",
+          id: 185,
+          weight: 18,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Лимонный сок",
         },
         {
           id: 352,
-          weight: 6,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.6,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
           title: "Соль",
+        },
+        {
+          id: 439,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
+          title: "Черный перец молотый",
         },
       ],
       optional_ingredients: [
         {
-          id: 237,
-          weight: 50,
-          custom_measure: "шт.",
-          custom_measure_count: 0.5,
-          title: "Огурец",
-        },
-        {
-          id: 219,
-          weight: 90,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Морковь",
-        },
-        {
-          id: 361,
-          weight: 45,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Стебель сельдерея",
-        },
-        {
-          id: 12402,
-          weight: 75,
-          custom_measure: "шт.",
-          custom_measure_count: 0.5,
-          title: "Красный болгарский перец",
-        },
-        {
-          id: 240,
-          weight: 17,
+          id: 25,
+          weight: 44,
           custom_measure: "ст. л.",
-          custom_measure_count: 1,
-          title: "Оливковое масло",
+          custom_measure_count: 2,
+          title: "Белый кунжут",
         },
         {
-          id: 5773,
-          weight: 2,
+          id: 93,
+          weight: 30,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Мак (зерна)",
+        },
+        {
+          id: 386,
+          weight: 12,
           custom_measure: "ч. л.",
+          custom_measure_count: 4,
+          title: "Сушеный чеснок",
+        },
+        {
+          id: 11996,
+          weight: 16,
+          custom_measure: "ч. л.",
+          custom_measure_count: 4,
+          title: "Сушеный репчатый лук",
+        },
+        {
+          id: 352,
+          weight: 20,
+          custom_measure: "ч. л.",
+          custom_measure_count: 2,
+          title: "Соль",
+        },
+        {
+          id: 169,
+          weight: 60,
+          custom_measure: "шт.",
           custom_measure_count: 1,
-          title: "Цедра лимона",
+          title: "Куриное яйцо",
+        },
+        {
+          id: 282,
+          weight: 260,
+          custom_measure: "стакан",
+          custom_measure_count: 2,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 287,
+          weight: 34,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Растительное масло",
+        },
+        {
+          id: 54,
+          weight: 150,
+          custom_measure: "мл",
+          custom_measure_count: 150,
+          title: "Вода",
+        },
+        {
+          id: 312,
+          weight: 12.5,
+          custom_measure: "ст. л.",
+          custom_measure_count: 0.5,
+          title: "Сахар",
+        },
+        {
+          id: 275,
+          weight: 0,
+          custom_measure: "по вкусу",
+          custom_measure_count: 0,
+          title: "Помидоры черри",
+        },
+        {
+          id: 606,
+          weight: 0,
+          custom_measure: "по вкусу",
+          custom_measure_count: 0,
+          title: "Салатные листья",
         },
       ],
-      proteins: 7.46,
-      fats: 8.06,
-      carbs: 20.75,
-      calories: 185.27,
+      proteins: 10.29,
+      fats: 16.17,
+      carbs: 13.6,
+      calories: 240.56,
     },
     {
-      id: 220343,
-      active_cooking_time: 25,
-      total_cooking_time: 25,
+      id: 218522,
+      active_cooking_time: 45,
+      total_cooking_time: 120,
       difficulty_level: 2,
-      title: "Луково-сырные кольца во фритюре",
+      title: "Слоеные лепешки",
       subtitle:
-        "Пожарьте универсальную закуску из доступных продуктов всего за 25 минут. Вам понадобятся крупная луковица, немного сыра, муки, яйцо и панировочные сухари. Жарят кольца во фритюрнице или в глубокой сковороде, чтобы масло их полностью покрывало. Сыр за время жарки расплавится и плотно скрепит лук, а панировка образует хрустящую корочку. ",
+        "Для слоеных лепешек понадобятся пшеничная мука, сливочное и растительное масло, дрожжи, соль и вода. Секрет приготовления заключается в правильном скручивании теста. После того, как вы смешали все ингредиенты, нужно дать тесту отдохнуть и подняться. Потом раскатайте его так тонко, как сможете. Смажьте поверхность теста растопленным сливочным маслом и сверните в рулет. Этот рулет нужно разрезать на несколько частей, скрутить каждую улиткой и снова раскатать.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyOS90UHZ0ZEIuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS80NFJ5NEQuanBlZw==.jpg",
       preparation: {
         content:
-          "Вымойте и почистите лук. Подготовьте разделочную доску, миски, кастрюлю, кулинарные щипцы. Застелите салфетками тарелку для подачи.",
+          "Просейте муку. Нагрейте воду до 40°C, то есть чуть выше температуры тела.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zcjhKOVguanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zV0FVNjMuanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description:
-            "Нарежьте лук кольцами толщиной около 6-7 мм. Отделите все колечки друг от друга. Нарежьте сыр полосками шириной также 6-7 мм и толщиной около 2 мм.",
+            "Разведите дрожжи в теплой воде и оставьте на 1 минуту. В глубокой миске смешайте муку и соль, добавьте воду с дрожжами. Замесите сначала венчиком, потом руками однородное мягкое тесто. Накройте тесто пищевой пленкой и оставьте в теплом месте на 1 час.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zVWRLR2IuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS85UndwY0cuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
-            "Разложите на разделочной доске самые крупные луковые колечки. Уложите внутрь колечек по всей окружности полоски сыра.",
+            "Растопите сливочное масло и немного остудите его. Раскатайте тесто как можно тоньше. Смажьте пласт теста сливочным маслом при помощи силиконовой кисточки. Скрутите тесто в плотный рулет.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9HUlN3RHguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS8zOFpZSEouanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
-            "Поместите к полоскам сыра луковые колечки меньшего диаметра, плотно прижимая сыр к внешнему кольцу.",
+            "Разрежьте рулет пополам вдоль и пополам поперек. У вас получится 4 полоски теста. Скрутите каждую полоску в улитку. Защипните край каждой улитки, чтобы он плотно держался.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zeVlvd1ouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS9jaHR5YUsuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Разбейте в глубокую миску яйцо. Всыпьте к нему соль и размешайте все вилкой до однородного состояния. Насыпьте в отдельные чистые миски муку и панировочные сухари.",
+            "Каждую улитку снова раскатайте в лепешку толщиной около 0,5 см. В центре каждой лепешки сделайте небольшое отверстие. Накройте лепешки полотенцем и оставьте на 15 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zREpRZXMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS9FNFJyOWguanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "По очереди обваляйте все сформированные луково-сырные колечки в муке. Обмакните их со всех сторон в яйцо, затем запанируйте в сухарях.",
+            "Разогрейте в сковороде растительное масло. Обжарьте лепешки на среднем огне до образования золотистой корочки примерно по 4-5 минут с каждой стороны.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9ieEs5TEUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMS80UGhnRlUuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Восточная",
+      main_ingredient_title: "Для основного блюда",
+      optional_ingredient_title: "Для подачи",
+      main_ingredients: [
+        {
+          id: 282,
+          weight: 390,
+          custom_measure: "стакан",
+          custom_measure_count: 3,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 368,
+          weight: 12,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Сухие дрожжи",
+        },
+        {
+          id: 338,
+          weight: 90,
+          custom_measure: "г",
+          custom_measure_count: 90,
+          title: "Сливочное масло",
+        },
+        {
+          id: 287,
+          weight: 34,
+          custom_measure: "ст. л.",
+          custom_measure_count: 2,
+          title: "Растительное масло",
+        },
+        {
+          id: 352,
+          weight: 2.5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.25,
+          title: "Соль",
+        },
+        {
+          id: 54,
+          weight: 200,
+          custom_measure: "стакан",
+          custom_measure_count: 1,
+          title: "Вода",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 19865,
+          weight: 0,
+          custom_measure: "по вкусу",
+          custom_measure_count: 0,
+          title: "Чай",
+        },
+      ],
+      proteins: 6.41,
+      fats: 15.68,
+      carbs: 36.52,
+      calories: 316.03,
+    },
+    {
+      id: 218467,
+      active_cooking_time: 50,
+      total_cooking_time: 140,
+      difficulty_level: 3,
+      title: "Булочки с корицей",
+      subtitle:
+        "Когда под рукой есть корица, не надо беспокоиться по поводу начинки для дрожжевой выпечки. Пряность подчеркнет и усилит вкус сдобного теста, придаст булочкам аппетитный аромат. Тесто на сухих быстродействующих дрожжах замешивается быстро, поднимается за 1 час, без усилий раскатывается и отлично держит форму в свернутых рулетами булочках. Вместо крема из сыра маскарпоне при желании покройте булочки белой или шоколадной глазурью, полейте ягодным сиропом или просто посыпьте сахарной пудрой. ",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC8zVDJXcFAuanBlZw==.jpg",
+      preparation: {
+        content:
+          "Достаньте сливочное масло из холодильника, дайте ему постоять при комнатной температуре и хорошо размягчиться. Помойте куриное яйцо, оботрите его от влаги бумажными полотенцами. Просейте муку в глубокую миску. Подготовьте еще две миски, миксер, сотейник, скалку, чистые тканевые полотенца. Постелите на плоский противень бумагу для выпечки. ",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC94TWRxZmIuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Налейте молоко в сотейник. Поставьте на средний огонь и подогрейте молоко до теплого состояния. Снимите с огня.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9IZU5iUTQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Всыпьте в теплое молоко сухие дрожжи, 1 ст.л. сахара и 2 ст.л. муки. Все тщательно размешайте, прикройте полотенцем и дайте постоять в тепле 10-15 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9iVnM2V1AuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            "Разбейте яйцо в чистую миску, всыпьте к нему 1,5 ст.л. сахара и ванильный сахар. Взбейте все миксером до пышной светло-желтой пены. ",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC80QUF3WHouanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "Отложите 1 ст.л. муки для раскатки теста. Всыпьте в миску с оставшейся просеянной мукой соль, хорошо перемешайте.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC8zbXJCTlQuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "Влейте в миску с мукой и солью взбитое с сахаром яйцо и смесь с активированными дрожжами. Добавьте 0,5 ст.л. размягченного масла и замесите мягкое упругое тесто. ",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9HSnVEWmQuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
-            "Налейте в кастрюлю растительное масло, разогрейте на сильном огне. Уменьшите огонь до среднего и опустите в горячее масло запанированные луково-сырные колечки.",
+            "Вымешивайте тесто в течение 6-7 минут, пока оно не перестанет быть липким. Накройте тесто полотенцем и поставьте его в теплое место подниматься на 1 час.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8za0RydFQuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC85RWhVVkIuanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
-            "Жарьте колечки по 3-5 минут до золотистой хрустящей корочки. После этого выложите их на салфетку, чтобы убратьизлишки масла. ",
+            "Посыпьте рабочую поверхность отложенной мукой. Выложите на нее поднявшееся тесто, хорошо его обомните.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zc0ZvMnEuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9pWU54cnEuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 8",
+          description:
+            "Раскатайте тесто в лепешку толщиной около 4-5 мм. Промажьте лепешку 0,5 ст.л. сливочного масла. ",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC8zN1JWd0YuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 9",
+          description:
+            "Соедините в чашке корицу и 2,5 ст.л. сахара, перемешайте. Посыпьте этой смесью смазанную маслом лепешку из теста, отступая от краев примерно на 1,5-2 см.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC8zWGZIaHguanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 10",
+          description:
+            "Закрутите лепешку в плотный рулет. Разрежьте рулет на 6 равных по размеру заготовок для булочек.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC9lWjZZYlYuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 11",
+          description:
+            "Разогрейте духовку до 180°C. Выложите заготовки для булочек на противень с бумагой для выпечки на небольшом расстоянии друг от друга. Поставьте противень с заготовками в духовку и пеките булочки в течение 20-25 минут до золотистого цвета. Достаньте булочки из духовки и дайте им немного остыть. ",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC8zandWN2IuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 12",
+          description:
+            "Помойте и вытрите насухо насадки миксера. Выложите в чистую миску сыр маскарпоне, 0,5 ст.л. масла и сахарную пудру. Смешайте все миксером на небольшой скорости до получения однородного крема. Смажьте выпечку сырным кремом и подайте к столу. ",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxMC8zNGh5TWguanBlZw==.jpg",
         },
       ],
-      kitchen_type: "Североамериканская",
-      main_ingredient_title: "Для блюда",
+      kitchen_type: "Европейская",
+      main_ingredient_title: "Для основного блюда",
       optional_ingredient_title: "Для подачи",
       main_ingredients: [
         {
-          id: 290,
-          weight: 80,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Репчатый лук",
-        },
-        {
-          id: 302,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Российский сыр",
-        },
-        {
-          id: 246,
-          weight: 50,
-          custom_measure: "г",
-          custom_measure_count: 50,
-          title: "Панировочные сухари",
-        },
-        {
           id: 282,
-          weight: 50,
-          custom_measure: "ст. л.",
-          custom_measure_count: 2,
+          weight: 260,
+          custom_measure: "г",
+          custom_measure_count: 260,
           title: "Пшеничная мука хлебопекарная",
         },
         {
@@ -19987,11 +20068,39 @@ export const recipes: ICategoryRecipe = {
           title: "Куриное яйцо",
         },
         {
-          id: 270,
-          weight: 190,
-          custom_measure: "стакан",
-          custom_measure_count: 1,
-          title: "Подсолнечное масло рафинированное",
+          id: 696,
+          weight: 100,
+          custom_measure: "мл",
+          custom_measure_count: 100,
+          title: "Молоко 2,5% жирности",
+        },
+        {
+          id: 338,
+          weight: 60,
+          custom_measure: "г",
+          custom_measure_count: 60,
+          title: "Сливочное масло",
+        },
+        {
+          id: 610,
+          weight: 10,
+          custom_measure: "ч. л.",
+          custom_measure_count: 2.5,
+          title: "Молотая корица",
+        },
+        {
+          id: 312,
+          weight: 125,
+          custom_measure: "ст. л.",
+          custom_measure_count: 5,
+          title: "Сахар",
+        },
+        {
+          id: 46,
+          weight: 4,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Ванильный сахар",
         },
         {
           id: 352,
@@ -20000,129 +20109,268 @@ export const recipes: ICategoryRecipe = {
           custom_measure_count: 0.25,
           title: "Соль",
         },
+        {
+          id: 368,
+          weight: 6,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1.5,
+          title: "Сухие дрожжи",
+        },
+        {
+          id: 465,
+          weight: 80,
+          custom_measure: "ст. л.",
+          custom_measure_count: 4,
+          title: "Сыр маскарпоне",
+        },
+        {
+          id: 313,
+          weight: 70,
+          custom_measure: "г",
+          custom_measure_count: 70,
+          title: "Сахарная пудра",
+        },
       ],
       optional_ingredients: [
         {
-          id: 704,
+          id: 669,
           weight: 0,
-          custom_measure: "по вкусу",
+          custom_measure: "по желанию",
           custom_measure_count: 0,
-          title: "Сырный соус",
+          title: "Черный чай",
         },
       ],
-      proteins: 6.41,
-      fats: 44.16,
-      carbs: 16.89,
-      calories: 489.6,
+      proteins: 5.79,
+      fats: 12.38,
+      carbs: 50.49,
+      calories: 329.37,
     },
     {
-      id: 220332,
-      active_cooking_time: 20,
-      total_cooking_time: 30,
-      difficulty_level: 2,
-      title: "Перцы с сырной начинкой под карамельным топингом",
+      id: 220097,
+      active_cooking_time: 35,
+      total_cooking_time: 60,
+      difficulty_level: 3,
+      title: "Тарт татен с карамельными яблоками и ванильным мороженым",
       subtitle:
-        "Приготовьте очень яркую и сытную закуску, которая легко станет центром стола. Запеките ароматную сырную смесь в половинках хрустящего сладкого перца. А топинг из хрустящих сухарей и карамелизированного перца станет изюминкой блюда. Обязательно возьмите крекеры или начос к подаче, чтобы обмакивать их в сырную начинку. ",
+        "Холодное мороженое приобретает совсем другой вкус в сочетании с горячими яблоками, запеченными в сливочной карамели, и рассыпчатым песочным тестом. Чтобы испечь французский тарт татен, понадобятся яблоки, сливочное масло, сахар и мука. Выберите для десерта спелые, но крепкие яблоки, которые выделят при обжарке достаточно сока для карамели, но сохранят свою форму после тепловой обработки.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9XbXBkREQuanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS8zUmhmZDcuanBlZw==.jpg",
       preparation: {
         content:
-          "Помойте перцы и лайм. Помойте и почистите чеснок. Положите на противень решетку подходящего размера, чтобы запекать перцы на решетке.",
+          "Заранее охладите сливочное масло и воду. Помойте яблоки, промокните их от влаги салфеткой. Подготовьте объемную миску, сито, скалку, сковороду, подходящую для нагревания в духовке, десертное блюдо и ложку для мороженого.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy80VUFWSkcuanBlZw.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS8zWUFudmYuanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
           description:
-            "Разрежьте лайм пополам и выжмите сок. Пропустите через пресс чеснок. Смешайте в миске творожный сыр, перец чили, чеснок и сок лайма.",
+            "Просейте муку в объемную миску. Затем так же через сито всыпьте к ней сахарную пудру и соль. Хорошо перемешайте сухие ингредиенты.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9nTFJSYmcuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS80TlBERzUuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
-            "Разрежьте каждый перец вдоль пополам, удалите семена, но оставьте плодоножки. Наполните каждую половинку творожной массой.",
+            "Нарежьте 75 г охлажденного сливочного масла кубиками со стороной 5-6 мм. Выложите их в миску с мукой, сахарной пудрой и солью. Разотрите все лопаткой до образования крупной крошки.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy80U2h2UWguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS8zaW85eG4uanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
           description:
-            "Разогрейте духовой шкаф до 180°С. Выложите перцы на решетку и отправьте в духовку на 10 минут.",
+            "Разбейте в миску с масляно-мучной крошкой яйцо, влейте холодную воду. Замесите сначала лопаткой, а потом руками пластичное песочное тесто. Когда тесто начнет легко скатываться в шар, заверните его в пищевую пленку и уберите в холодильник на 20 минут.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy8zUW9qbVUuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS8zUUVCYVMuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Пока перцы запекаются, смешайте в миске панировочные сухари с растительным маслом, соевым соусом и молотым кайенским перцем.",
+            "Очистите яблоки от кожуры. Разрежьте их на четвертинки и вырежьте из каждой четвертинки сердцевину с семенами. Разрежьте каждую четвертинку яблока еще раз пополам.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9qaWhWZFAuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS9WNDVLSk0uanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "Достаньте перцы из духовки, посыпьте их панировочными сухарями и верните в духовку на 2 минуты.",
+            "Поставьте сковороду на средний огонь, выложите на нее 30 г сливочного масла и подождите, когда оно полностью растает. Уложите одним слоем дольки яблок. Пожарьте их 1-2 минуты до легкой корочки. Переверните яблоки, пожарьте их еще 1-2 минуты с другой стороны. Снова переверните яблоки и пожарьте их еще 1 минуту, чтобы фрукты дали сок.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyOS80NncyMjMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS9nMnhLQkguanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
           description:
-            "Нарежьте перцы тонкими колечками. Извлеките семена. Высыпьте на сковороду 150 г сахара, влейте 3 ст.л. воды. Постоянно помешивая, растопите сахар до состояния густого сиропа и сразу после этого отправьте туда колечки перцев. Потомите перец в сиропе около 5 минут. Затем снимите сковороду с огня.",
+            "Посыпьте яблоки сахаром, положите к ним оставшиеся 30 г сливочного масла. Прогрейте фрукты 3-4 минуты, периодически их переворачивая, пока они не карамелизируются. Снимите сковороду с огня.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyOS8zYzRZR2kuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS80WEY1S0IuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 7",
+          description:
+            "Включите духовку разогреваться до 190°С. Достаньте из холодильника тесто. Раскатайте его в круглую лепешку диаметром на 1-1,5 см больше сковороды.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS9NYmQ5a1IuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 8",
+          description:
+            "Накройте тестом карамелизированные яблоки на сковороде. Подоткните края теста ложкой или ножом вниз по бортикам сковороды.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS9GQWlLOVkuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 9",
+          description:
+            "Поставьте сковороду в духовку и выпекайте тарт татен в течение 10-15 минут. Достаньте готовый тарт татен, немного остудите и переверните его на десертное блюдо, чтобы яблоки оказались сверху.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNS8zNTRZdFYuanBlZw==.jpg",
         },
       ],
-      kitchen_type: "Американская",
-      main_ingredient_title: "Для основного блюда",
-      optional_ingredient_title: "Для топпинга и подачи",
+      kitchen_type: "Французская",
+      main_ingredient_title: "Для теста",
+      optional_ingredient_title: "Для начинки и подачи",
       main_ingredients: [
         {
-          id: 32,
-          weight: 450,
+          id: 282,
+          weight: 175,
           custom_measure: "г",
-          custom_measure_count: 450,
-          title: "Болгарский перец",
+          custom_measure_count: 175,
+          title: "Пшеничная мука хлебопекарная",
         },
         {
-          id: 398,
-          weight: 200,
+          id: 338,
+          weight: 75,
           custom_measure: "г",
-          custom_measure_count: 200,
-          title: "Творожный сыр",
+          custom_measure_count: 75,
+          title: "Сливочное масло",
         },
         {
-          id: 257,
-          weight: 1,
-          custom_measure: "щепотка",
-          custom_measure_count: 1,
-          title: "Перец чили молотый",
+          id: 313,
+          weight: 45,
+          custom_measure: "г",
+          custom_measure_count: 45,
+          title: "Сахарная пудра",
         },
         {
-          id: 440,
-          weight: 5,
-          custom_measure: "зубчик",
-          custom_measure_count: 1,
-          title: "Чеснок",
-        },
-        {
-          id: 180,
+          id: 169,
           weight: 60,
           custom_measure: "шт.",
           custom_measure_count: 1,
-          title: "Лайм",
+          title: "Куриное яйцо",
+        },
+        {
+          id: 54,
+          weight: 18,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Вода",
+        },
+        {
+          id: 352,
+          weight: 5,
+          custom_measure: "г",
+          custom_measure_count: 5,
+          title: "Соль",
         },
       ],
       optional_ingredients: [
         {
-          id: 246,
-          weight: 30,
-          custom_measure: "ст. л.",
-          custom_measure_count: 2,
-          title: "Панировочные сухари",
+          id: 19853,
+          weight: 1000,
+          custom_measure: "шт.",
+          custom_measure_count: 4,
+          title: "Зеленое яблоко",
         },
+        {
+          id: 338,
+          weight: 60,
+          custom_measure: "г",
+          custom_measure_count: 60,
+          title: "Сливочное масло",
+        },
+        {
+          id: 312,
+          weight: 170,
+          custom_measure: "г",
+          custom_measure_count: 170,
+          title: "Сахар",
+        },
+        {
+          id: 19301,
+          weight: 250,
+          custom_measure: "г",
+          custom_measure_count: 250,
+          title: "Ванильный пломбир",
+        },
+      ],
+      proteins: 2.17,
+      fats: 8.32,
+      carbs: 26.03,
+      calories: 185.65,
+    },
+    {
+      id: 218436,
+      active_cooking_time: 20,
+      total_cooking_time: 60,
+      difficulty_level: 2,
+      title: "Заливной пирог с луком и яйцом",
+      subtitle:
+        "Рецепт заливного пирога с луком и яйцами очень выручит, когда нужно приготовить сытный обед или ужин всего за час. Тесто готовится очень просто, оно не требует никаких особых манипуляций. Ни сложного вымешивания, ни расстойки, ни ожидания. Начинка также не потребует особых усилий. Просто все измельчите и смешайте. Перед отправкой в духовку присыпьте тесто семенами кунжута, чтобы добавить сладковатый ореховый аромат. ",
+      image_path:
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS8za01lOEEuanBlZw==.jpg",
+      preparation: {
+        content: "Помойте и зеленый лук. Просейте муку.",
+        image_path:
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS80UGNpM3cuanBlZw==.jpg",
+      },
+      cooking: [
+        {
+          title: "Шаг 1",
+          description:
+            "Для начинки сварите вкрутую 4 куриных яйца в течение 10 минут после закипания. Остудите их в холодной воде и очистите от скорлупы. Нарежьте яйца маленькими кубиками.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS8zOVo5M0cuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 2",
+          description:
+            "Мелко покрошите зеленый лук. Натрите сыр. Смешайте в миске измельченные яйца, лук, сыр, щепотку соли и столовую ложку сметаны.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS8zM2lvakIuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 3",
+          description:
+            " Для теста в глубокой миске венчиком смешайте 3 куриных яйца со стаканом сметаны.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS8zeGhmYXcuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 4",
+          description:
+            "В другой миске соедините муку, разрыхлитель и щепотку соли. Всыпьте мучную смесь к яичной и тщательно перемешайте, чтобы не было комочков.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS80Q3FTTFouanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 5",
+          description:
+            "Смажьте форму для запекания растительным маслом. Вылейте половину теста. Сверху равномерно разложите начинку.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS9yRWZyd1guanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 6",
+          description:
+            "Залейте начинку оставшимся тестом. Отправьте форму в разогретую до 180°С духовку на 40 минут.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYwOS80WDVudzUuanBlZw==.jpg",
+        },
+      ],
+      kitchen_type: "Русская",
+      main_ingredient_title: "Для основного блюда и начинки",
+      optional_ingredient_title: "Для теста",
+      main_ingredients: [
         {
           id: 287,
           weight: 5,
@@ -20131,449 +20379,251 @@ export const recipes: ICategoryRecipe = {
           title: "Растительное масло",
         },
         {
-          id: 350,
-          weight: 8,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1,
-          title: "Соевый соус",
-        },
-        {
-          id: 682,
-          weight: 1,
-          custom_measure: "щепотка",
-          custom_measure_count: 1,
-          title: "Кайенский перец",
-        },
-        {
-          id: 586,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Гуакамоле",
-        },
-        {
-          id: 443,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Чипсы",
-        },
-        {
-          id: 20020,
-          weight: 200,
-          custom_measure: "шт.",
-          custom_measure_count: 2,
-          title: "Сладкий перец",
-        },
-      ],
-      proteins: 2.45,
-      fats: 6.36,
-      carbs: 7.58,
-      calories: 99.92,
-    },
-    {
-      id: 219590,
-      active_cooking_time: 10,
-      total_cooking_time: 15,
-      difficulty_level: 2,
-      title: "Бейгл с форелью и сливочным сыром",
-      subtitle:
-        "Именно с таким бейглом лучше всего пройтись по парку с американо, пока ваш бежевый тренч развевается на ветру. Булочки могут быть с кунжутом, маком, тыквенными семечками и чем угодно. Главное, чтобы внутри была сочная начинка из красной рыбы и сливочного сыра. ",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyNy9IU2RTOVkuanBlZw.jpg",
-      preparation: {
-        content: "Просейте муку. Подготовьте блендер и сковороду. ",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyMC81TG1ydFouanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Смешайте творожный сыр, сладкий соус чили и горчицу до однородности. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyMS8zRXJURHouanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            "Разрежьте бейглы пополам. Смажьте каждый ломтик сливочным маслом и обжарьте на горячей сковороде до золотистой корочки.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyMC80Skg4eUEuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description:
-            "Нанесите начинку из творожного сыра на каждую половинку бейгла.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyMS9kODJyNmcuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 4",
-          description:
-            "Нарежьте филе форели на тонкие ломтики. Выложите рыбу и руколу на нижнюю часть бейгла, накройте верхней частью.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYyMC8zUmRDRmkuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Американская, европейская",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: null,
-      main_ingredients: [
-        {
-          id: 12310,
-          weight: 180,
-          custom_measure: "шт.",
-          custom_measure_count: 2,
-          title: "Бейгл",
-        },
-        {
-          id: 338,
-          weight: 2.5,
-          custom_measure: "ч. л.",
-          custom_measure_count: 0.5,
-          title: "Сливочное масло",
-        },
-        {
-          id: 303,
-          weight: 6,
+          id: 91,
+          weight: 135,
           custom_measure: "г",
-          custom_measure_count: 6,
-          title: "Рукола",
+          custom_measure_count: 135,
+          title: "Зеленый лук",
         },
         {
-          id: 398,
-          weight: 40,
+          id: 388,
+          weight: 100,
           custom_measure: "г",
-          custom_measure_count: 40,
-          title: "Творожный сыр",
-        },
-        {
-          id: 82,
-          weight: 12.5,
-          custom_measure: "ст. л.",
-          custom_measure_count: 0.5,
-          title: "Дижонская горчица",
-        },
-        {
-          id: 623,
-          weight: 15,
-          custom_measure: "ч. л.",
-          custom_measure_count: 1.5,
-          title: "Сладкий соус чили",
-        },
-        {
-          id: 20604,
-          weight: 60,
-          custom_measure: "г",
-          custom_measure_count: 60,
-          title: "Слабосоленая форель «Океан»",
-        },
-      ],
-      optional_ingredients: [],
-      proteins: 9.94,
-      fats: 7.44,
-      carbs: 29.98,
-      calories: 225.69,
-    },
-    {
-      id: 219252,
-      active_cooking_time: 15,
-      total_cooking_time: 30,
-      difficulty_level: 1,
-      title: "Кабачки с чимичурри",
-      subtitle:
-        "Соус чимичурри готовится с большим количеством специй и трав, а подается обычно к мясу и курице. Но ничто не мешает дополнить им обжаренные на гриле кабачки. Такая закуска хорошо подойдет к мясу на огне, так что обязательно попробуйте ее в сезон шашлыков. Кабачки получатся очень хрустящими, а пряный соус добавит свежей остринки.",
-      image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80OXZDNHMuanBlZw.jpg",
-      preparation: {
-        content:
-          "Помойте кабачок, срежьте кончики. При необходимости снимите кожуру с кабачка, если она твердая и плотная. Ополосните зелень. Снимите цедру с лайма на мелкой терке, выдавите из него сок. Пропустите чеснок через пресс.\n",
-        image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9RN0xKaXguanBlZw.jpg",
-      },
-      cooking: [
-        {
-          title: "Шаг 1",
-          description:
-            "Смешайте в миске оливковое масло, сахар, сок и цедру лайма, чеснок. Добавьте соль, перец и кориандр. Хорошо перемешайте. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zU3k1ZmMuanBlZw.jpg",
-        },
-        {
-          title: "Шаг 2",
-          description:
-            " Разрежьте кабачок пополам поперек на две равные части. Каждую половинку кабачка разрежьте на четвертинки.",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9DcnU5ak0uanBlZw.jpg",
-        },
-        {
-          title: "Шаг 3",
-          description: "Мелко нарежьте зелень и смешайте с оставшимся соусом. ",
-          image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zdndOWXkuanBlZw.jpg",
-        },
-      ],
-      kitchen_type: "Авторская",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: null,
-      main_ingredients: [
-        {
-          id: 99,
-          weight: 720,
-          custom_measure: "шт.",
-          custom_measure_count: 4,
-          title: "Кабачок",
-        },
-        {
-          id: 260,
-          weight: 30,
-          custom_measure: "г",
-          custom_measure_count: 30,
-          title: "Петрушка",
-        },
-        {
-          id: 116,
-          weight: 20,
-          custom_measure: "г",
-          custom_measure_count: 20,
-          title: "Кинза",
-        },
-        {
-          id: 12,
-          weight: 20,
-          custom_measure: "г",
-          custom_measure_count: 20,
-          title: "Базилик",
-        },
-        {
-          id: 240,
-          weight: 80,
-          custom_measure: "г",
-          custom_measure_count: 80,
-          title: "Оливковое масло",
-        },
-        {
-          id: 411,
-          weight: 30,
-          custom_measure: "г",
-          custom_measure_count: 30,
-          title: "Тростниковый сахар",
-        },
-        {
-          id: 180,
-          weight: 60,
-          custom_measure: "шт.",
-          custom_measure_count: 1,
-          title: "Лайм",
-        },
-        {
-          id: 440,
-          weight: 15,
-          custom_measure: "зубчик",
-          custom_measure_count: 3,
-          title: "Чеснок",
-        },
-        {
-          id: 215,
-          weight: 1,
-          custom_measure: "щепотка",
-          custom_measure_count: 1,
-          title: "Молотый кориандр",
-        },
-        {
-          id: 439,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
-          title: "Черный перец молотый",
+          custom_measure_count: 100,
+          title: "Сыр",
         },
         {
           id: 352,
-          weight: 0,
-          custom_measure: "по вкусу",
-          custom_measure_count: 0,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
           title: "Соль",
         },
+        {
+          id: 346,
+          weight: 25,
+          custom_measure: "ст. л.",
+          custom_measure_count: 1,
+          title: "Сметана 20% жирности",
+        },
+        {
+          id: 169,
+          weight: 240,
+          custom_measure: "шт.",
+          custom_measure_count: 4,
+          title: "Куриное яйцо",
+        },
       ],
-      optional_ingredients: [],
-      proteins: 0.81,
-      fats: 8.45,
-      carbs: 7.49,
-      calories: 109.52,
+      optional_ingredients: [
+        {
+          id: 346,
+          weight: 210,
+          custom_measure: "г",
+          custom_measure_count: 210,
+          title: "Сметана 20% жирности",
+        },
+        {
+          id: 285,
+          weight: 2.5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Разрыхлитель теста",
+        },
+        {
+          id: 282,
+          weight: 97.5,
+          custom_measure: "г",
+          custom_measure_count: 97.5,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 352,
+          weight: 1,
+          custom_measure: "щепотка",
+          custom_measure_count: 1,
+          title: "Соль",
+        },
+        {
+          id: 169,
+          weight: 180,
+          custom_measure: "шт.",
+          custom_measure_count: 3,
+          title: "Куриное яйцо",
+        },
+      ],
+      proteins: 10.1,
+      fats: 13.65,
+      carbs: 9.44,
+      calories: 187.45,
     },
     {
-      id: 219242,
-      active_cooking_time: 40,
-      total_cooking_time: 390,
-      difficulty_level: 2,
-      title: "Бургеры с куриными бедрами и шпинатом",
+      id: 216784,
+      active_cooking_time: 60,
+      total_cooking_time: 340,
+      difficulty_level: 4,
+      title: "Домашний молочный хлеб",
       subtitle:
-        "Как и другие бургеры, этот готовится быстро. Больше всего времени в рецепте занимает маринование курицы. Ее можно оставить в смеси йогурта, соуса и зелени на 30 минут. Но желательно промариновать мясо подольше — так оно получится более сочным и ароматным. А пока курица будет жариться на огне, приготовьте домашний шпинатный соус по нашему рецепту.",
+        "Молочный хлеб получается легким, невероятно воздушным и остается таким несколько дней. При этом он сытнее, чем обычный хлеб. Прежде чем приступить к приготовлению, убедитесь, что все ингредиенты комнатной температуры. Запланируйте время на замешивание и расстойку теста. Это не быстрый процесс. Зато потом слегка сладковатый и золотистый, очень аппетитный молочный хлеб станет отличной основой для сладкого сэндвича. Подайте его с вареньем, шоколадной пастой или со сливочным маслом.",
       image_path:
-        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zM3J3V3guanBlZw.jpg",
+        "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy8zZHo4VTcuanBlZw==.jpg",
       preparation: {
-        content: "Разморозьте курицу, помойте овощи, зелень и лайм. ",
+        content:
+          "Просейте муку. Нагрейте воду до 35-40 градусов. Застелите форму для выпекания пергаментом.",
         image_path:
-          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+          "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy8zWHVLcTcuanBlZw==.jpg",
       },
       cooking: [
         {
           title: "Шаг 1",
-          description: "Мелкой теркой снимите цедру с лайма.",
+          description:
+            "Для опары налейте в глубокую миску две трети стакана теплой воды.Положите в воду свежие дрожжи и сухое молоко. Перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9uNHRhUU0uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy9Ua2UyMjcuanBlZw==.jpg",
         },
         {
           title: "Шаг 2",
           description:
-            "Выложите в миску йогурт, пасту карри, рубленную кинзу и половину натертой цедры лайма. Перемешайте маринад до однородности.",
+            "Всыпьте стакан пшеничной муки. Тщательно перемешайте до получения однородной консистенции.Накройте опару влажным полотенцем и оставьте в теплом месте на 4 часа.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zVFdNdlouanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy90NXlmRkMuanBlZw==.jpg",
         },
         {
           title: "Шаг 3",
-          description:
-            "Слегка отбейте куриные бедра кухонным молотком, чтобы придать им плоскую форму. Переложите курицу в соус и оставьте минимум на 30 минут. Мясо можно мариновать до 6 часов. ",
+          description: "Добавьте в подошедшую опару соль и сахар. Перемешайте.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC80UjJxdFIuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy9RZ1NkSHIuanBlZw==.jpg",
         },
         {
           title: "Шаг 4",
           description:
-            "Выжмите из лайма сок. Нашинкуйте красный лук. Смешайте в чистой миске сок и оставшуюся цедру лайма, сахар и лук. Перемешивайте, пока сахар не растворится. ",
+            "Влейте одну треть стакана теплой воды.Насыпьте один стакан пшеничной муки. Замесите густое однородное тесто.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zdUxVUEguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy80OVB6ZDYuanBlZw==.jpg",
         },
         {
           title: "Шаг 5",
           description:
-            "Добавьте зернистую горчицу и оливковое масло. Покрошите шпинат, а затем добавьте его в миску с остальными ингредиентами. Хорошо перемешайте соус. ",
+            "Хорошенько вымесите тесто руками в течение 10-15 минут. Должно получиться эластичная, не прилипающая к рукам масса.Накройте тесто влажным полотенцем и поставьте на 1 час 15 минут в тепло.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9BQXdEYzMuanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy8zd2ZZdUIuanBlZw==.jpg",
         },
         {
           title: "Шаг 6",
-          description: "Разрежьте булочки для бургера пополам вдоль.",
+          description:
+            "Обомните тесто и дайте ему отдохнуть еще 20 минут.Разделите тесто на 3 части. Каждую часть раскатайте в пласт толщиной в полсантиметра.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy8zRFR1NEouanBlZw==.jpg",
         },
         {
           title: "Шаг 7",
           description:
-            "Обжарьте замаринованные куриные бедра на решетке гриля или шампурах с двух сторон до готовности. После этого переложите мясо на доску, дайте ему немного остыть и нарежьте небольшими ломтиками. ",
+            "Мысленно разделите пласт на 3 части и сложите края в центр, чтобы получилась полоска теста.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC9yc2thaU4uanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy8zSmdMclkuanBlZw==.jpg",
         },
         {
           title: "Шаг 8",
           description:
-            "Поджарьте булочки для бургера на решетке, положив стороной разреза вниз. ",
+            "Скрутите получившуюся полоску в рулет. То же самое проделайте с остальным тестом.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy80RzVHdHUuanBlZw==.jpg",
         },
         {
           title: "Шаг 9",
           description:
-            "Выложите кусочки курицы на нижнюю часть булочки, полейте шпинатным соусом и накройте второй половиной булочки. ",
+            "Положите получившиеся улитки из теста швом вниз в форму для выпекания на небольшом расстоянии друг от друга.Накройте тесто пищевой пленкой и оставьте на 45 минут на расстойку.",
           image_path:
-            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDYxOC8zUjQ1VFguanBlZw.jpg",
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy8zNjhTS0UuanBlZw==.jpg",
+        },
+        {
+          title: "Шаг 10",
+          description:
+            "Поставьте в духовку вниз другую форму для выпекания с горячей водой. Разогрейте духовку до 200 градусов.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9udWxs.jpg",
+        },
+        {
+          title: "Шаг 11",
+          description:
+            "Отправьте хлеб выпекаться на 35 минут. Через 10 минут уберите из духовки противень с водой. По завершении выпекания переложите готовый хлеб на решетку остывать.",
+          image_path:
+            "https://cdn.food.ru/unsigned/fit/640/480/ce/0/czM6Ly9tZWRpYS9waWN0dXJlcy8yMDI0MDUxNy8zeGJpQUUuanBlZw==.jpg",
         },
       ],
-      kitchen_type: "Авторская",
-      main_ingredient_title: "Для блюда",
-      optional_ingredient_title: null,
+      kitchen_type: "Японская",
+      main_ingredient_title: "Для опары",
+      optional_ingredient_title: "Для теста и подачи",
       main_ingredients: [
         {
-          id: 536,
-          weight: 320,
-          custom_measure: "шт.",
-          custom_measure_count: 4,
-          title: "Пшеничные булочки",
-        },
-        {
-          id: 12312,
-          weight: 400,
-          custom_measure: "г",
-          custom_measure_count: 400,
-          title: "Мясо куриного бедра",
-        },
-        {
-          id: 5775,
-          weight: 120,
-          custom_measure: "г",
-          custom_measure_count: 120,
-          title: "Греческий йогурт",
-        },
-        {
-          id: 13132,
-          weight: 15,
-          custom_measure: "г",
-          custom_measure_count: 15,
-          title: "Желтая паста карри",
-        },
-        {
-          id: 116,
-          weight: 6,
-          custom_measure: "веточка",
-          custom_measure_count: 2,
-          title: "Кинза",
-        },
-        {
-          id: 447,
-          weight: 100,
-          custom_measure: "г",
-          custom_measure_count: 100,
-          title: "Шпинат",
-        },
-        {
-          id: 152,
-          weight: 15,
-          custom_measure: "г",
-          custom_measure_count: 15,
-          title: "Красный лук",
-        },
-        {
-          id: 180,
-          weight: 60,
-          custom_measure: "шт.",
+          id: 282,
+          weight: 130,
+          custom_measure: "стакан",
           custom_measure_count: 1,
-          title: "Лайм",
+          title: "Пшеничная мука хлебопекарная",
         },
         {
-          id: 14698,
-          weight: 10,
-          custom_measure: "г",
-          custom_measure_count: 10,
-          title: "Зернистая горчица",
+          id: 315,
+          weight: 5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
+          title: "Свежие дрожжи",
         },
         {
-          id: 440,
-          weight: 10,
-          custom_measure: "зубчик",
-          custom_measure_count: 2,
-          title: "Чеснок",
+          id: 369,
+          weight: 150,
+          custom_measure: "стакан",
+          custom_measure_count: 1.5,
+          title: "Сухое молоко",
+        },
+        {
+          id: 54,
+          weight: 120,
+          custom_measure: "стакан",
+          custom_measure_count: 0.6,
+          title: "Вода",
+        },
+      ],
+      optional_ingredients: [
+        {
+          id: 282,
+          weight: 130,
+          custom_measure: "стакан",
+          custom_measure_count: 1,
+          title: "Пшеничная мука хлебопекарная",
+        },
+        {
+          id: 352,
+          weight: 5,
+          custom_measure: "ч. л.",
+          custom_measure_count: 0.5,
+          title: "Соль",
         },
         {
           id: 312,
-          weight: 20,
-          custom_measure: "г",
-          custom_measure_count: 20,
+          weight: 10,
+          custom_measure: "ч. л.",
+          custom_measure_count: 1,
           title: "Сахар",
         },
         {
-          id: 240,
-          weight: 20,
-          custom_measure: "г",
-          custom_measure_count: 20,
-          title: "Оливковое масло",
+          id: 54,
+          weight: 60,
+          custom_measure: "стакан",
+          custom_measure_count: 0.3,
+          title: "Вода",
+        },
+        {
+          id: 338,
+          weight: 0,
+          custom_measure: "по вкусу",
+          custom_measure_count: 0,
+          title: "Сливочное масло",
         },
       ],
-      optional_ingredients: [],
-      proteins: 11.7,
-      fats: 7.25,
-      carbs: 19.43,
-      calories: 182.77,
+      proteins: 11.02,
+      fats: 6.72,
+      carbs: 39.74,
+      calories: 264.96,
     },
   ],
   drinks: [

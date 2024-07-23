@@ -11,7 +11,7 @@ export interface ITypeMeal {
 
 interface IPreparation {
   content: string;
-  image_path: string;
+  image_path: string | null;
 }
 
 interface ICooking {
