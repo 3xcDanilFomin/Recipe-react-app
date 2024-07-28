@@ -1,5 +1,5 @@
 import { IRecipe } from "../../types/types";
-import { Ingridients } from "../Ingridients";
+import { RecipeIngridients } from "../RecipeIngridients";
 import { Manual } from "../Manual";
 import { NutritionDetails } from "../NutritionDetails";
 import { RecipeDescription } from "../RecipeDescription";
@@ -21,11 +21,11 @@ export const RecipeDetail: React.FC<RecipeDetailProps> = ({ recipe }) => {
         activeCookingTime={recipe.active_cooking_time}
       />
       <NutritionDetails nutritionDetails={recipe.nutritionDetails} />
-      <Ingridients
+      <RecipeIngridients
         mainIngredientTitle={recipe.main_ingredient_title}
         mainIngredients={recipe.main_ingredients}
         optionalIngredientTitle={recipe.optional_ingredient_title}
-        optionalIngredients={recipe.main_ingredients}
+        optionalIngredients={recipe.optional_ingredients}
       />
       <Manual preparation={recipe.preparation} cooking={recipe.cooking} />
     </section>

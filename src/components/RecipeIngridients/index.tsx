@@ -1,19 +1,20 @@
 import { IIngredients } from "../../types/types";
 import styles from "./styles.module.scss";
 
-interface IngridientsProps {
+interface RecipeIngridientsProps {
   mainIngredientTitle: string;
   mainIngredients: IIngredients[];
   optionalIngredientTitle: string;
   optionalIngredients: IIngredients[];
 }
 
-export const Ingridients: React.FC<IngridientsProps> = ({
+export const RecipeIngridients: React.FC<RecipeIngridientsProps> = ({
   mainIngredientTitle,
   mainIngredients,
   optionalIngredientTitle,
   optionalIngredients,
 }) => {
+  console.log(optionalIngredients)
   return (
     <div className={styles["ingridients"]}>
       <header className={styles["ingridients__header"]}>
