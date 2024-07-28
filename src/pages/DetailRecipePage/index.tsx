@@ -27,6 +27,15 @@ export const DetailRecipePage: React.FC = () => {
     if (pageRef.current) pageRef.current.scrollIntoView();
   }, [location]);
 
+  if (!recipe) {
+    return (
+      <main className={styles["page"]} ref={pageRef}>
+        <RecipeHeader onNavigateBack={handleNavigateBack} />
+        <div>Рецепт не найден</div>
+      </main>
+    );
+  }
+
   return (
     <main className={styles["page"]} ref={pageRef}>
       <RecipeHeader onNavigateBack={handleNavigateBack} />
