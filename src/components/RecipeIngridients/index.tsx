@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 interface RecipeIngridientsProps {
   mainIngredientTitle: string;
   mainIngredients: IIngredients[];
-  optionalIngredientTitle: string;
+  optionalIngredientTitle: string | null;
   optionalIngredients: IIngredients[];
 }
 
@@ -14,7 +14,7 @@ export const RecipeIngridients: React.FC<RecipeIngridientsProps> = ({
   optionalIngredientTitle,
   optionalIngredients,
 }) => {
-  console.log(optionalIngredients)
+  console.log(optionalIngredients);
   return (
     <div className={styles["ingridients"]}>
       <header className={styles["ingridients__header"]}>

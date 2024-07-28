@@ -11,13 +11,18 @@ export interface ITypeMeal {
 
 export interface IPreparation {
   content: string;
-  image_path: string | null;
+  imagePath: string | null;
 }
 
 export interface ICooking {
   title: string;
   description: string;
-  image_path: string;
+  imagePath: string;
+}
+
+export interface IImpression {
+  description: string;
+  imagePath: string;
 }
 
 export interface IIngredients {
@@ -35,20 +40,25 @@ export interface INutritionDetail {
 
 export interface IRecipe {
   id: number;
-  active_cooking_time: number;
-  total_cooking_time: number;
-  difficulty_level: number;
+  activeCookingTime: number;
+  totalCookingTime: number;
   title: string;
   subtitle: string;
-  image_path: string;
+  imagePath: string;
   preparation: IPreparation;
   cooking: ICooking[];
-  kitchen_type: string;
-  main_ingredient_title: string;
-  optional_ingredient_title: string;
-  main_ingredients: IIngredients[];
-  optional_ingredients: IIngredients[];
+  impression: IImpression[];
+  kitchenType: string;
+  mainIngredientTitle: string;
+  optionalIngredientTitle: string | null;
+  mainIngredients: IIngredients[];
+  optionalIngredients: IIngredients[] | [];
   nutritionDetails: INutritionDetail[];
+  difficultyLevel: number;
+  acuityLevel: number;
+  measure: string;
+  measureCount: number;
+  allergens: string;
 }
 
 export interface ICategoryRecipe {
@@ -56,14 +66,14 @@ export interface ICategoryRecipe {
 }
 
 export interface ICategoryRecipes {
-  // "first-courses": IRecipe[];
-  // "second-courses": IRecipe[];
+  "first-courses": IRecipe[];
+  "second-courses": IRecipe[];
   salads: IRecipe[];
-  // snacks: IRecipe[];
-  // garnish: IRecipe[];
-  // desserts: IRecipe[];
-  // bakery: IRecipe[];
-  // drinks: IRecipe[];
-  // preserves: IRecipe[];
-  // sauces: IRecipe[];
+  snacks: IRecipe[];
+  garnish: IRecipe[];
+  desserts: IRecipe[];
+  bakery: IRecipe[];
+  drinks: IRecipe[];
+  preserves: IRecipe[];
+  sauces: IRecipe[];
 }

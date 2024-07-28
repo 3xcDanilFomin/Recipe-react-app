@@ -1,22 +1,23 @@
-import { ICooking, IPreparation } from "../../types/types";
+import { ICooking, IImpression, IPreparation } from "../../types/types";
 import styles from "./styles.module.scss";
 
 interface ManualProps {
   preparation: IPreparation;
   cooking: ICooking[];
+  impression: IImpression[];
 }
 
-export const Manual: React.FC<ManualProps> = ({ preparation, cooking }) => {
+export const Manual: React.FC<ManualProps> = ({ preparation, cooking, impression }) => {
   return (
     <div className={styles["manual"]}>
       <h3 className={styles["manual__title"]}>Пошаговый фоторецепт</h3>
       <ul className={styles["manual__wrapper"]}>
         <h4 className={styles["manual__subtitle"]}>Подготовиться</h4>
         <li className={styles["manual__item"]}>
-          {preparation.image_path && (
+          {preparation.imagePath && (
             <img
               className={styles["manual__img"]}
-              src={preparation.image_path}
+              src={preparation.imagePath}
               alt="Подготовка необходимых продуктов"
             />
           )}
@@ -30,7 +31,7 @@ export const Manual: React.FC<ManualProps> = ({ preparation, cooking }) => {
             <div className={styles["manual__step"]}>{`Шаг ${i + 1}`}</div>
             <img
               className={styles["manual__img"]}
-              src={step.image_path}
+              src={step.imagePath}
               alt="Шаг приготовления"
             />
             <p className={styles["manual__descriptin"]}>{step.description}</p>
@@ -40,14 +41,14 @@ export const Manual: React.FC<ManualProps> = ({ preparation, cooking }) => {
       <ul className={styles["manual__wrapper"]}>
         <h4 className={styles["manual__subtitle"]}>Произвести впечатление</h4>
         <li className={styles["manual__item"]}>
-          {preparation.image_path && (
+          {preparation.imagePath && (
             <img
               className={styles["manual__img"]}
-              src={preparation.image_path}
+              src={impression[0].imagePath}
               alt="Произвести впечатление"
             />
           )}
-          <p className={styles["manual__descriptin"]}>{preparation.content}</p>
+          <p className={styles["manual__descriptin"]}>{impression[0].description}</p>
         </li>
       </ul>
     </div>

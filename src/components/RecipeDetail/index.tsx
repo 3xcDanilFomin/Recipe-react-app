@@ -16,18 +16,25 @@ export const RecipeDetail: React.FC<RecipeDetailProps> = ({ recipe }) => {
       <h1 className={styles["page__title"]}>{recipe.title}</h1>
       <RecipeSubtitle subtitle={recipe.subtitle} />
       <RecipeDescription
-        kitchenType={recipe.kitchen_type}
-        totalCookingTime={recipe.total_cooking_time}
-        activeCookingTime={recipe.active_cooking_time}
+        kitchenType={recipe.kitchenType}
+        totalCookingTime={recipe.totalCookingTime}
+        activeCookingTime={recipe.activeCookingTime}
+        allergens={recipe.allergens}
+        acuityLevel={recipe.acuityLevel}
+        difficultyLevel={recipe.difficultyLevel}
       />
       <NutritionDetails nutritionDetails={recipe.nutritionDetails} />
       <RecipeIngridients
-        mainIngredientTitle={recipe.main_ingredient_title}
-        mainIngredients={recipe.main_ingredients}
-        optionalIngredientTitle={recipe.optional_ingredient_title}
-        optionalIngredients={recipe.optional_ingredients}
+        mainIngredientTitle={recipe.mainIngredientTitle}
+        mainIngredients={recipe.mainIngredients}
+        optionalIngredientTitle={recipe.optionalIngredientTitle}
+        optionalIngredients={recipe.optionalIngredients}
       />
-      <Manual preparation={recipe.preparation} cooking={recipe.cooking} />
+      <Manual
+        preparation={recipe.preparation}
+        cooking={recipe.cooking}
+        impression={recipe.impression}
+      />
     </section>
   );
 };

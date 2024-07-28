@@ -9,7 +9,7 @@ export const RecipeImage: React.FC<RecipeImageProps> = ({ recipe }) => {
   return (
     <img
       className={styles["banner"]}
-      src={recipe?.image_path}
+      src={recipe?.imagePath}
       alt={recipe?.title}
     />
   );

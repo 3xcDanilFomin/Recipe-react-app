@@ -5,15 +5,19 @@ interface RecipeDescriptionProps {
   kitchenType: string;
   totalCookingTime: number;
   activeCookingTime: number;
+  allergens: string;
+  acuityLevel: number;
+  difficultyLevel: number;
 }
 
 export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
   kitchenType,
   totalCookingTime,
   activeCookingTime,
+  allergens,
+  acuityLevel,
+  difficultyLevel,
 }) => {
-  const sharpness = 2;
-  const level = 5;
   return (
     <div className={styles["description"]}>
       <div className={styles["description__row"]}>
@@ -47,7 +51,7 @@ export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
               <svg
                 key={i}
                 className={
-                  i <= sharpness
+                  i < acuityLevel
                     ? [
                         styles["icon-pepper"],
                         styles["icon-pepper-active"],
@@ -83,7 +87,7 @@ export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
               <svg
                 key={i}
                 className={
-                  i <= level
+                  i < difficultyLevel
                     ? [styles["icon-cook"], styles["icon-cook-active"]].join(
                         " "
                       )
@@ -107,7 +111,7 @@ export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
             </h3>
             <span className={styles["description__hint"]}>?</span>
           </div>
-          <h4 className={styles["description__text"]}>Белок коровьего молока, Пищевые добавки, Яйцо</h4>
+          <h4 className={styles["description__text"]}>{allergens}</h4>
         </div>
       </div>
       <p className={styles["description__text"]}>
