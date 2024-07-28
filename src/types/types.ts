@@ -9,18 +9,18 @@ export interface ITypeMeal {
   imgPath: string;
 }
 
-interface IPreparation {
+export interface IPreparation {
   content: string;
   image_path: string | null;
 }
 
-interface ICooking {
+export interface ICooking {
   title: string;
   description: string;
   image_path: string;
 }
 
-interface IIngredients {
+export interface IIngredients {
   id: number;
   weight: number;
   custom_measure: string;
@@ -28,25 +28,27 @@ interface IIngredients {
   title: string;
 }
 
+export interface INutritionDetail {
+  title: string;
+  value: string;
+}
+
 export interface IRecipe {
   id: number;
-  active_cooking_time?: number;
+  active_cooking_time: number;
   total_cooking_time: number;
-  difficulty_level?: number;
+  difficulty_level: number;
   title: string;
-  subtitle?: string;
+  subtitle: string;
   image_path: string;
-  preparation?: IPreparation;
-  cooking?: ICooking[];
-  kitchen_type?: string;
-  main_ingredient_title?: string;
-  optional_ingredient_title?: string | null;
-  main_ingredients?: IIngredients[];
-  optional_ingredients?: IIngredients[] | [];
-  proteins?: number;
-  fats?: number;
-  carbs?: number;
-  calories?: number;
+  preparation: IPreparation;
+  cooking: ICooking[];
+  kitchen_type: string;
+  main_ingredient_title: string;
+  optional_ingredient_title: string;
+  main_ingredients: IIngredients[];
+  optional_ingredients: IIngredients[];
+  nutritionDetails: INutritionDetail[];
 }
 
 export interface ICategoryRecipe {

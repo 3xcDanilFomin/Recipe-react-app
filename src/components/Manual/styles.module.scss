@@ -1,0 +1,58 @@
+@import "../../styles/utils/variables";
+
+.manual {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color: $color-dark-gray;
+    box-shadow: 0 0 5px $color-dark-gray;
+    padding: 16px 12px;
+    border-radius: 12px;
+  }
+
+  &__subtitle {
+    font-weight: 600;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  &__step {
+    display: block;
+    width: fit-content;
+    font-size: 14px;
+    color: $color-dark-gray;
+    background-color: $color-primary;
+    padding: 4px 8px;
+    border-radius: 6px;
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 12px;
+    margin-bottom: 6px;
+  }
+
+  &__descriptin {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+}

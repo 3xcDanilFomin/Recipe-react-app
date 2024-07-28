@@ -1,42 +1,71 @@
 @font-face {
-    font-family: 'Golos Text';
-    src: url('GolosText-Black.woff2') format('woff2');
-    font-weight: 900;
-    font-style: normal;
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Bold.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-Bold.woff") format("woff"),
+    url("/assets/fonts/Nunito-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Golos Text';
-    src: url('GolosText-ExtraBold.woff2') format('woff2');
-    font-weight: 800;
-    font-style: normal;
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Black.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-Black.woff") format("woff"),
+    url("/assets/fonts/Nunito-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Golos Text';
-    src: url('GolosText-Bold.woff2') format('woff2');
-    font-weight: 700;
-    font-style: normal;
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-ExtraBold.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-ExtraBold.woff") format("woff"),
+    url("/assets/fonts/Nunito-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Golos Text';
-    src: url('GolosText-Medium.woff2') format('woff2');
-    font-weight: 600;
-    font-style: normal;
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-ExtraLight.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-ExtraLight.woff") format("woff"),
+    url("/assets/fonts/Nunito-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Golos Text';
-    src: url('GolosText-SemiBold.woff2') format('woff2');
-    font-weight: 500;
-    font-style: normal;
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Light.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-Light.woff") format("woff"),
+    url("/assets/fonts/Nunito-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Golos Text';
-    src: url('GolosText-Regular.woff2') format('woff2');
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Medium.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-Medium.woff") format("woff"),
+    url("/assets/fonts/Nunito-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-Regular.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-Regular.woff") format("woff"),
+    url("/assets/fonts/Nunito-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito";
+  src: url("/assets/fonts/Nunito-SemiBold.woff2") format("woff2"),
+    url("/assets/fonts/Nunito-SemiBold.woff") format("woff"),
+    url("/assets/fonts/Nunito-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}

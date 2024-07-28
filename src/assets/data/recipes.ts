@@ -1,6 +1,4 @@
-import { ICategoryRecipes } from "../../types/types";
-
-export const recipes: ICategoryRecipes = {
+export const recipes = {
   salads: [
     {
       id: 221481,
@@ -131,10 +129,12 @@ export const recipes: ICategoryRecipes = {
           title: "Микрозелень",
         },
       ],
-      proteins: 2.79,
-      fats: 17.56,
-      carbs: 6.53,
-      calories: 162.4,
+      nutritionDetails: [
+        { title: "Калории", value: 162.4 },
+        { title: "Белки", value: 2.794 },
+        { title: "Жиры", value: 17.56 },
+        { title: "Углеводы", value: 6.53 },
+      ],
     },
     {
       id: 219118,
