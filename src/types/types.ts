@@ -30,7 +30,7 @@ export interface IIngredients {
 
 export interface INutritionDetail {
   title: string;
-  value: string;
+  value: number;
 }
 
 export interface IRecipe {
@@ -56,14 +56,14 @@ export interface ICategoryRecipe {
 }
 
 export interface ICategoryRecipes {
-  "first-courses": IRecipe[];
-  "second-courses": IRecipe[];
+  // "first-courses": IRecipe[];
+  // "second-courses": IRecipe[];
   salads: IRecipe[];
-  snacks: IRecipe[];
-  garnish: IRecipe[];
-  desserts: IRecipe[];
-  bakery: IRecipe[];
-  drinks: IRecipe[];
-  preserves: IRecipe[];
-  sauces: IRecipe[];
+  // snacks: IRecipe[];
+  // garnish: IRecipe[];
+  // desserts: IRecipe[];
+  // bakery: IRecipe[];
+  // drinks: IRecipe[];
+  // preserves: IRecipe[];
+  // sauces: IRecipe[];
 }
