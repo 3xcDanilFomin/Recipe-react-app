@@ -7,8 +7,9 @@ import styles from "./styles.module.scss";
 export const SearchPage: React.FC = () => {
   return (
     <main className={styles["content-wrapper"]}>
-      <TitlePage title="Поиск" />
-      <InputSearch />
+      <TitlePage title="Поиск">
+        <InputSearch />
+      </TitlePage>
       <section className={styles["content-page"]}>
         <div className={styles["content-page__row"]}>
           <h2 className={styles["content-page__title"]}>Кaтегории рецептов</h2>

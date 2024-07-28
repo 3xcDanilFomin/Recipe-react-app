@@ -6,16 +6,27 @@
   padding-inline: 32px;
 
   &__icon {
-    position: absolute;
-    top: 50%;
-    left: 42px;
-    width: 24px;
-    height: 24px;
-    fill: none;
-    stroke: $color-light-gray;
-    stroke-width: 1px;
-    transform: translateY(-50%);
-    transition: stroke $animation;
+    &--search {
+      position: absolute;
+      top: 50%;
+      left: 42px;
+      width: 24px;
+      height: 24px;
+      fill: none;
+      stroke: $color-light-gray;
+      stroke-width: 1px;
+      transform: translateY(-50%);
+      transition: stroke $animation;
+    }
+
+    &--clear {
+      width: 24px;
+      height: 24px;
+      stroke: $color-accent;
+      stroke-width: 1.5;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
   }
 
   &__input {
@@ -24,8 +35,10 @@
     outline: none;
     border: 1px solid transparent;
     background-color: $color-main;
+    font-size: 14px;
+    font-weight: 400;
     color: $color-white;
-    padding: 6px 12px 6px 48px;
+    padding: 6px 48px;
     transition: border-color $animation;
 
     &::placeholder {
@@ -43,5 +56,14 @@
         stroke: $color-accent;
       }
     }
+  }
+
+  &__btn {
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    border: none;
+    outline: none;
+    background-color: transparent;
   }
 }

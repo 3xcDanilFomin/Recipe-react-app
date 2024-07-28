@@ -14,7 +14,6 @@ export const RecipeIngridients: React.FC<RecipeIngridientsProps> = ({
   optionalIngredientTitle,
   optionalIngredients,
 }) => {
-  console.log(optionalIngredients);
   return (
     <div className={styles["ingridients"]}>
       <header className={styles["ingridients__header"]}>
@@ -49,23 +48,25 @@ export const RecipeIngridients: React.FC<RecipeIngridientsProps> = ({
             </li>
           ))}
         </ul>
-        <ul className={styles["ingridients__items"]}>
-          <h4 className={styles["ingridients__items-title"]}>
-            {optionalIngredientTitle}
-          </h4>
-          {optionalIngredients?.map((ingredient) => (
-            <li className={styles["ingridients__item"]} key={ingredient.id}>
-              <h5 className={styles["ingridients__item-title"]}>
-                {ingredient.title}
-              </h5>
-              <span className={styles["ingridients__item-description"]}>
-                {ingredient.weight
-                  ? `${ingredient.custom_measure_count} ${ingredient.custom_measure} = ${ingredient.weight} г`
-                  : ingredient.custom_measure}
-              </span>
-            </li>
-          ))}
-        </ul>
+        {optionalIngredients.length > 0 && (
+          <ul className={styles["ingridients__items"]}>
+            <h4 className={styles["ingridients__items-title"]}>
+              {optionalIngredientTitle}
+            </h4>
+            {optionalIngredients?.map((ingredient) => (
+              <li className={styles["ingridients__item"]} key={ingredient.id}>
+                <h5 className={styles["ingridients__item-title"]}>
+                  {ingredient.title}
+                </h5>
+                <span className={styles["ingridients__item-description"]}>
+                  {ingredient.weight
+                    ? `${ingredient.custom_measure_count} ${ingredient.custom_measure} = ${ingredient.weight} г`
+                    : ingredient.custom_measure}
+                </span>
+              </li>
+            ))}
+          </ul>
+        )}
       </div>
     </div>
   );
