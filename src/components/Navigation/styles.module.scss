@@ -1,11 +1,9 @@
 @import "../../styles/utils/variables";
 
 .menu {
-  width: 100%;
-  position: fixed;
+  position: relative;
   z-index: 10;
-  left: 0;
-  bottom: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -77,3 +77,15 @@ export interface ICategoryRecipes {
   preserves: IRecipe[];
   sauces: IRecipe[];
 }
+
+export interface IHint {
+  countIcons: number;
+  level: string;
+  description: string;
+}
+
+export interface IHints {
+  title: string;
+  subtitle: string;
+  hintsList?: IHint[];
+}

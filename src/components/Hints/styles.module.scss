@@ -1,0 +1,16 @@
+.hints {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+}

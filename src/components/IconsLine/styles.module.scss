@@ -1,0 +1,29 @@
+@import "../../styles/utils/variables";
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    opacity: 0.25;
+
+    &--active {
+      opacity: 1;
+    }
+
+    &--gren {
+      fill: $color-green;
+    }
+
+    &--red {
+      fill: $color-red;
+    }
+
+    &--cook {
+      fill: $color-primary;
+    }
+  }
+}
