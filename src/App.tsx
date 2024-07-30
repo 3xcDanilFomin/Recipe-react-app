@@ -3,15 +3,8 @@ import { Outlet } from "react-router-dom";
 
 export const App: React.FC = () => {
   useEffect(() => {
-    const container = document.querySelector(".container");
-    if (container instanceof HTMLElement) {
-      container.requestFullscreen().catch((err) => {
-        console.error(
-          "Error attempting to enable full-screen mode:",
-          err.message
-        );
-      });
-    }
+    const root = document.querySelector("#root");
+    if (root) root.requestFullscreen({ navigationUI: "hide" });
   }, []);
 
   return (
