@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react-swc";
 
 const vitePWA = VitePWA({
   registerType: "autoUpdate",
-  outDir: "build",
+  outDir: "dist",
   manifest: {
     name: "Vitejs config PWA",
     short_name: "VitePWA",
@@ -27,9 +27,6 @@ const vitePWA = VitePWA({
 });
 
 export default defineConfig({
-  build: {
-    outDir: "build",
-  },
   plugins: [react(), vitePWA],
   server: {
     open: "/",
