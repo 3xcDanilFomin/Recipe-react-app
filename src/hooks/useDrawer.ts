@@ -23,7 +23,7 @@ export const useDrawer = ({ isOpen, setIsOpen }: UseDrawerProps) => {
         setIsClosing(false);
       } else {
         setIsClosing(true);
-        setTimeout(() => setIsClosing(false), 300);
+        setIsClosing(false);
       }
     }
 
