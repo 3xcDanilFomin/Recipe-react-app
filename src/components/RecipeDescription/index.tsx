@@ -4,7 +4,11 @@ import { toHoursAndMinutes } from "../../utils/formatTime";
 import { IconsLine } from "../IconsLine";
 import { Hints } from "../Hints";
 import { HintButton } from "../UI/HintButton";
-import { allergensHints, difficultyHints, sharpnessHints } from "../../assets/data/hints";
+import {
+  allergensHints,
+  difficultyHints,
+  sharpnessHints,
+} from "../../assets/data/hints";
 import styles from "./styles.module.scss";
 
 interface RecipeDescriptionProps {
@@ -34,14 +38,17 @@ export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
     useState<boolean>(false);
 
   const handleClickSharpnessHints = () => {
+    document.body.classList.add("open-drawer");
     setIsShowSharpnessHints(true);
   };
 
   const handleClickDifficultyHints = () => {
+    document.body.classList.add("open-drawer");
     setIsShowDifficultyHints(true);
   };
 
   const handleClickAllergensHints = () => {
+    document.body.classList.add("open-drawer");
     setIsShowAllergensHints(true);
   };
 
@@ -102,8 +109,11 @@ export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
               Распространенный аллерген
             </h3>
             <HintButton onClick={handleClickAllergensHints} />
-
-            <Hints isShow={isShowAllergensHints} showHints={setIsShowAllergensHints } hints={allergensHints} />
+            <Hints
+              isShow={isShowAllergensHints}
+              showHints={setIsShowAllergensHints}
+              hints={allergensHints}
+            />
           </div>
           <h4 className={styles["description__text"]}>{allergens}</h4>
         </div>

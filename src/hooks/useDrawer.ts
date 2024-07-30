@@ -13,18 +13,12 @@ export const useDrawer = ({ isOpen, setIsOpen }: UseDrawerProps) => {
     const drawerElement = drawerRef.current;
 
     const touchEndHandler = () => {
+      document.body.classList.remove("open-drawer");
       setIsOpen(false);
     };
 
     if (drawerElement) {
       drawerElement.addEventListener("touchend", touchEndHandler);
-
-      if (isOpen) {
-        setIsClosing(false);
-      } else {
-        setIsClosing(true);
-        setIsClosing(false);
-      }
     }
 
     return () => {
