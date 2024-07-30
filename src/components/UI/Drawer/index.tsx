@@ -13,7 +13,7 @@ export const Drawer: React.FC<React.PropsWithChildren<DrawerProps>> = ({
   children,
 }) => {
   const { drawerRef, isClosing } = useDrawer({ isOpen, setIsOpen });
-
+  console.log(drawerRef);
   return (
     <div
       ref={drawerRef}

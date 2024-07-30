@@ -31,5 +31,6 @@ export const useDrawer = ({ isOpen, setIsOpen }: UseDrawerProps) => {
   return {
     drawerRef,
     isClosing,
+    setIsClosing,
   };
 };
