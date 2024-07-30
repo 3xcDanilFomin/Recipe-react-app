@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import styles from "./styles.module.scss";
 
 interface RecipeSubtitleProps {
@@ -7,23 +7,16 @@ interface RecipeSubtitleProps {
 
 export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [isOverflowing, setIsOverflowing] = useState<boolean>(false);
   const descriptionRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    if (descriptionRef.current && descriptionRef.current.scrollHeight > 80) {
-      setIsOverflowing(true);
-    }
-  }, []);
-
   const handleClickButton = (): void => {
-    setIsOpen(true);
+    setIsOpen(!isOpen);
   };
 
   return (
-    <div className={styles.recipe}>
-      <div
-        className={styles.recipe__subtitle}
+    <div className={styles["recipe"]}>
+      <h2
+        className={styles["recipe__subtitle"]}
         ref={descriptionRef}
         style={{
           maxHeight: isOpen ? descriptionRef?.current?.scrollHeight : "65px",
@@ -31,12 +24,17 @@ export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
         }}
       >
         {subtitle}
-      </div>
-      {isOverflowing && !isOpen && (
-        <button className={styles.recipe__button} onClick={handleClickButton}>
-          Показать всё
-        </button>
-      )}
+      </h2>
+      {
+        <div className={styles["recipe__wrapper"]}>
+          <button
+            className={styles["recipe__button"]}
+            onClick={handleClickButton}
+          >
+            {isOpen ? "Скрыть" : "Показать всё"}
+          </button>
+        </div>
+      }
     </div>
   );
 };

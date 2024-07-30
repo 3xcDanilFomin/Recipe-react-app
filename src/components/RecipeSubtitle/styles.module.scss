@@ -1,9 +1,6 @@
 @import "../../styles/utils/variables";
 
 .recipe {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
   margin-bottom: 24px;
 
   &__subtitle {
@@ -13,11 +10,18 @@
     transition: max-height .5s ease-in-out;
   }
 
+  &__wrapper{
+    position: relative;
+    z-index: 5;
+    background-color: $color-main;
+  }
+
   &__button {
     width: fit-content;
     color: $color-accent;
     font-size: 14px;
     font-weight: 600;
+    padding-block: 12px;
     border: none;
     outline: none;
     background-color: transparent;
