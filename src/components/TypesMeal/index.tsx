@@ -1,8 +1,8 @@
 import { ITypeMeal } from "../../types/types";
 import { TypeMealItem } from "./TypeMealItem";
-import breakfastImg from "../../assets/image/typesMeal/breakfast.jpeg";
-import lunchImg from "../../assets/image/typesMeal/lunch.jpeg";
-import dinnerImg from "../../assets/image/typesMeal/dinner.jpeg";
+import breakfastImg from "../../assets/image/typesMeal/breakfast.webp";
+import lunchImg from "../../assets/image/typesMeal/lunch.webp";
+import dinnerImg from "../../assets/image/typesMeal/dinner.webp";
 import styles from "./styles.module.scss";
 
 const typesMeal: ITypeMeal[] = [
@@ -20,7 +20,7 @@ const typesMeal: ITypeMeal[] = [
   },
 ];
 
-export const TypesMealList: React.FC = () => {
+export const TypesMeal: React.FC = () => {
   return (
     <ul className={styles["list"]}>
       {typesMeal.map((type) => (

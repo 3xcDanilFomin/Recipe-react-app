@@ -9,6 +9,7 @@ import { ProfilePage } from "../pages/ProfilePage";
 import { AuthPage } from "../pages/AuthPage";
 import { RecipesPage } from "../pages/RecipesPage";
 import { DetailRecipePage } from "../pages/DetailRecipePage";
+import { FiltersPage } from "../pages/FiltersPage";
 
 export const router = createBrowserRouter([
   {
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
           {
             path: "/search",
             element: <SearchPage />,
+          },
+          {
+            path: "/filters",
+            element: <FiltersPage />,
           },
           {
             path: "/favourites",

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import styles from "./styles.module.scss";
 
 interface RecipeSubtitleProps {
@@ -7,32 +7,39 @@ interface RecipeSubtitleProps {
 
 export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const descriptionRef = useRef<HTMLDivElement>(null);
+  const [isSubtitleBig, setIsSubtitleBig] = useState<boolean>(false);
+  const subtitleRef = useRef<HTMLDivElement>(null);
 
-  const handleClickButton = (): void => {
+  useEffect(() => {
+    if (subtitleRef.current) {
+      const subtitleHeight = subtitleRef.current.offsetHeight;
+      if (subtitleHeight > 80) {
+        subtitleRef.current.style.maxHeight = "45px";
+        setIsSubtitleBig(true);
+      }
+    }
+  }, []);
+
+  const toggleSubtitleHeight = (): void => {
     setIsOpen(!isOpen);
+    if (subtitleRef.current) {
+      subtitleRef.current.style.maxHeight = isOpen ? "45px" : "500px";
+    }
   };
 
   return (
     <>
-      <h2
-        className={styles["recipe__subtitle"]}
-        ref={descriptionRef}
-        style={{
-          maxHeight: isOpen ? descriptionRef?.current?.scrollHeight : "65px",
-          overflow: isOpen ? "visible" : "hidden",
-        }}
-      >
+      <h2 className={styles["recipe__subtitle"]} ref={subtitleRef}>
         {subtitle}
       </h2>
-      <div className={styles["recipe__wrapper"]}>
+      {isSubtitleBig && (
         <button
           className={styles["recipe__button"]}
-          onClick={handleClickButton}
+          onClick={toggleSubtitleHeight}
         >
           {isOpen ? "Скрыть" : "Показать всё"}
         </button>
-      </div>
+      )}
     </>
   );
 };

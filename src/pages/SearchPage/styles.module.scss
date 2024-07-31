@@ -1,25 +1,49 @@
+@import "../../styles/utils/variables";
+
 .content {
   &-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
   }
   &-page {
     width: 100%;
-    padding-bottom: 48px;
+    padding-bottom: 12px;
+
+    &__link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      color: $color-white;
+      font-weight: 600;
+      background-color: $color-dark-gray;
+      margin: 0 24px 24px;
+      padding-block: 12px;
+      border-radius: 16px;
+    }
+
+    &__icon {
+      width: 24px;
+      height: 24px;
+      stroke: $color-white;
+      stroke-width: 1.5px;
+      stroke-linecap: round;
+    }
 
     &::-webkit-scrollbar {
       width: 0;
     }
 
-    &__row {
+    &__row:not(:last-child) {
       margin-bottom: 24px;
     }
 
     &__title {
       width: 100%;
       text-align: left;
-      font-size: 24px;
+      font-size: 22px;
+      font-weight: 700;
       padding-inline: 24px;
       margin-bottom: 12px;
     }
