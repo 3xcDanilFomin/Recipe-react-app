@@ -14,7 +14,7 @@ export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
   };
 
   return (
-    <div className={styles["recipe"]}>
+    <>
       <h2
         className={styles["recipe__subtitle"]}
         ref={descriptionRef}
@@ -25,16 +25,14 @@ export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
       >
         {subtitle}
       </h2>
-      {
-        <div className={styles["recipe__wrapper"]}>
-          <button
-            className={styles["recipe__button"]}
-            onClick={handleClickButton}
-          >
-            {isOpen ? "Скрыть" : "Показать всё"}
-          </button>
-        </div>
-      }
-    </div>
+      <div className={styles["recipe__wrapper"]}>
+        <button
+          className={styles["recipe__button"]}
+          onClick={handleClickButton}
+        >
+          {isOpen ? "Скрыть" : "Показать всё"}
+        </button>
+      </div>
+    </>
   );
 };
