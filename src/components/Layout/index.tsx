@@ -6,7 +6,7 @@ import styles from "./styles.module.scss";
 export const Layout: React.FC = () => {
   return (
     <div className={styles["layout"]}>
-      <div className={styles["layout__content"]} id="layout-content">
+      <div className={styles["layout__content"]}>
         <Outlet />
       </div>
       <Navigation />

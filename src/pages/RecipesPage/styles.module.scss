@@ -1,0 +1,16 @@
+.recipes {
+  &__content {
+    padding-inline: 12px;
+    overflow: hidden;
+  }
+
+  &__wrapper {
+    height: calc(100vh - 110px);
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+}

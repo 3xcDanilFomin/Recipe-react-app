@@ -1,16 +1,27 @@
 @import "../../styles/utils/variables";
 
-.content {
-  &-wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  &-page {
-    width: 100%;
-    padding-bottom: 12px;
+.search {
+  display: flex;
+  flex-direction: column;
 
-    &__link {
+  &__content {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__wrapper {
+    height: calc(100vh - 153px);
+    overflow-y: scroll;
+    padding-block: 12px;
+
+    &::-webkit-scrollbar {
+      width: 0;
+      height: 0;
+    }
+  }
+
+  .filter {
+    &-link {
       display: flex;
       align-items: center;
       justify-content: center;
@@ -23,29 +34,25 @@
       border-radius: 16px;
     }
 
-    &__icon {
+    &-icon {
       width: 24px;
       height: 24px;
       stroke: $color-white;
       stroke-width: 1.5px;
       stroke-linecap: round;
     }
+  }
 
-    &::-webkit-scrollbar {
-      width: 0;
-    }
+  &__row:not(:last-child) {
+    margin-bottom: 24px;
+  }
 
-    &__row:not(:last-child) {
-      margin-bottom: 24px;
-    }
-
-    &__title {
-      width: 100%;
-      text-align: left;
-      font-size: 22px;
-      font-weight: 700;
-      padding-inline: 24px;
-      margin-bottom: 12px;
-    }
+  &__title {
+    width: 100%;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 700;
+    padding-inline: 24px;
+    margin-bottom: 12px;
   }
 }

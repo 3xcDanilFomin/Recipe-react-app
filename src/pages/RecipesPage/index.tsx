@@ -1,3 +1,5 @@
+import styles from "./styles.module.scss";
+
 import { useParams } from "react-router-dom";
 
 import { RecipesList } from "../../components/Recipeslist";
@@ -12,9 +14,13 @@ export const RecipesPage: React.FC = () => {
   const selectedCategory: IRecipe[] = recipes[recipesName as RecipeCategory];
 
   return (
-    <main>
+    <main className={styles["recipes"]}>
       <TitlePage title="Поиск" />
-      <RecipesList recipes={selectedCategory} />
+      <section className={styles["recipes__content"]}>
+        <div className={styles["recipes__wrapper"]}>
+          <RecipesList recipes={selectedCategory} />
+        </div>
+      </section>
     </main>
   );
 };

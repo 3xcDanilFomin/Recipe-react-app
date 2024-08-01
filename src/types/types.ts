@@ -76,6 +76,7 @@ export interface ICategoryRecipes {
   drinks: IRecipe[];
   preserves: IRecipe[];
   sauces: IRecipe[];
+  newRecipes: IRecipe[];
 }
 
 export interface IHint {
