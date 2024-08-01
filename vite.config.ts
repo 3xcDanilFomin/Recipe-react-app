@@ -6,11 +6,11 @@ const vitePWA = VitePWA({
   registerType: "autoUpdate",
   outDir: "dist",
   manifest: {
-    name: "Vitejs config PWA",
-    short_name: "VitePWA",
+    name: "Сборник рецептов Рецептум",
+    short_name: "Рецептум",
     description:
-      "ViteJS example to show how to create PWA app throw the easyest way",
-    theme_color: "#ffffff",
+      "Рецептум — Ваш карманный гид в мире кулинарии, где каждый рецепт превращается в шедевр",
+    theme_color: "#262626",
     icons: [
       {
         src: "assets/images/android-chrome-192x192.png",
