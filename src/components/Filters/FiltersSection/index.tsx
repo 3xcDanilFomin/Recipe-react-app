@@ -21,15 +21,13 @@ export const FiltersSection: React.FC<FiltersSectionProps> = ({
   const [isActive, setIsActive] = useState<number | null>(null);
   const [activeElements, setActiveElements] = useState<number[]>([]);
 
-  const hendleClickButton = (indexElement: number): void => {
+  const handleButtonClick = (index: number): void => {
     if (multiple) {
-      if (activeElements.includes(indexElement)) {
-        setActiveElements(activeElements.filter((el) => el !== indexElement));
-      } else {
-        setActiveElements([...activeElements, indexElement]);
-      }
+      setActiveElements((prev) =>
+        prev.includes(index) ? prev.filter((el) => el !== index) : [...prev, index]
+      );
     } else {
-      setIsActive(isActive === indexElement ? null : indexElement);
+      setIsActive((prev) => (prev === index ? null : index));
     }
   };
 
@@ -47,7 +45,7 @@ export const FiltersSection: React.FC<FiltersSectionProps> = ({
         <ul className={styles["filter__list"]}>
           {filterOptions?.map((option, index) => (
             <li
-              onClick={() => hendleClickButton(index)}
+              onClick={() => handleButtonClick (index)}
               key={option.id}
               className={
                 multiple
