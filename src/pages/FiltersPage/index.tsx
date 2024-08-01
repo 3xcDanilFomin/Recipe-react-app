@@ -19,8 +19,14 @@ export const FiltersPage: React.FC = () => {
         <h1 className={styles["header__title"]}>Поиск</h1>
       </header>
       <section className={styles["content"]}>
-        <Filters />
+        <div className={styles["content__wrapper"]}>
+          <Filters />
+        </div>
       </section>
+      <footer className={styles["footer"]}>
+        <button className={styles["footer__btn--default"]}>Сбросить</button>
+        <button className={styles["footer__btn--primary"]}>Применить</button>
+      </footer>
     </div>
   );
 };

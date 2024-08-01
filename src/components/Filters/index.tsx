@@ -1,4 +1,3 @@
-import React from "react";
 import {
   calorieRangeFilters,
   cookingTimeFilters,
@@ -7,10 +6,11 @@ import {
   worldKitchensFilters,
 } from "../../assets/data/filters";
 import { FiltersSection } from "./FiltersSection";
+import styles from "./styles.module.scss";
 
 export const Filters: React.FC = () => {
   return (
-    <>
+    <div className={styles["filters-wrapper"]}>
       <FiltersSection
         filterTitle={"Время приготовления"}
         filterType="range"
@@ -39,6 +39,6 @@ export const Filters: React.FC = () => {
         filterOptions={worldKitchensFilters}
         multiple={true}
       />
-    </>
+    </div>
   );
 };

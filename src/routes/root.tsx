@@ -29,10 +29,6 @@ export const router = createBrowserRouter([
             element: <SearchPage />,
           },
           {
-            path: "/filters",
-            element: <FiltersPage />,
-          },
-          {
             path: "/favourites",
             element: <FavouritesPage />,
           },
@@ -53,6 +49,10 @@ export const router = createBrowserRouter([
             element: <DetailRecipePage />,
           },
         ],
+      },
+      {
+        path: "/filters",
+        element: <FiltersPage />,
       },
     ],
   },
