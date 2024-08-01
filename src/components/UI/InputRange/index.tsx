@@ -67,7 +67,11 @@ export const InputRange: React.FC<InputRangeProps> = ({
       />
       <datalist id={rangeList} className={styles["datalist"]}>
         {new Array(values.length).fill(0).map((_, i) => (
-          <option className={styles["datalist__option"]} value={i * offset}/>
+          <option
+            key={i}
+            className={styles["datalist__option"]}
+            value={i * offset}
+          />
         ))}
       </datalist>
       <span className={styles["wrapper__text"]}>{values[indexArray]}</span>

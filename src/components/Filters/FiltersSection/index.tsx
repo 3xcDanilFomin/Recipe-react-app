@@ -8,6 +8,7 @@ interface FiltersSectionProps {
   filterTitle: string;
   filterOptions?: IFilterOption[];
   rangeFilterValues?: string[];
+  multiple?: boolean;
 }
 
 export const FiltersSection: React.FC<FiltersSectionProps> = ({
@@ -15,8 +16,22 @@ export const FiltersSection: React.FC<FiltersSectionProps> = ({
   filterTitle,
   filterOptions,
   rangeFilterValues,
+  multiple = false,
 }) => {
   const [isActive, setIsActive] = useState<number | null>(null);
+  const [activeElements, setActiveElements] = useState<number[]>([]);
+
+  const hendleClickButton = (indexElement: number): void => {
+    if (multiple) {
+      if (activeElements.includes(indexElement)) {
+        setActiveElements(activeElements.filter((el) => el !== indexElement));
+      } else {
+        setActiveElements([...activeElements, indexElement]);
+      }
+    } else {
+      setIsActive(isActive === indexElement ? null : indexElement);
+    }
+  };
 
   return (
     <div className={styles["filter"]}>
@@ -32,10 +47,14 @@ export const FiltersSection: React.FC<FiltersSectionProps> = ({
         <ul className={styles["filter__list"]}>
           {filterOptions?.map((option, index) => (
             <li
-              onClick={() => setIsActive(index)}
+              onClick={() => hendleClickButton(index)}
               key={option.id}
               className={
-                isActive === index
+                multiple
+                  ? activeElements.includes(index)
+                    ? [styles["filter__list-item"], styles["active"]].join(" ")
+                    : styles["filter__list-item"]
+                  : isActive === index
                   ? [styles["filter__list-item"], styles["active"]].join(" ")
                   : styles["filter__list-item"]
               }

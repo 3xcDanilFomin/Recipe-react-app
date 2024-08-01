@@ -25,16 +25,19 @@ export const Filters: React.FC = () => {
         filterTitle={"Тип приема пищи"}
         filterType="list"
         filterOptions={typeMealFilters}
+        multiple={true}
       />
       <FiltersSection
         filterTitle={"Тип блюда"}
         filterType="list"
         filterOptions={typeDishFilters}
+        multiple={true}
       />
       <FiltersSection
         filterTitle={"Кухня мира"}
         filterType="list"
         filterOptions={worldKitchensFilters}
+        multiple={true}
       />
     </>
   );
