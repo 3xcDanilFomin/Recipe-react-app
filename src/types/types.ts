@@ -89,3 +89,8 @@ export interface IHints {
   subtitle: string;
   hintsList?: IHint[];
 }
+
+export interface IFilterOption {
+  id: number;
+  value: string;
+}

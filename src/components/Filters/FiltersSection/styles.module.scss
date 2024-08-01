@@ -1,0 +1,49 @@
+@import "../../../styles/utils/variables";
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+
+    &-item {
+      padding: 6px 12px;
+      border-radius: 12px;
+      background-color: $color-dark-gray;
+      transition: background-color $animation;
+
+      &.active {
+        background-color: $color-primary;
+        
+        .filter__list-btn {
+          color: $color-main;
+        }
+      }
+    }
+
+    &-btn {
+      text-wrap: nowrap;
+      background-color: transparent;
+      color: $color-white;
+      font-size: 14px;
+      font-weight: 600;
+      border: none;
+      outline: none;
+      transition: color $animation;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
