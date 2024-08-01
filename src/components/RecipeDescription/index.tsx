@@ -61,45 +61,47 @@ export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
         </div>
       </div>
       <div className={styles["description__row"]}>
-        <div className={styles["description__wrapper"]}>
-          <h3 className={styles["description__title"]}>Будет готово через</h3>
-          <h4 className={styles["description__text"]}>
-            {toHoursAndMinutes(totalCookingTime)}
-          </h4>
-        </div>
-        <div className={styles["description__wrapper"]}>
-          <h3 className={styles["description__title"]}>Время на кухне</h3>
-          <h4 className={styles["description__text"]}>
-            {`${activeCookingTime} минут`}
-          </h4>
-        </div>
-      </div>
-      <div className={styles["description__row"]}>
-        <div className={styles["description__wrapper"]}>
-          <div className={styles["description__header"]}>
-            <h3 className={styles["description__title"]}>Острота</h3>
-            <HintButton onClick={handleClickSharpnessHints} />
-            <Hints
-              isShow={isShowSharpnessHints}
-              showHints={setIsShowSharpnessHints}
-              hints={sharpnessHints}
-              typeIcon="pepper"
-            />
+        <div className={styles["description__column"]}>
+          <div className={styles["description__wrapper"]}>
+            <h3 className={styles["description__title"]}>Будет готово через</h3>
+            <h4 className={styles["description__text"]}>
+              {toHoursAndMinutes(totalCookingTime)}
+            </h4>
           </div>
-          <IconsLine count={acuityLevel} type={"pepper"} />
-        </div>
-        <div className={styles["description__wrapper"]}>
-          <div className={styles["description__header"]}>
-            <h3 className={styles["description__title"]}>Сложность</h3>
-            <HintButton onClick={handleClickDifficultyHints} />
-            <Hints
-              isShow={isShowDifficultyHints}
-              showHints={setIsShowDifficultyHints}
-              hints={difficultyHints}
-              typeIcon="cook"
-            />
+          <div className={styles["description__wrapper"]}>
+            <div className={styles["description__header"]}>
+              <h3 className={styles["description__title"]}>Острота</h3>
+              <HintButton onClick={handleClickSharpnessHints} />
+              <Hints
+                isShow={isShowSharpnessHints}
+                showHints={setIsShowSharpnessHints}
+                hints={sharpnessHints}
+                typeIcon="pepper"
+              />
+            </div>
+            <IconsLine count={acuityLevel} type={"pepper"} />
           </div>
-          <IconsLine type={"cook"} count={difficultyLevel} />
+        </div>
+        <div className={styles["description__column"]}>
+          <div className={styles["description__wrapper"]}>
+            <h3 className={styles["description__title"]}>Время на кухне</h3>
+            <h4 className={styles["description__text"]}>
+              {`${activeCookingTime} минут`}
+            </h4>
+          </div>
+          <div className={styles["description__wrapper"]}>
+            <div className={styles["description__header"]}>
+              <h3 className={styles["description__title"]}>Сложность</h3>
+              <HintButton onClick={handleClickDifficultyHints} />
+              <Hints
+                isShow={isShowDifficultyHints}
+                showHints={setIsShowDifficultyHints}
+                hints={difficultyHints}
+                typeIcon="cook"
+              />
+            </div>
+            <IconsLine type={"cook"} count={difficultyLevel} />
+          </div>
         </div>
       </div>
       <div className={styles["description__row"]}>
