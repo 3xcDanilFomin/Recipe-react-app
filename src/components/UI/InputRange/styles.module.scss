@@ -7,6 +7,7 @@
 
   .slider {
     -webkit-appearance: none;
+    touch-action: pan-y;
     width: 100%;
     background-color: #ccc;
 
