@@ -29,7 +29,8 @@ export const FiltersPage: React.FC = () => {
       <section className={styles["content"]}>
         <div className={styles["content__row"]}>
           <h2 className={styles["content__title"]}>Время приготовления</h2>
-          <InputRange values={arr} min={0} max={5} step={0.1} />
+          <InputRange values={arr} min={0} max={arr.length - 1} step={0.1} />
+
         </div>
         <div className={styles["content__row"]}>
           <h2 className={styles["content__title"]}>Калорийность на 100г.</h2>

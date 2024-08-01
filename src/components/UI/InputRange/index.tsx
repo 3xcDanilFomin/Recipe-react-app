@@ -17,6 +17,7 @@ export const InputRange: React.FC<InputRangeProps> = ({
 }) => {
   const [valueInput, setValueInput] = useState<number>(0);
   const inputRef = useRef<HTMLInputElement>(null);
+  const offset: number = 100 / (values.length - 1);
 
   const handleChangeValue = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const value = parseFloat(e.target.value);
@@ -36,12 +37,19 @@ export const InputRange: React.FC<InputRangeProps> = ({
       currentInputRef.addEventListener("touchend", handleTouchEnd);
     }
 
+    if (currentInputRef) {
+      const progress = (valueInput / (max - min)) * 100;
+      currentInputRef.style.setProperty("--progress-width", `${progress}%`);
+    }
+
     return () => {
       if (currentInputRef) {
         currentInputRef.removeEventListener("touchend", handleTouchEnd);
       }
     };
-  }, [valueInput]);
+  }, [valueInput, min, max]);
+
+  const rangeList = "rangeList";
 
   const indexArray = Math.round(valueInput);
   return (
@@ -55,7 +63,13 @@ export const InputRange: React.FC<InputRangeProps> = ({
         step={step}
         value={valueInput}
         onChange={handleChangeValue}
+        list={rangeList}
       />
+      <datalist id={rangeList} className={styles["datalist"]}>
+        {new Array(values.length).fill(0).map((_, i) => (
+          <option className={styles["datalist__option"]} value={i * offset}/>
+        ))}
+      </datalist>
       <span className={styles["wrapper__text"]}>{values[indexArray]}</span>
     </div>
   );
