@@ -9,10 +9,14 @@ interface InputRangeProps {
   step: number;
 }
 
-export const InputRange: React.FC<InputRangeProps> = ({values, min, max, step}) => {
+export const InputRange: React.FC<InputRangeProps> = ({
+  values,
+  min,
+  max,
+  step,
+}) => {
   const [valueInput, setValueInput] = useState<number>(0);
   const inputRef = useRef<HTMLInputElement>(null);
-
 
   const handleChangeValue = (e: React.ChangeEvent<HTMLInputElement>): void => {
     const value = parseFloat(e.target.value);
@@ -27,14 +31,20 @@ export const InputRange: React.FC<InputRangeProps> = ({values, min, max, step}) 
       }
     };
 
+    const changeInput = (e: TouchEvent): void => {
+      e.preventDefault();
+    };
+
     const currentInputRef = inputRef.current;
     if (currentInputRef) {
       currentInputRef.addEventListener("touchend", handleTouchEnd);
+      currentInputRef.addEventListener("touchmove", changeInput);
     }
 
     return () => {
       if (currentInputRef) {
         currentInputRef.removeEventListener("touchend", handleTouchEnd);
+        currentInputRef.removeEventListener("touchmove", changeInput);
       }
     };
   }, [valueInput]);
