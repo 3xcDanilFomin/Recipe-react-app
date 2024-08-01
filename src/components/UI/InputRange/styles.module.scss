@@ -102,10 +102,9 @@
         transform: translatey(-100%);
       }
     }
-
-    &__text {
-      display: block;
-      text-align: center;
-    }
+  }
+  &__text {
+    display: block;
+    text-align: center;
   }
 }
