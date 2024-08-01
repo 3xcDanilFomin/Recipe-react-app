@@ -9,6 +9,7 @@
   .slider {
     position: relative;
     width: 100%;
+    touch-action: pan-x;
     -webkit-appearance: none;
     appearance: none;
     background: transparent;
