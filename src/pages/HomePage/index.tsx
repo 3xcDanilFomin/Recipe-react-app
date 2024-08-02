@@ -49,7 +49,10 @@ export const HomePage: React.FC = () => {
           <div className={styles["home__row"]}>
             <div className={styles["list__header"]}>
               <h2 className={styles["list__title"]}>Популярные рецепты</h2>
-              <Link to={`/recipes/popularRecipes`} className={styles["list__link"]}>
+              <Link
+                to={`/recipes/popularRecipes`}
+                className={styles["list__link"]}
+              >
                 <span className={styles["list__link-text"]}>Все</span>
                 <svg
                   className={styles["list__link-icon"]}

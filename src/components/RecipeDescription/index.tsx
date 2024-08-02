@@ -38,17 +38,14 @@ export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
     useState<boolean>(false);
 
   const handleClickSharpnessHints = () => {
-    document.body.classList.add("open-drawer");
     setIsShowSharpnessHints(true);
   };
 
   const handleClickDifficultyHints = () => {
-    document.body.classList.add("open-drawer");
     setIsShowDifficultyHints(true);
   };
 
   const handleClickAllergensHints = () => {
-    document.body.classList.add("open-drawer");
     setIsShowAllergensHints(true);
   };
 

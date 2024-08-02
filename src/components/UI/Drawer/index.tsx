@@ -1,5 +1,5 @@
+import React, { useEffect, useState } from "react";
 import { useDrawer } from "../../../hooks";
-
 import styles from "./styles.module.scss";
 
 interface DrawerProps {
@@ -12,19 +12,33 @@ export const Drawer: React.FC<React.PropsWithChildren<DrawerProps>> = ({
   setIsOpen,
   children,
 }) => {
-  const { drawerRef, isClosing } = useDrawer({ isOpen, setIsOpen });
-  console.log(drawerRef);
+  const [closing, setClosing] = useState(false);
+  const { drawerRef } = useDrawer({isOpen, setIsOpen });
+
+  useEffect(() => {
+    if (!isOpen && closing) {
+      const timeout = setTimeout(() => setClosing(false), 300);
+      return () => clearTimeout(timeout);
+    }
+  }, [isOpen, closing]);
+
+  const handleAnimationEnd = () => {
+    if (!isOpen && closing) {
+      setIsOpen(false);
+    }
+  };
+
   return (
     <div
-      ref={drawerRef}
       className={[
         styles["drawer"],
-        isOpen
-          ? styles["drawer--open"]
-          : isClosing && styles["drawer--closing"],
+        isOpen ? styles["drawer--open"] : closing ? styles["drawer--closing"] : "",
       ].join(" ")}
+      onAnimationEnd={handleAnimationEnd}
     >
-      <div className={styles["drawer__content"]}>{children}</div>
+      <div ref={drawerRef} className={styles["drawer__content"]}>
+        {children} 
+      </div>
     </div>
   );
 };
