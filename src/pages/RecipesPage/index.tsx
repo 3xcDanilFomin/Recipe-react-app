@@ -1,11 +1,9 @@
-import styles from "./styles.module.scss";
-
 import { useParams } from "react-router-dom";
 
-import { RecipesList } from "../../components/Recipeslist";
-import { TitlePage } from "../../components/TitlePage";
+import { RecipesList, TitlePage } from "../../components";
 import { recipes } from "../../assets/data/recipes";
 import { ICategoryRecipes, IRecipe } from "../../types/types";
+import styles from "./styles.module.scss";
 
 type RecipeCategory = keyof ICategoryRecipes;
 

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import { TitlePage } from "../../components/TitlePage";
-import { recipes } from "../../assets/data/recipes";
 
+import { TitlePage } from "../../components";
+import { recipes } from "../../assets/data/recipes";
 import styles from "./styles.module.scss";
 
 export const HomePage: React.FC = () => {

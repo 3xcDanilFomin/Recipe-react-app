@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 import { ITypeMeal } from "../../types/types";
-import { TypeMealItem } from "./TypeMealItem";
+import { TypeMealItem } from "../index";
+import styles from "./styles.module.scss";
+
 import breakfastImg from "../../assets/image/typesMeal/breakfast.webp";
 import lunchImg from "../../assets/image/typesMeal/lunch.webp";
 import dinnerImg from "../../assets/image/typesMeal/dinner.webp";
-import styles from "./styles.module.scss";
-import { Link } from "react-router-dom";
 
 const typesMeal: ITypeMeal[] = [
   {

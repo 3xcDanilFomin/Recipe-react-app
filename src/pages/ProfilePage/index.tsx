@@ -1,7 +1,3 @@
 export const ProfilePage: React.FC = () => {
-
-  return (
-    <div>
-    </div>
-  );
+  return <div>sdsd</div>;
 };

@@ -1,12 +1,10 @@
 import styles from "./styles.module.scss";
 
-interface RecipeHeaderProps {
+interface HeaderProps {
   onNavigateBack: () => void;
 }
 
-export const RecipeHeader: React.FC<RecipeHeaderProps> = ({
-  onNavigateBack,
-}) => {
+export const Header: React.FC<HeaderProps> = ({ onNavigateBack }) => {
   return (
     <header className={styles["header"]}>
       <ul className={styles["menu"]}>

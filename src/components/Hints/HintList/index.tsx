@@ -1,5 +1,5 @@
 import { IHint } from "../../../types/types";
-import { HintItem } from "../HintItem";
+import { HintItem } from "../../index";
 import styles from "./styles.module.scss";
 
 interface HintListProps {

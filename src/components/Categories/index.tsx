@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 
-import { CategoryItem } from "./CategoryItem";
+import { CategoryItem } from "../index";
 import { ICategory } from "../../types/types";
 
 import firstCoursesImg from "../../assets/image/categories/first-course.webp";

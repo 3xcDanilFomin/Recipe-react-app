@@ -1,11 +1,9 @@
 import { useLayoutEffect, useRef } from "react";
 import { useNavigate, useParams, useLocation } from "react-router-dom";
 
+import { Banner, Header, RecipeDetail } from "../../components";
 import { IRecipe, ICategoryRecipes } from "../../types/types";
 import { recipes } from "../../assets/data/recipes";
-import { RecipeHeader } from "../../components/RecipeHeader";
-import { RecipeDetail } from "../../components/RecipeDetail";
-import { RecipeImage } from "../../components/RecipeImage";
 import styles from "./styles.module.scss";
 
 type RecipeCategory = keyof ICategoryRecipes;
@@ -30,7 +28,7 @@ export const DetailRecipePage: React.FC = () => {
   if (!recipe) {
     return (
       <main className={styles["page"]} ref={pageRef}>
-        <RecipeHeader onNavigateBack={handleNavigateBack} />
+        <Header onNavigateBack={handleNavigateBack} />
         <div>Рецепт не найден</div>
       </main>
     );
@@ -38,8 +36,8 @@ export const DetailRecipePage: React.FC = () => {
 
   return (
     <main className={styles["page"]} ref={pageRef}>
-      <RecipeHeader onNavigateBack={handleNavigateBack} />
-      <RecipeImage recipe={recipe} />
+      <Header onNavigateBack={handleNavigateBack} />
+      <Banner recipe={recipe} />
       <RecipeDetail recipe={recipe} />
     </main>
   );

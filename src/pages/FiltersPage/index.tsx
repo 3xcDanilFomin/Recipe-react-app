@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 
-import { Filters } from "../../components/Filters";
+import { Filters } from "../../components";
 import styles from "./styles.module.scss";
 
 export const FiltersPage: React.FC = () => {

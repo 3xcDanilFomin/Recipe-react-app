@@ -1,11 +1,11 @@
-import { IRecipe } from "../../types/types";
+import { IRecipe } from "../../../types/types";
 import styles from "./styles.module.scss";
 
-interface RecipeImageProps {
+interface BannerProps {
   recipe: IRecipe | undefined;
 }
 
-export const RecipeImage: React.FC<RecipeImageProps> = ({ recipe }) => {
+export const Banner: React.FC<BannerProps> = ({ recipe }) => {
   return (
     <img
       className={styles["banner"]}

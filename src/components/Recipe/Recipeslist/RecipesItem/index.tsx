@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router-dom";
 
-import { IRecipe } from "../../../types/types";
-import { toHoursAndMinutes } from "../../../utils/formatTime";
+import { IRecipe } from "../../../../types/types";
+import { toHoursAndMinutes } from "../../../../utils/formatTime";
 import styles from "./styles.module.scss";
 
 export const RecipesItem: React.FC<{ recipe: IRecipe }> = ({ recipe }) => {

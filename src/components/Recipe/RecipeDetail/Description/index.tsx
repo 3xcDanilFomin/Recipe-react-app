@@ -1,17 +1,17 @@
 import { useState } from "react";
 
-import { toHoursAndMinutes } from "../../utils/formatTime";
-import { IconsLine } from "../IconsLine";
-import { Hints } from "../Hints";
-import { HintButton } from "../UI/HintButton";
+import { toHoursAndMinutes } from "../../../../utils/formatTime";
+import { IconsLine } from "../../../IconsLine";
+import { Hints } from "../../../Hints";
+import { HintButton } from "../../../UI/HintButton";
 import {
   allergensHints,
   difficultyHints,
   sharpnessHints,
-} from "../../assets/data/hints";
+} from "../../../../assets/data/hints";
 import styles from "./styles.module.scss";
 
-interface RecipeDescriptionProps {
+interface DescriptionProps {
   kitchenType: string;
   totalCookingTime: number;
   activeCookingTime: number;
@@ -20,7 +20,7 @@ interface RecipeDescriptionProps {
   difficultyLevel: number;
 }
 
-export const RecipeDescription: React.FC<RecipeDescriptionProps> = ({
+export const Description: React.FC<DescriptionProps> = ({
   kitchenType,
   totalCookingTime,
   activeCookingTime,

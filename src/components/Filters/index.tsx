@@ -5,7 +5,7 @@ import {
   typeMealFilters,
   worldKitchensFilters,
 } from "../../assets/data/filters";
-import { FiltersSection } from "./FiltersSection";
+import { FiltersSection } from "../index";
 import styles from "./styles.module.scss";
 
 export const Filters: React.FC = () => {

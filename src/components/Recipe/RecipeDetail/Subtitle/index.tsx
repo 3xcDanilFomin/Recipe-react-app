@@ -1,11 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import styles from "./styles.module.scss";
 
-interface RecipeSubtitleProps {
+interface SubtitleProps {
   subtitle: string;
 }
 
-export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
+export const Subtitle: React.FC<SubtitleProps> = ({ subtitle }) => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [isSubtitleBig, setIsSubtitleBig] = useState<boolean>(false);
   const subtitleRef = useRef<HTMLDivElement>(null);

@@ -1,9 +1,5 @@
-import { IRecipe } from "../../types/types";
-import { RecipeIngridients } from "../RecipeIngridients";
-import { Manual } from "../Manual";
-import { NutritionDetails } from "../NutritionDetails";
-import { RecipeDescription } from "../RecipeDescription";
-import { RecipeSubtitle } from "../RecipeSubtitle";
+import { IRecipe } from "../../../types/types";
+import { Description, Ingridients, Manual, Nutritions, Subtitle } from "../../index";
 import styles from "./styles.module.scss";
 
 interface RecipeDetailProps {
@@ -14,8 +10,8 @@ export const RecipeDetail: React.FC<RecipeDetailProps> = ({ recipe }) => {
   return (
     <section className={styles["page__content"]}>
       <h1 className={styles["page__title"]}>{recipe.title}</h1>
-      <RecipeSubtitle subtitle={recipe.subtitle} />
-      <RecipeDescription
+      <Subtitle subtitle={recipe.subtitle} />
+      <Description
         kitchenType={recipe.kitchenType}
         totalCookingTime={recipe.totalCookingTime}
         activeCookingTime={recipe.activeCookingTime}
@@ -23,8 +19,8 @@ export const RecipeDetail: React.FC<RecipeDetailProps> = ({ recipe }) => {
         acuityLevel={recipe.acuityLevel}
         difficultyLevel={recipe.difficultyLevel}
       />
-      <NutritionDetails nutritionDetails={recipe.nutritionDetails} />
-      <RecipeIngridients
+      <Nutritions nutritionDetails={recipe.nutritionDetails} />
+      <Ingridients
         mainIngredientTitle={recipe.mainIngredientTitle}
         mainIngredients={recipe.mainIngredients}
         optionalIngredientTitle={recipe.optionalIngredientTitle}

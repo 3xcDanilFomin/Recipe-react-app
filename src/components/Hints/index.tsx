@@ -1,6 +1,6 @@
 import { IHints } from "../../types/types";
-import { Drawer } from "../UI/Drawer";
-import { HintList } from "./HintList";
+import { Drawer } from "../index";
+import { HintList } from "../index";
 import styles from "./styles.module.scss";
 
 interface HintsProps {

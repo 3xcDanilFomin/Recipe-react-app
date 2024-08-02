@@ -1,7 +1,8 @@
-import { InputRange } from "../../UI/InputRange";
+import { useState } from "react";
+
+import { InputRange } from "../../index";
 import { IFilterOption } from "../../../types/types";
 import styles from "./styles.module.scss";
-import { useState } from "react";
 
 interface FiltersSectionProps {
   filterType: "list" | "range";

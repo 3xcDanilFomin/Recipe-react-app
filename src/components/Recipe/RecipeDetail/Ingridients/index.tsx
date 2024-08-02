@@ -1,14 +1,14 @@
-import { IIngredients } from "../../types/types";
+import { IIngredients } from "../../../../types/types";
 import styles from "./styles.module.scss";
 
-interface RecipeIngridientsProps {
+interface IngridientsProps {
   mainIngredientTitle: string;
   mainIngredients: IIngredients[];
   optionalIngredientTitle: string | null;
   optionalIngredients: IIngredients[];
 }
 
-export const RecipeIngridients: React.FC<RecipeIngridientsProps> = ({
+export const Ingridients: React.FC<IngridientsProps> = ({
   mainIngredientTitle,
   mainIngredients,
   optionalIngredientTitle,

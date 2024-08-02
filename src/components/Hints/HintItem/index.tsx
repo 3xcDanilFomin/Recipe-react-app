@@ -1,5 +1,5 @@
 import { IHint } from "../../../types/types";
-import { IconsLine } from "../../IconsLine";
+import { IconsLine } from "../../index";
 import styles from "./styles.module.scss";
 
 interface HintItemProps extends IHint {

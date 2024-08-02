@@ -1,4 +1,4 @@
-import { ICooking, IImpression, IPreparation } from "../../types/types";
+import { ICooking, IImpression, IPreparation } from "../../../../types/types";
 import styles from "./styles.module.scss";
 
 interface ManualProps {
@@ -7,7 +7,11 @@ interface ManualProps {
   impression: IImpression[];
 }
 
-export const Manual: React.FC<ManualProps> = ({ preparation, cooking, impression }) => {
+export const Manual: React.FC<ManualProps> = ({
+  preparation,
+  cooking,
+  impression,
+}) => {
   return (
     <div className={styles["manual"]}>
       <h3 className={styles["manual__title"]}>Пошаговый фоторецепт</h3>
@@ -48,7 +52,9 @@ export const Manual: React.FC<ManualProps> = ({ preparation, cooking, impression
               alt="Произвести впечатление"
             />
           )}
-          <p className={styles["manual__descriptin"]}>{impression[0].description}</p>
+          <p className={styles["manual__descriptin"]}>
+            {impression[0].description}
+          </p>
         </li>
       </ul>
     </div>

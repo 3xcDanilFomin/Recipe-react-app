@@ -1,10 +1,7 @@
-import { TitlePage } from "../../components/TitlePage";
-import { InputSearch } from "../../components/UI/InputSearch";
-import { Categories } from "../../components/Categories";
+import { Link } from "react-router-dom";
 
 import styles from "./styles.module.scss";
-import { TypesMeal } from "../../components/TypesMeal";
-import { Link } from "react-router-dom";
+import { Categories, InputSearch, TitlePage, TypesMeal } from "../../components";
 
 export const SearchPage: React.FC = () => {
   return (

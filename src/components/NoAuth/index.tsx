@@ -1,4 +1,4 @@
-import { AuthLink } from "../UI/AuthLink";
+import { AuthLink } from "../index";
 import styles from "./styles.module.scss";
 
 interface INoAuthProps {

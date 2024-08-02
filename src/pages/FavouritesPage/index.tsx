@@ -1,5 +1,4 @@
-import { NoAuth } from "../../components/NoAuth";
-import { TitlePage } from "../../components/TitlePage";
+import { NoAuth, TitlePage } from "../../components";
 import styles from "./styles.module.scss";
 
 export const FavouritesPage: React.FC = () => {

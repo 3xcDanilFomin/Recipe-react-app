@@ -1,13 +1,11 @@
-import { INutritionDetail } from "../../types/types";
+import { INutritionDetail } from "../../../../types/types";
 import styles from "./styles.module.scss";
 
-interface NutritionDetailsProps {
+interface NutritionsProps {
   nutritionDetails: INutritionDetail[];
 }
 
-export const NutritionDetails: React.FC<NutritionDetailsProps> = ({
-  nutritionDetails,
-}) => {
+export const Nutritions: React.FC<NutritionsProps> = ({ nutritionDetails }) => {
   return (
     <div className={styles["nutrition"]}>
       <ul className={styles["nutrition__items"]}>

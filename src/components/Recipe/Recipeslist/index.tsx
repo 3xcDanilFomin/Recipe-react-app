@@ -1,5 +1,5 @@
-import { IRecipe } from "../../types/types";
-import { RecipesItem } from "./RecipesItem";
+import { IRecipe } from "../../../types/types";
+import { RecipesItem } from "../../index";
 import styles from "./styles.module.scss";
 
 interface RecipesListProps {

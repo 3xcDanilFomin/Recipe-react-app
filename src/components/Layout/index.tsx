@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-import { Navigation } from "../Navigation";
+import { Navigation } from "../index";
 import styles from "./styles.module.scss";
 
 export const Layout: React.FC = () => {
