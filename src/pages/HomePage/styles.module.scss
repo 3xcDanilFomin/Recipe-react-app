@@ -2,11 +2,14 @@
 
 .home {
   &__content {
-    padding-inline: 12px;
+    padding-inline: 24px;
   }
 
   &__wrapper {
     height: calc(100vh - 110px);
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     overflow-y: scroll;
     padding-block: 12px;
 

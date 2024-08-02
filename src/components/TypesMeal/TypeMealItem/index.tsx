@@ -1,7 +1,9 @@
 import { ITypeMeal } from "../../../types/types";
 import styles from "./styles.module.scss";
 
-export const TypeMealItem: React.FC<ITypeMeal> = ({ title, imgPath }) => {
+type TypeMealItemProps = Pick<ITypeMeal, "title" | "imgPath"> 
+
+export const TypeMealItem: React.FC<TypeMealItemProps> = ({ title, imgPath }) => {
   return (
     <div className={styles["card"]}>
       <h3 className={styles["card__title"]}>{title}</h3>

@@ -28,7 +28,7 @@ export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
   };
 
   return (
-    <>
+    <div className={styles["recipe"]}>
       <h2 className={styles["recipe__subtitle"]} ref={subtitleRef}>
         {subtitle}
       </h2>
@@ -40,6 +40,6 @@ export const RecipeSubtitle: React.FC<RecipeSubtitleProps> = ({ subtitle }) => {
           {isOpen ? "Скрыть" : "Показать всё"}
         </button>
       )}
-    </>
+    </div>
   );
 };

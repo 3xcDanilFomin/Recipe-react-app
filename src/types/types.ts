@@ -7,6 +7,7 @@ export interface ICategory {
 export interface ITypeMeal {
   title: string;
   imgPath: string;
+  urlPath: "breakfast" | "lunch" | "dinner";
 }
 
 export interface IPreparation {
@@ -77,6 +78,11 @@ export interface ICategoryRecipes {
   preserves: IRecipe[];
   sauces: IRecipe[];
   newRecipes: IRecipe[];
+  breakfast: IRecipe[];
+  lunch: IRecipe[];
+  dinner: IRecipe[];
+  popularRecipes: IRecipe[];
+  cookNow: IRecipe[];
 }
 
 export interface IHint {

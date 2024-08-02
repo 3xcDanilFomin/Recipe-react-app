@@ -1,6 +1,7 @@
 @import "../../styles/utils/variables";
 
 .recipe {
+  margin-bottom: 12px;
   &__subtitle {
     font-size: 14px;
     font-weight: 300;
@@ -14,7 +15,7 @@
     color: $color-accent;
     font-size: 14px;
     font-weight: 600;
-    padding-block: 12px;
+    padding-top: 12px;
     border: none;
     outline: none;
     background-color: transparent;
