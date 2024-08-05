@@ -5,6 +5,7 @@ import styles from "./styles.module.scss";
 
 export const FiltersPage: React.FC = () => {
   const navigate = useNavigate();
+
   return (
     <div className={styles["filters"]}>
       <header className={styles["header"]}>
