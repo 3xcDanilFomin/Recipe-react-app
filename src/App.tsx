@@ -1,9 +1,9 @@
-import { AnimatedOutlet } from "./components";
+import { Layout } from "./components";
 
 export const App: React.FC = () => {
   return (
     <div className="container">
-      <AnimatedOutlet />
+      <Layout />
     </div>
   );
 };

@@ -11,7 +11,7 @@ export const RecipesItem: React.FC<{ recipe: IRecipe }> = ({ recipe }) => {
     <li className={styles["card"]}>
       <Link
         className={styles["card__link"]}
-        to={`/recipes/${recipesName}/${id}`}
+        to={`/search/recipes/${recipesName}/${id}`}
       >
         <img className={styles["card__img"]} src={imagePath} alt={title} />
         <div className={styles["card__content"]}>

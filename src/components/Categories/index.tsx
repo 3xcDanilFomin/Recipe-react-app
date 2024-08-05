@@ -87,7 +87,7 @@ export const Categories: React.FC = () => {
     >
       {categories.map((category) => (
         <SwiperSlide className={styles["swiper_slide"]} key={category.title}>
-          <Link to={`/recipes/${category.urlPath}`}>
+          <Link to={`/search/recipes/${category.urlPath}`}>
             <CategoryItem image={category.imgPath} title={category.title} />
           </Link>
         </SwiperSlide>

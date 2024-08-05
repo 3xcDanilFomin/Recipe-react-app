@@ -1,5 +1,5 @@
+import { memo, ReactElement, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { memo, ReactElement, useState } from "react";
 
 import styles from "./styles.module.scss";
 
@@ -67,6 +67,10 @@ export const Navigation: React.FC = memo(() => {
   const { pathname } = useLocation();
   const [activeLink, setActiveLink] = useState<string>(pathname);
 
+  useEffect(() => {
+    if (pathname.includes("recipes")) setActiveLink("/search");
+  }, [pathname]);
+
   const handleActiveLink = (path: string): void => {
     setActiveLink(path);
   };
@@ -83,9 +87,9 @@ export const Navigation: React.FC = memo(() => {
           onClick={() => handleActiveLink(link.path)}
           key={link.path}
         >
+          <div className={styles["overlay"]} />
           <Link className={styles["menu__link"]} to={link.path}>
             {link.icon}
-            <div className={styles["menu__overlay"]}></div>
           </Link>
         </li>
       ))}

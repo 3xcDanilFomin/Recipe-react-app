@@ -1,41 +1,79 @@
 @import "../../../styles/utils/variables";
 
 .header {
-  position: fixed;
   width: 100%;
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   gap: 12px;
-  top: 0;
-  left: 0;
   background-color: $color-dark-gray;
-  padding: 12px;
+  padding: 6px;
 
   .menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    &__wrapper {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
     &__item {
-      &-wrapper {
-        display: flex;
-        align-items: center;
-        gap: 16px;
+      position: relative;
+      z-index: 2;
+      width: 32px;
+      height: 32px;
+      padding: 6px;
+
+      &--overlay {
+        .overlay {
+          animation: 0.2s showOverlay;
+        }
+      }
+
+      .overlay {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba($color-light-gray, 0.15);
+        border-radius: 50%;
+        transform: scale(0.9);
+        opacity: 0;
       }
     }
 
     &__icon {
-      width: 24px;
-      height: 24px;
-      fill: none;
+      width: 100%;
+      height: 100%;
+      fill: $color-dark-gray;
       stroke: $color-accent;
       stroke-width: 2;
       stroke-linecap: round;
+      transition: fill 0.5s ease-in-out;
 
       &--fill {
         fill: $color-accent;
       }
     }
+  }
+}
+
+@keyframes showOverlay {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0;
   }
 }

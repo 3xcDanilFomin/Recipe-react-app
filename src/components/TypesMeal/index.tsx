@@ -12,17 +12,17 @@ const typesMeal: ITypeMeal[] = [
   {
     title: "Завтрак",
     imgPath: breakfastImg,
-    urlPath: "breakfast"
+    urlPath: "breakfast",
   },
   {
     title: "Обед",
     imgPath: lunchImg,
-    urlPath: "lunch"
+    urlPath: "lunch",
   },
   {
     title: "Ужин",
     imgPath: dinnerImg,
-    urlPath: "dinner"
+    urlPath: "dinner",
   },
 ];
 
@@ -30,8 +30,8 @@ export const TypesMeal: React.FC = () => {
   return (
     <ul className={styles["list"]}>
       {typesMeal.map((type) => (
-        <li className={styles["list__item"]}>
-          <Link  to={`/recipes/${type.urlPath}`}>
+        <li key={type.title} className={styles["list__item"]}>
+          <Link to={`/search/recipes/${type.urlPath}`}>
             <TypeMealItem title={type.title} imgPath={type.imgPath} />
           </Link>
         </li>

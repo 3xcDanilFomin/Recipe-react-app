@@ -1,5 +1,5 @@
-import { useLayoutEffect, useRef } from "react";
-import { useNavigate, useParams, useLocation } from "react-router-dom";
+import { useRef } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 
 import { Banner, Header, RecipeDetail } from "../../components";
 import { IRecipe, ICategoryRecipes } from "../../types/types";
@@ -14,20 +14,15 @@ export const DetailRecipePage: React.FC = () => {
   const { recipesName } = useParams<{ recipesName: string }>();
   const selectedCategory: IRecipe[] = recipes[recipesName as RecipeCategory];
   const recipe = selectedCategory.find((recipe) => recipe.id === Number(id));
-  const location = useLocation();
   const pageRef = useRef<HTMLElement>(null);
 
   const handleNavigateBack = () => {
     navigate(-1);
   };
 
-  useLayoutEffect(() => {
-    if (pageRef.current) pageRef.current.scrollIntoView();
-  }, [location]);
-
   if (!recipe) {
     return (
-      <main className={styles["page"]} ref={pageRef}>
+      <main className={styles["detail"]} ref={pageRef}>
         <Header onNavigateBack={handleNavigateBack} />
         <div>Рецепт не найден</div>
       </main>
@@ -35,10 +30,12 @@ export const DetailRecipePage: React.FC = () => {
   }
 
   return (
-    <main className={styles["page"]} ref={pageRef}>
+    <main className={styles["detail"]} ref={pageRef}>
       <Header onNavigateBack={handleNavigateBack} />
-      <Banner recipe={recipe} />
-      <RecipeDetail recipe={recipe} />
+      <div className={styles["detail__wrapper"]}>
+        <Banner recipe={recipe} />
+        <RecipeDetail recipe={recipe} />
+      </div>
     </main>
   );
 };

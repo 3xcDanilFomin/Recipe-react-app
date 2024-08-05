@@ -17,7 +17,7 @@ export const HomePage: React.FC = () => {
           <div className={styles["home__row"]}>
             <div className={styles["list__header"]}>
               <h2 className={styles["list__title"]}>Новые рецепты</h2>
-              <Link to={`/recipes/newRecipes`} className={styles["list__link"]}>
+              <Link to={`/search/recipes/newRecipes`} className={styles["list__link"]}>
                 <span className={styles["list__link-text"]}>Все</span>
                 <svg
                   className={styles["list__link-icon"]}
@@ -32,7 +32,7 @@ export const HomePage: React.FC = () => {
             <ul className={styles["list"]}>
               {newRecipe.map((recipe) => (
                 <li key={recipe.id} className={styles["list__item"]}>
-                  <Link to={`/recipes/newRecipes/${recipe.id}`}>
+                  <Link to={`/search/recipes/newRecipes/${recipe.id}`}>
                     <div className={styles["card"]}>
                       <img
                         className={styles["card__img"]}
@@ -50,7 +50,7 @@ export const HomePage: React.FC = () => {
             <div className={styles["list__header"]}>
               <h2 className={styles["list__title"]}>Популярные рецепты</h2>
               <Link
-                to={`/recipes/popularRecipes`}
+                to={`/search/recipes/popularRecipes`}
                 className={styles["list__link"]}
               >
                 <span className={styles["list__link-text"]}>Все</span>
@@ -67,7 +67,7 @@ export const HomePage: React.FC = () => {
             <ul className={styles["list"]}>
               {popularRecipes.map((recipe) => (
                 <li key={recipe.id} className={styles["list__item"]}>
-                  <Link to={`/recipes/popularRecipes/${recipe.id}`}>
+                  <Link to={`/search/recipes/popularRecipes/${recipe.id}`}>
                     <div className={styles["card"]}>
                       <img
                         className={styles["card__img"]}
@@ -84,7 +84,7 @@ export const HomePage: React.FC = () => {
           <div className={styles["home__row"]}>
             <div className={styles["list__header"]}>
               <h2 className={styles["list__title"]}>Приготовить сейчас</h2>
-              <Link to={`/recipes/cookNow`} className={styles["list__link"]}>
+              <Link to={`/search/recipes/cookNow`} className={styles["list__link"]}>
                 <span className={styles["list__link-text"]}>Все</span>
                 <svg
                   className={styles["list__link-icon"]}
@@ -99,7 +99,7 @@ export const HomePage: React.FC = () => {
             <ul className={styles["list"]}>
               {cookNow.map((recipe) => (
                 <li key={recipe.id} className={styles["list__item"]}>
-                  <Link to={`/recipes/cookNow/${recipe.id}`}>
+                  <Link to={`/search/recipes/cookNow/${recipe.id}`}>
                     <div className={styles["card"]}>
                       <img
                         className={styles["card__img"]}
